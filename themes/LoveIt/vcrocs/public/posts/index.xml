@@ -1,0 +1,92 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - vCROCS</title>
+        <link>https://dalehassinger.github.io/hugo-loveit/posts/</link>
+        <description>All Posts | vCROCS</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</managingEditor>
+            <webMaster>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 30 Dec 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://dalehassinger.github.io/hugo-loveit/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>VMware Aria Automation and Ansible Integration</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/vmware-aria-automation-ansible-integration/</link>
+    <pubDate>Fri, 30 Dec 2022 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/vmware-aria-automation-ansible-integration/</guid>
+    <description><![CDATA[<p>How to setup and configure your VMware Aria Automation environment to work with Ansible.</p>]]></description>
+</item>
+<item>
+    <title>Productive APPs | 2022</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/productive-apps-2022/</link>
+    <pubDate>Sat, 26 Nov 2022 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/productive-apps-2022/</guid>
+    <description><![CDATA[<p><strong>APPs that I use everyday to be Productive | 2022</strong></p>
+<hr>]]></description>
+</item>
+<item>
+    <title>What have I been up to? | 2nd half 2022</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/2nd-half-2022/</link>
+    <pubDate>Tue, 01 Nov 2022 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/2nd-half-2022/</guid>
+    <description><![CDATA[<p><strong>New Job | August 2022 | Technical Account Manager (TAM)</strong></p>
+<hr>]]></description>
+</item>
+<item>
+    <title>Central PA VMUG | August 2022</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/centra-pa-vmug-08-2022/</link>
+    <pubDate>Wed, 24 Aug 2022 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/centra-pa-vmug-08-2022/</guid>
+    <description><![CDATA[<p><strong>VMware Explore 2022 | San Francisco</strong></p>
+<hr>]]></description>
+</item>
+<item>
+    <title>VMware PowerBlock | August 2022</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/vmware-powerblock-08-2022/</link>
+    <pubDate>Fri, 19 Aug 2022 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/vmware-powerblock-08-2022/</guid>
+    <description><![CDATA[<p><strong>VMware PowerBlock | August 2022</strong></p>
+<hr>]]></description>
+</item>
+<item>
+    <title>Theme Documentation - Basics</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/theme-documentation-basics/</link>
+    <pubDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</pubDate>
+    <author>Dillon</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/theme-documentation-basics/</guid>
+    <description><![CDATA[<p>Discover what the Hugo - <strong>LoveIt</strong> theme is all about and the core-concepts behind it.</p>]]></description>
+</item>
+<item>
+    <title>Theme Documentation - Content</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/theme-documentation-content/</link>
+    <pubDate>Thu, 05 Mar 2020 15:58:26 &#43;0800</pubDate>
+    <author>Dillon</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/theme-documentation-content/</guid>
+    <description><![CDATA[<p>Find out how to create and organize your content quickly and intuitively in <strong>LoveIt</strong> theme.</p>]]></description>
+</item>
+<item>
+    <title>Theme Documentation - Built-in Shortcodes</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/theme-documentation-built-in-shortcodes/</link>
+    <pubDate>Wed, 04 Mar 2020 16:29:41 &#43;0800</pubDate>
+    <author>Dillon</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/theme-documentation-built-in-shortcodes/</guid>
+    <description><![CDATA[<p><strong>Hugo</strong> provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.</p>]]></description>
+</item>
+<item>
+    <title>Theme Documentation - Extended Shortcodes</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/theme-documentation-extended-shortcodes/</link>
+    <pubDate>Tue, 03 Mar 2020 16:29:41 &#43;0800</pubDate>
+    <author>Dillon</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/theme-documentation-extended-shortcodes/</guid>
+    <description><![CDATA[<p><strong>LoveIt</strong> theme provides multiple shortcodes on top of built-in ones in Hugo.</p>]]></description>
+</item>
+<item>
+    <title>Basic Markdown Syntax</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/basic-markdown-syntax/</link>
+    <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
+    <author>Dillon</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/basic-markdown-syntax/</guid>
+    <description><![CDATA[<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>]]></description>
+</item>
+</channel>
+</rss>

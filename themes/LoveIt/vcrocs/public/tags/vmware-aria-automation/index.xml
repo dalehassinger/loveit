@@ -12,5 +12,21 @@
     <guid>https://dalehassinger.github.io/hugo-loveit/vmware-aria-automation-ansible-integration/</guid>
     <description><![CDATA[<p>How to setup and configure your VMware Aria Automation environment to work with Ansible.</p>]]></description>
 </item>
+<item>
+    <title>VMware vRealize SaltStack Config API</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/saltstack-config-api/</link>
+    <pubDate>Sun, 26 Jun 2022 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/saltstack-config-api/</guid>
+    <description><![CDATA[<p>Using SaltStack Config api for Automation from vRA Catalog or cmd</p>]]></description>
+</item>
+<item>
+    <title>VMware vRealize SaltStack Config cheat sheet for a Windows Server Admin</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/saltstack-cheatsheet/</link>
+    <pubDate>Sun, 06 Mar 2022 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/saltstack-cheatsheet/</guid>
+    <description><![CDATA[<p>Salt functions that I find myself using the most.</p>]]></description>
+</item>
 </channel>
 </rss>

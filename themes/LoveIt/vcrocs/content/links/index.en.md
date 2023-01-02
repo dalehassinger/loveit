@@ -3,12 +3,6 @@ title: "Favorite Links"
 date: 2022-12-30T00:00:00+00:00
 draft: false
 description: "Favorite Links"
-#images: ["/Apple-Devices-Preview.png"]
-
-#lightgallery: true
-
-#math:
-#  enable: true
 ---
 
 >Links to some of my favorite Bloggers and Content:
@@ -46,6 +40,3 @@ description: "Favorite Links"
 * [The Hacks - Powered By SaltStack](https://saltproject.io/the-hacks/episodes/)
 * [IT Reality Podcast](https://itr-it-reality.zencast.website/episodes/21)
 {{< /admonition >}}
-
-
-

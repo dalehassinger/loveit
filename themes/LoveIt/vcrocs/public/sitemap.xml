@@ -7,6 +7,8 @@
             <loc>https://dalehassinger.github.io/hugo-loveit/2nd-half-2022/</loc><lastmod>2023-01-01T09:33:33-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://dalehassinger.github.io/hugo-loveit/centra-pa-vmug-08-2022/</loc><lastmod>2023-01-01T10:30:22-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://dalehassinger.github.io/hugo-loveit/vmware-powerblock-08-2022/</loc><lastmod>2023-01-01T10:30:22-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/saltstack-config-api/</loc><lastmod>2022-06-26T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/saltstack-cheatsheet/</loc><lastmod>2022-03-06T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://dalehassinger.github.io/hugo-loveit/theme-documentation-basics/</loc><lastmod>2023-01-01T09:33:33-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://dalehassinger.github.io/hugo-loveit/theme-documentation-content/</loc><lastmod>2023-01-01T09:33:33-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://dalehassinger.github.io/hugo-loveit/theme-documentation-built-in-shortcodes/</loc><lastmod>2023-01-01T09:33:33-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
@@ -49,6 +51,11 @@
             <loc>https://dalehassinger.github.io/hugo-loveit/tags/powerblock/</loc><lastmod>2023-01-01T10:30:22-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://dalehassinger.github.io/hugo-loveit/categories/powerblock/</loc><lastmod>2023-01-01T10:30:22-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://dalehassinger.github.io/hugo-loveit/tags/vra/</loc><lastmod>2023-01-01T10:30:22-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/tags/python/</loc><lastmod>2022-06-26T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/tags/salt-api/</loc><lastmod>2022-06-26T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/tags/saltstack-config/</loc><lastmod>2022-06-26T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/tags/grains/</loc><lastmod>2022-03-06T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/tags/powershell/</loc><lastmod>2022-03-06T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://dalehassinger.github.io/hugo-loveit/tags/markdown/</loc><lastmod>2023-01-01T09:33:33-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://dalehassinger.github.io/hugo-loveit/tags/shortcodes/</loc><lastmod>2023-01-01T09:33:33-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://dalehassinger.github.io/hugo-loveit/tags/html/</loc><lastmod>2023-01-01T09:33:33-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>

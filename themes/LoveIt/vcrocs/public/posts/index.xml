@@ -49,6 +49,22 @@
 <hr>]]></description>
 </item>
 <item>
+    <title>VMware vRealize SaltStack Config API</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/saltstack-config-api/</link>
+    <pubDate>Sun, 26 Jun 2022 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/saltstack-config-api/</guid>
+    <description><![CDATA[<p>Using SaltStack Config api for Automation from vRA Catalog or cmd</p>]]></description>
+</item>
+<item>
+    <title>VMware vRealize SaltStack Config cheat sheet for a Windows Server Admin</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/saltstack-cheatsheet/</link>
+    <pubDate>Sun, 06 Mar 2022 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/saltstack-cheatsheet/</guid>
+    <description><![CDATA[<p>Salt functions that I find myself using the most.</p>]]></description>
+</item>
+<item>
     <title>Theme Documentation - Basics</title>
     <link>https://dalehassinger.github.io/hugo-loveit/theme-documentation-basics/</link>
     <pubDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</pubDate>
@@ -71,22 +87,6 @@
     <author>Dillon</author>
     <guid>https://dalehassinger.github.io/hugo-loveit/theme-documentation-built-in-shortcodes/</guid>
     <description><![CDATA[<p><strong>Hugo</strong> provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.</p>]]></description>
-</item>
-<item>
-    <title>Theme Documentation - Extended Shortcodes</title>
-    <link>https://dalehassinger.github.io/hugo-loveit/theme-documentation-extended-shortcodes/</link>
-    <pubDate>Tue, 03 Mar 2020 16:29:41 &#43;0800</pubDate>
-    <author>Dillon</author>
-    <guid>https://dalehassinger.github.io/hugo-loveit/theme-documentation-extended-shortcodes/</guid>
-    <description><![CDATA[<p><strong>LoveIt</strong> theme provides multiple shortcodes on top of built-in ones in Hugo.</p>]]></description>
-</item>
-<item>
-    <title>Basic Markdown Syntax</title>
-    <link>https://dalehassinger.github.io/hugo-loveit/basic-markdown-syntax/</link>
-    <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
-    <author>Dillon</author>
-    <guid>https://dalehassinger.github.io/hugo-loveit/basic-markdown-syntax/</guid>
-    <description><![CDATA[<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>]]></description>
 </item>
 </channel>
 </rss>

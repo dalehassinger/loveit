@@ -37,6 +37,3 @@
 * [IT Reality Podcast](https://itr-it-reality.zencast.website/episodes/21)
 {{< /admonition >}}
 
-
-
-

@@ -747,7 +747,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           subtitle = 'salt "*" read.blog'
           typeit = true
           social = true
-          disclaimer = "VMware Aria | vRealize | PowerCLI | PowerShell"
+          disclaimer = "VMware Aria | vRealize | PowerCLI | PowerShell | more..."
       [languages.en.params.social]
         GitHub = "dalehassinger"
         Twitter = "dalehassinger"

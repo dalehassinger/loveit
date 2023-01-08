@@ -21,12 +21,44 @@
     <description><![CDATA[<p>Using SaltStack Config api for Automation from vRA Catalog or cmd</p>]]></description>
 </item>
 <item>
+    <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 9</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-09/</link>
+    <pubDate>Fri, 10 Jun 2022 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-09/</guid>
+    <description><![CDATA[<p>Part 9: Using salt-api with PowerShell for Windows Server Automation</p>]]></description>
+</item>
+<item>
     <title>VMware vRealize SaltStack Config cheat sheet for a Windows Server Admin</title>
     <link>https://dalehassinger.github.io/hugo-loveit/saltstack-cheatsheet/</link>
     <pubDate>Sun, 06 Mar 2022 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
     <guid>https://dalehassinger.github.io/hugo-loveit/saltstack-cheatsheet/</guid>
     <description><![CDATA[<p>Salt functions that I find myself using the most.</p>]]></description>
+</item>
+<item>
+    <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 8</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-08/</link>
+    <pubDate>Sat, 12 Feb 2022 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-08/</guid>
+    <description><![CDATA[<p>Part 8: Pouring the salt grains</p>]]></description>
+</item>
+<item>
+    <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 7</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-07/</link>
+    <pubDate>Fri, 14 Jan 2022 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-07/</guid>
+    <description><![CDATA[<p>VMware vRealize SaltStack Config as a Windows Server Admin - Part 7</p>]]></description>
+</item>
+<item>
+    <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 6</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-06/</link>
+    <pubDate>Sat, 09 Oct 2021 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-06/</guid>
+    <description><![CDATA[<p>Part 6: How to use SaltStack Config with Windows Server and PowerShell</p>]]></description>
 </item>
 </channel>
 </rss>

@@ -8,7 +8,12 @@
             <loc>https://dalehassinger.github.io/hugo-loveit/centra-pa-vmug-08-2022/</loc><lastmod>2023-01-01T10:30:22-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://dalehassinger.github.io/hugo-loveit/vmware-powerblock-08-2022/</loc><lastmod>2023-01-01T10:30:22-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://dalehassinger.github.io/hugo-loveit/saltstack-config-api/</loc><lastmod>2023-01-01T22:02:16-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-09/</loc><lastmod>2022-06-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://dalehassinger.github.io/hugo-loveit/saltstack-cheatsheet/</loc><lastmod>2023-01-01T22:02:16-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/vexpert-2022/</loc><lastmod>2022-02-22T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-08/</loc><lastmod>2022-02-12T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-07/</loc><lastmod>2022-01-14T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-06/</loc><lastmod>2021-10-09T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://dalehassinger.github.io/hugo-loveit/tags/ansible/</loc><lastmod>2023-01-01T09:33:33-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://dalehassinger.github.io/hugo-loveit/categories/automation/</loc><lastmod>2023-01-01T22:02:16-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://dalehassinger.github.io/hugo-loveit/categories/</loc><lastmod>2023-01-01T22:02:16-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
@@ -42,8 +47,28 @@
             <loc>https://dalehassinger.github.io/hugo-loveit/tags/python/</loc><lastmod>2023-01-01T22:02:16-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://dalehassinger.github.io/hugo-loveit/tags/salt-api/</loc><lastmod>2023-01-01T22:02:16-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://dalehassinger.github.io/hugo-loveit/tags/saltstack-config/</loc><lastmod>2023-01-01T22:02:16-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://dalehassinger.github.io/hugo-loveit/tags/grains/</loc><lastmod>2023-01-01T22:02:16-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/tags/configuration-management/</loc><lastmod>2022-06-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://dalehassinger.github.io/hugo-loveit/tags/powershell/</loc><lastmod>2023-01-01T22:02:16-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/categories/saltstack-config/</loc><lastmod>2022-06-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/categories/vmware-aria/</loc><lastmod>2022-06-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/tags/windows-server/</loc><lastmod>2022-06-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/tags/grains/</loc><lastmod>2023-01-01T22:02:16-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/tags/giving-back/</loc><lastmod>2022-02-22T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/categories/vmware-vexpert/</loc><lastmod>2022-02-22T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/tags/vmware-vexpert-2020-22/</loc><lastmod>2022-02-22T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/tags/vmware-vexpert-cloud-management-2021-22/</loc><lastmod>2022-02-22T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/tags/posh-ssh/</loc><lastmod>2022-01-14T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/tags/salt/</loc><lastmod>2021-10-01T00:00:00-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/tags/saltstack/</loc><lastmod>2021-10-01T00:00:00-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/tags/vmware-aria/</loc><lastmod>2021-10-01T00:00:00-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-05/</loc><lastmod>2021-10-01T00:00:00-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/tags/vrealize/</loc><lastmod>2021-10-01T00:00:00-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-04/</loc><lastmod>2021-09-05T00:00:00-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/tags/beacons/</loc><lastmod>2021-08-27T00:00:00-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/tags/reactors/</loc><lastmod>2021-08-27T00:00:00-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-03/</loc><lastmod>2021-08-27T00:00:00-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-02/</loc><lastmod>2021-08-05T00:00:00-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-01/</loc><lastmod>2021-07-16T00:00:00-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://dalehassinger.github.io/hugo-loveit/categories/documentation/</loc><lastmod>2023-01-01T09:33:33-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://dalehassinger.github.io/hugo-loveit/tags/content/</loc><lastmod>2023-01-01T09:33:33-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://dalehassinger.github.io/hugo-loveit/tags/installation/</loc><lastmod>2023-01-01T09:33:33-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>

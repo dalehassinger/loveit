@@ -12,5 +12,29 @@
     <guid>https://dalehassinger.github.io/hugo-loveit/saltstack-cheatsheet/</guid>
     <description><![CDATA[<p>Salt functions that I find myself using the most.</p>]]></description>
 </item>
+<item>
+    <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 8</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-08/</link>
+    <pubDate>Sat, 12 Feb 2022 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-08/</guid>
+    <description><![CDATA[<p>Part 8: Pouring the salt grains</p>]]></description>
+</item>
+<item>
+    <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 5</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-05/</link>
+    <pubDate>Fri, 01 Oct 2021 00:00:00 -0500</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-05/</guid>
+    <description><![CDATA[Part 5: How to use SaltStack Config with Windows Server and PowerShell The latest item on my journey with VMware vRealize SaltStack Config as a Windows Server Admin will be an update to some items that I have talked about in previous posts. I have been spending more time with VMware vRealize SaltStack Config and I have learned some better ways to do some of the processes that I have talked about already.]]></description>
+</item>
+<item>
+    <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 4</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-04/</link>
+    <pubDate>Sun, 05 Sep 2021 00:00:00 -0500</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-04/</guid>
+    <description><![CDATA[Part 4: How to use SaltStack Config with Windows Server and PowerShell The latest item on my journey with VMware vRealize SaltStack Config as a Windows Server Admin will be salt grains. I have a specific use case that made me start looking at grains. In VMware vCenter I use vCenter TAGs to organize VMs. I also use vCenter TAGs to organize VMs in vRealize Operations. I want to use the same logic of using vCenter TAGs in SaltStack Config.]]></description>
+</item>
 </channel>
 </rss>

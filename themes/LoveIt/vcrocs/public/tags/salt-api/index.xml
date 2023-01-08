@@ -12,5 +12,13 @@
     <guid>https://dalehassinger.github.io/hugo-loveit/saltstack-config-api/</guid>
     <description><![CDATA[<p>Using SaltStack Config api for Automation from vRA Catalog or cmd</p>]]></description>
 </item>
+<item>
+    <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 9</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-09/</link>
+    <pubDate>Fri, 10 Jun 2022 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-09/</guid>
+    <description><![CDATA[<p>Part 9: Using salt-api with PowerShell for Windows Server Automation</p>]]></description>
+</item>
 </channel>
 </rss>

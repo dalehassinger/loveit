@@ -11,6 +11,7 @@ description: "Favorite Links"
 
 {{< admonition type=tip title="Bloggers:" open=true >}}
 * [Brock Peterson - VMware Aria Operations Master](https://www.brockpeterson.com)
+* [Cosmin Trif - VMware Aria Suite Master](https://cosmin.gq/)
 * [LucD - PowerShell Master](https://www.lucd.info)
 * [William Lam - VMware Master](https://williamlam.com)
 * [Yellow Bricks](https://www.yellow-bricks.com)

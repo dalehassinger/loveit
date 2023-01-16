@@ -13,5 +13,21 @@
     <description><![CDATA[<p><strong>VMware PowerBlock | August 2022</strong></p>
 <hr>]]></description>
 </item>
+<item>
+    <title>SaltConf 2021 | SaltStack Config Session</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/saltconf-2021/</link>
+    <pubDate>Sat, 02 Oct 2021 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/saltconf-2021/</guid>
+    <description><![CDATA[<p><strong>SaltConf 2021 | SaltStack Config Session</strong></p>]]></description>
+</item>
+<item>
+    <title>VMworld 2021 - SaltStack Config Session</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/vmworld-2021-mcl1895/</link>
+    <pubDate>Thu, 12 Aug 2021 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/vmworld-2021-mcl1895/</guid>
+    <description><![CDATA[<p><strong>Manage Windows Workloads Through vRealize Automation SaltStack Config [MCL1895]</strong></p>]]></description>
+</item>
 </channel>
 </rss>

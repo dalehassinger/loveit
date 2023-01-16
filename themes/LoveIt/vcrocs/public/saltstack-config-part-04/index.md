@@ -1,18 +1,15 @@
 # VMware vRealize SaltStack Config as a Windows Server Admin - Part 4
 
-<div>
-  <b>Part 4: How to use SaltStack Config with Windows Server and PowerShell</b>
-</div>
-<div>
-  <br>
-</div>
+
+**Part 4: How to use SaltStack Config with Windows Server and PowerShell**
+
+<!--more-->
 
 ---
-<div>
-The latest item on my journey with <b>VMware vRealize SaltStack Config</b> as a <b>Windows Server Admin</b> will be salt grains. I have a specific use case that made me start looking at grains. In VMware vCenter I use vCenter TAGs to organize VMs. I also use vCenter TAGs to organize VMs in vRealize Operations.  I want to use the same logic of using vCenter TAGs in SaltStack Config. SaltStack Config does not use vCenter TAGs OOTB (Out of the Box) for VMs.
+
+The latest item on my journey with **VMware vRealize SaltStack Config** as a **Windows Server Admin** will be salt grains. I have a specific use case that made me start looking at grains. In VMware vCenter I use vCenter TAGs to organize VMs. I also use vCenter TAGs to organize VMs in vRealize Operations.  I want to use the same logic of using vCenter TAGs in SaltStack Config. SaltStack Config does not use vCenter TAGs OOTB (Out of the Box) for VMs.
 
 At the end of this Blog Post I also have an SaltStack Config Orchestration example.  Instead of running multiple Jobs one at a time I have (4) steps in a SLS file that I run using a salt-run job and the function state.orchestrate.
-</div>
 
 ---
 
@@ -37,14 +34,12 @@ vCenterTags: TAG-VM-vCROCS|TAG-VM-WebServer|TAG-App-Hugo
 When I add the vCenter TAG information to the grains file I am then able to create SaltStack Config Targets based on the grain "vCenterTags".
  
 ###### SaltStack Config Targets:
-{{< image title="" w="" h="" o="webp q1" p="center" c="rounded" src="images/post/Salt-42.PNG" >}}
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-42.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a>
 
+{{< image src="Salt-42.PNG" caption="Click to see Larger Image">}}  
 
 ###### SaltStack Config Target Definition:
-{{< image title="" w="" h="" o="webp q1" p="center" c="rounded" src="images/post/Salt-41.PNG" >}}
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-41.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a>
 
+{{< image src="Salt-41.PNG" caption="Click to see Larger Image">}}  
 
 ###### How to add the vCenter TAGs to the grains file on all your VMs in SaltStack Config:  
 
@@ -107,8 +102,8 @@ After I create the csv file I copy to the StackStack Config Server (Salt Master)
 You may be wondering why I copy the file to the minion and not copy to a central share. My environment has NSX-T with zero trust. Most of my automation I do not open ports to servers that are not needed permanently. So the concept of using salt to copy files to minions, use the files to make changes and then delete the files when processes are complete works well in a zero trust environment.  
 
 ###### Job to copy csv file to minions:
-{{< image title="" w="" h="" o="webp q1" p="center" c="rounded" src="images/post/Salt-43.PNG" >}}
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-43.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a>
+
+{{< image src="Salt-43.PNG" caption="Click to see Larger Image">}}  
 
 ---
 
@@ -118,8 +113,7 @@ After I copy the csv file to the minion I run a script to create/update the grai
 
 ###### Job to run a PowerShell Script to create/update the grains file:
 
-{{< image title="" w="" h="" o="webp q1" p="center" c="rounded" src="images/post/Salt-44.PNG" >}}
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-44.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a>
+{{< image src="Salt-44.PNG" caption="Click to see Larger Image">}}  
 
 Example PowerShell Code to create/update grains file on a minion:  
 {{< highlight powershell >}}
@@ -182,8 +176,8 @@ else{
 Anytime you make any changes to the grains file you should run the function saltutil.sync_grains to update the SaltStack Config Server immediately.
 
 ###### Job to run sync of the minion grains information:
-{{< image title="" w="" h="" o="webp q1" p="center" c="rounded" src="images/post/Salt-45.PNG" >}}
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-45.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a>
+
+{{< image src="Salt-45.PNG" caption="Click to see Larger Image">}}  
 
 ---
 
@@ -195,8 +189,7 @@ Anytime you make any changes to the grains file you should run the function salt
 * Run a sync_grains.
 * Delete the files from the minions when processes are complete.
 
-{{< image title="" w="" h="" o="webp q1" p="center" c="rounded" src="images/post/Salt-46.PNG" >}}
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-46.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a>
+{{< image src="Salt-46.PNG" caption="Click to see Larger Image">}}  
 
 Example Orchestration SLS file:
 {{< highlight powershell >}}
@@ -235,8 +228,8 @@ Cleanup_Tag_File:
 {{< /highlight >}}
 
 ###### Salt-Run Job to Orchestrate Copy File/Run Script/Run Sync/Delete File:
-{{< image title="" w="" h="" o="webp q1" p="center" c="rounded" src="images/post/Salt-47.PNG" >}}
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-47.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a>
+
+{{< image src="Salt-47.PNG" caption="Click to see Larger Image">}}  
 
 ---
 

@@ -62,12 +62,28 @@
     <description><![CDATA[<p>VMware vRealize SaltStack Config as a Windows Server Admin - Part 7</p>]]></description>
 </item>
 <item>
+    <title>Year in Review - 2021 | 2022 Goals</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/look-back-2021/</link>
+    <pubDate>Sat, 01 Jan 2022 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/look-back-2021/</guid>
+    <description><![CDATA[<p><strong>Get-Review 2021</strong></p>]]></description>
+</item>
+<item>
     <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 6</title>
     <link>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-06/</link>
     <pubDate>Sat, 09 Oct 2021 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
     <guid>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-06/</guid>
     <description><![CDATA[<p>Part 6: How to use SaltStack Config with Windows Server and PowerShell</p>]]></description>
+</item>
+<item>
+    <title>SaltConf 2021 | SaltStack Config Session</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/saltconf-2021/</link>
+    <pubDate>Sat, 02 Oct 2021 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/saltconf-2021/</guid>
+    <description><![CDATA[<p><strong>SaltConf 2021 | SaltStack Config Session</strong></p>]]></description>
 </item>
 </channel>
 </rss>

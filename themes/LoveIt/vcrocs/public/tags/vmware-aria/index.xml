@@ -4,45 +4,23 @@
         <link>https://dalehassinger.github.io/hugo-loveit/tags/vmware-aria/</link>
         <description>VMware Aria - Tag - vCROCS</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</managingEditor>
-            <webMaster>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 01 Oct 2021 00:00:00 -0500</lastBuildDate><atom:link href="https://dalehassinger.github.io/hugo-loveit/tags/vmware-aria/" rel="self" type="application/rss+xml" /><item>
-    <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 5</title>
-    <link>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-05/</link>
-    <pubDate>Fri, 01 Oct 2021 00:00:00 -0500</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-05/</guid>
-    <description><![CDATA[Part 5: How to use SaltStack Config with Windows Server and PowerShell The latest item on my journey with VMware vRealize SaltStack Config as a Windows Server Admin will be an update to some items that I have talked about in previous posts. I have been spending more time with VMware vRealize SaltStack Config and I have learned some better ways to do some of the processes that I have talked about already.]]></description>
+            <webMaster>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 15 May 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://dalehassinger.github.io/hugo-loveit/tags/vmware-aria/" rel="self" type="application/rss+xml" /><item>
+    <title>How vRealize Operations can help with Right Sizing VMs</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/vrealize-operations-right-size/</link>
+    <pubDate>Sat, 15 May 2021 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/vrealize-operations-right-size/</guid>
+    <description><![CDATA[<h5 id="using-vrops-data-to-help-show-app-owners-proper-vm-sizing">Using vROPS Data to help show APP Owners Proper VM Sizing:</h5>
+<hr>]]></description>
 </item>
 <item>
-    <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 4</title>
-    <link>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-04/</link>
-    <pubDate>Sun, 05 Sep 2021 00:00:00 -0500</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-04/</guid>
-    <description><![CDATA[Part 4: How to use SaltStack Config with Windows Server and PowerShell The latest item on my journey with VMware vRealize SaltStack Config as a Windows Server Admin will be salt grains. I have a specific use case that made me start looking at grains. In VMware vCenter I use vCenter TAGs to organize VMs. I also use vCenter TAGs to organize VMs in vRealize Operations. I want to use the same logic of using vCenter TAGs in SaltStack Config.]]></description>
-</item>
-<item>
-    <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 3</title>
-    <link>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-03/</link>
-    <pubDate>Fri, 27 Aug 2021 00:00:00 -0500</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-03/</guid>
-    <description><![CDATA[Part 3: How to use SaltStack Config with Windows Server and PowerShell The next steps on my journey with **VMware vRealize SaltStack Config** as a **Windows Server Admin** will be beacons and reactors. Working with Jobs helped me understand how to make changes Ad-Hoc. I have a Job to quickly stop the Print Spooler but what if I always want the state of the Print Spooler Service to be stopped.]]></description>
-</item>
-<item>
-    <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 2</title>
-    <link>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-02/</link>
-    <pubDate>Thu, 05 Aug 2021 00:00:00 -0500</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-02/</guid>
-    <description><![CDATA[Part 2: How to use SaltStack Config with Windows Server and PowerShell I have been able to spend more time with VMware vRealize SaltStack Config. Here are some updates on my journey with SaltStack as a Windows Server Admin. Auto-Accept new minions: I wanted new Windows Server builds (minions) to be auto accepted into SaltStack Config instead of someone manually approving new minions. To do this you need to have a reactor.]]></description>
-</item>
-<item>
-    <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 1</title>
-    <link>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-01/</link>
-    <pubDate>Fri, 16 Jul 2021 00:00:00 -0500</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-01/</guid>
-    <description><![CDATA[Part 1: How to use SaltStack Config with Windows Server and PowerShell I have recently started looking at using VMware vRealize SaltStack Config. This blog is a work in progress on my journey with Salt. I started at **zero** and let's see what I discover as I work towards getting to PROD**. So if this topic is interesting to you, check back often. I wanted to learn one of the server configuration products that are available like Salt, Puppet, Chef, Ansible, etc&hellip; but I wasn&rsquo;t sure which would be the best choice long term.]]></description>
+    <title>Text Display Widget - More Powerful than just displaying text on a Dashboard...</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/text-display-widget/</link>
+    <pubDate>Fri, 17 Jul 2020 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/text-display-widget/</guid>
+    <description><![CDATA[<p><strong>vRealize Operations - Dashboards:</strong></p>
+<hr>]]></description>
 </item>
 </channel>
 </rss>

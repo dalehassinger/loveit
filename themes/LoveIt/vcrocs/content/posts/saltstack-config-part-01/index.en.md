@@ -1,38 +1,35 @@
 ---
+weight: 1
 title: "VMware vRealize SaltStack Config as a Windows Server Admin - Part 1"
-description: "description"
-image: "images/post/salt.png"
-date: 2021-07-16T00:00:00-05:00
-categories: ["SaltStack Config","VMware Aria"]
-tags:
-- Salt
-- SaltStack
-- SaltStack Config
-- Windows Server
-- PowerShell
-- VMware
-- vRealize
-- Configuration Management
-- Automation
-- VMware Aria
-type: "regular" # available types: [featured/regular]
+date: 2021-07-16T00:00:00+00:00
+lastmod: 2021-07-16T00:00:00+00:00
 draft: false
+author: "Dale Hassinger"
+authorLink: "https://twitter.com/dalehassinger"
+description: ""
+images: []
+resources:
+- name: "featured-image"
+  src: "featured-image.png"
+
+tags: ["SaltStack Config", "VMware Aria Automation", "vRealize Automation", "PowerShell", "Windows Server", "Configuration Management"]
+categories: ["SaltStack Config","VMware Aria"]
+
+lightgallery: true
 ---
-<div>
-  <b>Part 1: How to use SaltStack Config with Windows Server and PowerShell</b>
-</div>
-<div>
-  <br>
-</div>
+
+**Part 1: How to use SaltStack Config with Windows Server and PowerShell**
+
+<!--more-->
 
 ---
-<div>
-I have recently started looking at using <b>VMware vRealize SaltStack Config</b>. This blog is a work in progress on my journey with Salt. I started at **zero** and let's see what I discover as I work towards getting to <b>PROD**. So if this topic is interesting to you, check back often.  
+
+I have recently started looking at using **VMware vRealize SaltStack Config**. This blog is a work in progress on my journey with Salt. I started at **zero** and let's see what I discover as I work towards getting to **PROD**. So if this topic is interesting to you, check back often.  
 
 I wanted to learn one of the server configuration products that are available like Salt, Puppet, Chef, Ansible, etc... but I wasn't sure which would be the best choice long term.  When VMware purchased SaltStack Config the product to choose became a lot easier for me. SaltStack Config is included with vRealize Suite for licensing and I can call VMware support for help, SaltStack Config became the obvious product to pick.  
 
-I like to show how to use VMware vRealize Products from a <b>Windows Server Admin</b> point of view.  I do work with both Windows Servers and Linux Servers but most information you see online with Salt is using Linux Servers. I also do most of my current automation with PowerShell scripts. I do not want to lose all the time invested into the logic with my current PowerShell scripts.      
-</div>
+I like to show how to use VMware vRealize Products from a **Windows Server Admin** point of view.  I do work with both Windows Servers and Linux Servers but most information you see online with Salt is using Linux Servers. I also do most of my current automation with PowerShell scripts. I do not want to lose all the time invested into the logic with my current PowerShell scripts.      
+
 
 ---
 

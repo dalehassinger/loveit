@@ -1,11 +1,9 @@
 # VMware vRealize SaltStack Config as a Windows Server Admin - Part 2
 
-<div>
-  <b>Part 2: How to use SaltStack Config with Windows Server and PowerShell</b>
-</div>
-<div>
-  <br>
-</div>
+
+**Part 2: How to use SaltStack Config with Windows Server and PowerShell**
+
+<!--more-->
 
 ---
 
@@ -33,8 +31,7 @@ reactor:
 
 <div><b>Location of the Reactor File:</b></div>
 
-{{< image title="" w="" h="" o="webp q1" p="center" c="rounded" src="images/post/Salt-26.PNG" >}}
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-26.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a>
+{{< image src="Salt-26.PNG" caption="Click to see Larger Image">}}  
 
 ---
 
@@ -56,8 +53,7 @@ minion_add:
 
 <div><b>Location of the State File:</b></div>
 
-{{< image title="" w="" h="" o="webp q1" p="center" c="rounded" src="images/post/Salt-27.PNG" >}}
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-27.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a>
+{{< image src="Salt-27.PNG" caption="Click to see Larger Image">}}  
 
 ---
 
@@ -85,53 +81,48 @@ That is where you start to see the True Power of Salt. If you Select one, ten, a
 
 ---
 
-<div><b>List of all the Jobs:</b></div>
+###### List of all the Jobs:
 
-{{< image title="" w="" h="" o="webp q1" p="center" c="rounded" src="images/post/Salt-20.PNG" >}}
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-20.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a>
+{{< image src="Salt-20.PNG" caption="Click to see Larger Image">}}  
 
 ---
 
-<div><b>Job to stop the Print Spooler Service:</b></div>
+###### Job to stop the Print Spooler Service:
 
-{{< image title="" w="" h="" o="webp q1" p="center" c="rounded" src="images/post/Salt-21.PNG" >}}
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-21.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a>
+{{< image src="Salt-21.PNG" caption="Click to see Larger Image">}}  
+
 
 This job I am using a salt function service.stop. Pass the Service name as a argument.
 
 ---
 
-<div><b>Job to stop the Print Spooler Service using a PowerShell Command:</b></div>
+###### Job to stop the Print Spooler Service using a PowerShell Command:
 
-{{< image title="" w="" h="" o="webp q1" p="center" c="rounded" src="images/post/Salt-22.PNG" >}}
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-22.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a>
+{{< image src="Salt-22.PNG" caption="Click to see Larger Image">}}  
 
 This job I am using a salt function cmd.run. Pass the PowerShell code and type of cmd as arguments.
 
 ---
 
-<div><b>Job to stop and disable the Print Spooler Service using a PowerShell script:</b></div>
+###### Job to stop and disable the Print Spooler Service using a PowerShell script:
 
-{{< image title="" w="" h="" o="webp q1" p="center" c="rounded" src="images/post/Salt-23.PNG" >}}
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-23.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a>
+{{< image src="Salt-23.PNG" caption="Click to see Larger Image">}}  
 
 This job I am using a salt function cmd.script. Pass the PowerShell script path and type of cmd as arguments.
 
 ---
 
-<div><b>Job to copy a file to a minion:</b></div>
+###### Job to copy a file to a minion:
 
-{{< image title="" w="" h="" o="webp q1" p="center" c="rounded" src="images/post/Salt-24.PNG" >}}
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-24.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a>
+{{< image src="Salt-24.PNG" caption="Click to see Larger Image">}}  
 
 This job I am using a salt function cp.get_file. Pass the file source path and destination path as arguments.
 
 ---
 
-<div><b>Job to reboot a minion:</b></div>
+###### Job to reboot a minion:
 
-{{< image title="" w="" h="" o="webp q1" p="center" c="rounded" src="images/post/Salt-25.PNG" >}}
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-25.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a>
+{{< image src="Salt-25.PNG" caption="Click to see Larger Image">}}  
 
 This job I am using a salt function system.reboot. Pass the wait time to reboot and wait_for_reboot as arguments.
 

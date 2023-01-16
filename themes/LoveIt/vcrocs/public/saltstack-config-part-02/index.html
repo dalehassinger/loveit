@@ -4,20 +4,20 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 2 - vCROCS</title><meta name="Description" content="description"><meta property="og:title" content="VMware vRealize SaltStack Config as a Windows Server Admin - Part 2" />
-<meta property="og:description" content="description" />
+        <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 2 - vCROCS</title><meta name="Description" content="Hugo theme - LoveIt"><meta property="og:title" content="VMware vRealize SaltStack Config as a Windows Server Admin - Part 2" />
+<meta property="og:description" content="Part 2: How to use SaltStack Config with Windows Server and PowerShell" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-02/" /><meta property="og:image" content="https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-02/featured-image.png"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-08-05T00:00:00-05:00" />
-<meta property="article:modified_time" content="2021-08-05T00:00:00-05:00" /><meta property="og:site_name" content="vCROCS" />
+<meta property="article:published_time" content="2021-08-05T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-01-07T22:37:59-05:00" /><meta property="og:site_name" content="vCROCS" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-02/featured-image.png"/>
 <meta name="twitter:title" content="VMware vRealize SaltStack Config as a Windows Server Admin - Part 2"/>
-<meta name="twitter:description" content="description"/>
+<meta name="twitter:description" content="Part 2: How to use SaltStack Config with Windows Server and PowerShell"/>
 <meta name="application-name" content="vCROCS">
 <meta name="apple-mobile-web-app-title" content="vCROCS"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-02/" /><link rel="prev" href="https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-01/" /><link rel="next" href="https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-03/" /><link rel="stylesheet" href="/hugo-loveit/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-02/" /><link rel="prev" href="https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-01/" /><link rel="next" href="https://dalehassinger.github.io/hugo-loveit/vmworld-2021-mcl1895/" /><link rel="stylesheet" href="/hugo-loveit/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
     {
@@ -30,11 +30,11 @@
             "@id": "https:\/\/dalehassinger.github.io\/hugo-loveit\/saltstack-config-part-02\/"
         },"image": [{
                             "@type": "ImageObject",
-                            "url": "https:\/\/dalehassinger.github.io\/hugo-loveit\/images\/Apple-Devices-Preview.png",
-                            "width":  3200 ,
-                            "height":  2048 
-                        }],"genre": "regular","keywords": "Salt, SaltStack, SaltStack Config, Windows Server, PowerShell, VMware, vRealize, Configuration Management, Automation, VMware Aria","wordcount":  989 ,
-        "url": "https:\/\/dalehassinger.github.io\/hugo-loveit\/saltstack-config-part-02\/","datePublished": "2021-08-05T00:00:00-05:00","dateModified": "2021-08-05T00:00:00-05:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+                            "url": "https:\/\/dalehassinger.github.io\/hugo-loveit\/saltstack-config-part-02\/featured-image.png",
+                            "width":  1420 ,
+                            "height":  708 
+                        }],"genre": "posts","keywords": "SaltStack Config, VMware Aria Automation, vRealize Automation, PowerShell, Windows Server, Configuration Management","wordcount":  957 ,
+        "url": "https:\/\/dalehassinger.github.io\/hugo-loveit\/saltstack-config-part-02\/","datePublished": "2021-08-05T00:00:00+00:00","dateModified": "2023-01-07T22:37:59-05:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
                     "@type": "ImageObject",
@@ -43,8 +43,8 @@
                     "height":  560 
                 }},"author": {
                 "@type": "Person",
-                "name": "| Dale Hassinger"
-            },"description": "description"
+                "name": "Dale Hassinger"
+            },"description": ""
     }
     </script></head>
     <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
@@ -107,12 +107,56 @@
     <div class="search-dropdown mobile">
         <div id="search-dropdown-mobile"></div>
     </div><main class="main">
-                <div class="container"><div class="page single special"><h1 class="single-title animate__animated animate__pulse animate__faster">VMware vRealize SaltStack Config as a Windows Server Admin - Part 2</h1><div class="content" id="content"><div>
-  <b>Part 2: How to use SaltStack Config with Windows Server and PowerShell</b>
-</div>
-<div>
-  <br>
-</div>
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">VMware vRealize SaltStack Config as a Windows Server Admin - Part 2</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://twitter.com/dalehassinger" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Dale Hassinger</a></span>&nbsp;<span class="post-category">included in <a href="/hugo-loveit/categories/saltstack-config/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>SaltStack Config</a>&nbsp;<a href="/hugo-loveit/categories/vmware-aria/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>VMware Aria</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2021-08-05">2021-08-05</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;957 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;5 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/hugo-loveit/svg/loading.min.svg"
+        data-src="/hugo-loveit/saltstack-config-part-02/featured-image.png"
+        data-srcset="/hugo-loveit/saltstack-config-part-02/featured-image.png, /hugo-loveit/saltstack-config-part-02/featured-image.png 1.5x, /hugo-loveit/saltstack-config-part-02/featured-image.png 2x"
+        data-sizes="auto"
+        alt="/hugo-loveit/saltstack-config-part-02/featured-image.png"
+        title="/hugo-loveit/saltstack-config-part-02/featured-image.png" /></div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li>
+          <ul>
+            <li>
+              <ul>
+                <li>
+                  <ul>
+                    <li><a href="#auto-accept-new-minions">Auto-Accept new minions:</a></li>
+                    <li><a href="#jobs">Jobs:</a></li>
+                    <li><a href="#list-of-all-the-jobs">List of all the Jobs:</a></li>
+                    <li><a href="#job-to-stop-the-print-spooler-service">Job to stop the Print Spooler Service:</a></li>
+                    <li><a href="#job-to-stop-the-print-spooler-service-using-a-powershell-command">Job to stop the Print Spooler Service using a PowerShell Command:</a></li>
+                    <li><a href="#job-to-stop-and-disable-the-print-spooler-service-using-a-powershell-script">Job to stop and disable the Print Spooler Service using a PowerShell script:</a></li>
+                    <li><a href="#job-to-copy-a-file-to-a-minion">Job to copy a file to a minion:</a></li>
+                    <li><a href="#job-to-reboot-a-minion">Job to reboot a minion:</a></li>
+                    <li><a href="#lessons-learned">Lessons Learned:</a></li>
+                    <li><a href="#salt-links-i-found-to-be-very-helpful">Salt Links I found to be very helpful:</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p><strong>Part 2: How to use SaltStack Config with Windows Server and PowerShell</strong></p>
 <hr>
 <div>
 I have been able to spend more time with <b>VMware vRealize SaltStack Config</b>. Here are some updates on my journey with SaltStack as a <b>Windows Server Admin</b>.  
@@ -136,16 +180,16 @@ I have been able to spend more time with <b>VMware vRealize SaltStack Config</b>
 </div>
 </div>
 <div><b>Location of the Reactor File:</b></div>
-<p><a class="lightgallery" href="images/post/Salt-26.PNG" title="images/post/Salt-26.PNG" data-thumbnail="images/post/Salt-26.PNG">
+<figure><a class="lightgallery" href="/hugo-loveit/saltstack-config-part-02/Salt-26.PNG" title="/hugo-loveit/saltstack-config-part-02/Salt-26.PNG" data-thumbnail="/hugo-loveit/saltstack-config-part-02/Salt-26.PNG" data-sub-html="<h2>Click to see Larger Image</h2>">
         <img
             class="lazyload"
             src="/hugo-loveit/svg/loading.min.svg"
-            data-src="images/post/Salt-26.PNG"
-            data-srcset="images/post/Salt-26.PNG, images/post/Salt-26.PNG 1.5x, images/post/Salt-26.PNG 2x"
+            data-src="/hugo-loveit/saltstack-config-part-02/Salt-26.PNG"
+            data-srcset="/hugo-loveit/saltstack-config-part-02/Salt-26.PNG, /hugo-loveit/saltstack-config-part-02/Salt-26.PNG 1.5x, /hugo-loveit/saltstack-config-part-02/Salt-26.PNG 2x"
             data-sizes="auto"
-            alt="images/post/Salt-26.PNG" />
-    </a>
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-26.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a></p>
+            alt="/hugo-loveit/saltstack-config-part-02/Salt-26.PNG" width="1498" height="942" />
+    </a><figcaption class="image-caption">Click to see Larger Image</figcaption>
+    </figure>
 <hr>
 <div><b>State File: base/reactor/accept-key.sls</b></div>
 <div class="highlight"><div class="chroma">
@@ -177,16 +221,16 @@ I have been able to spend more time with <b>VMware vRealize SaltStack Config</b>
 </div>
 </div>
 <div><b>Location of the State File:</b></div>
-<p><a class="lightgallery" href="images/post/Salt-27.PNG" title="images/post/Salt-27.PNG" data-thumbnail="images/post/Salt-27.PNG">
+<figure><a class="lightgallery" href="/hugo-loveit/saltstack-config-part-02/Salt-27.PNG" title="/hugo-loveit/saltstack-config-part-02/Salt-27.PNG" data-thumbnail="/hugo-loveit/saltstack-config-part-02/Salt-27.PNG" data-sub-html="<h2>Click to see Larger Image</h2>">
         <img
             class="lazyload"
             src="/hugo-loveit/svg/loading.min.svg"
-            data-src="images/post/Salt-27.PNG"
-            data-srcset="images/post/Salt-27.PNG, images/post/Salt-27.PNG 1.5x, images/post/Salt-27.PNG 2x"
+            data-src="/hugo-loveit/saltstack-config-part-02/Salt-27.PNG"
+            data-srcset="/hugo-loveit/saltstack-config-part-02/Salt-27.PNG, /hugo-loveit/saltstack-config-part-02/Salt-27.PNG 1.5x, /hugo-loveit/saltstack-config-part-02/Salt-27.PNG 2x"
             data-sizes="auto"
-            alt="images/post/Salt-27.PNG" />
-    </a>
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-27.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a></p>
+            alt="/hugo-loveit/saltstack-config-part-02/Salt-27.PNG" width="1490" height="947" />
+    </a><figcaption class="image-caption">Click to see Larger Image</figcaption>
+    </figure>
 <hr>
 <div><b>To restart the salt-master service run this command from the salt-master cli.</b></div>
 <div class="highlight"><div class="chroma">
@@ -212,81 +256,81 @@ I have been able to spend more time with <b>VMware vRealize SaltStack Config</b>
 <p>Here are some screen shots of jobs that can be useful.  To run a job on a single minion go to minions and find the minion you want to run the job on, Select the minion, Select Run Job, Select the Job you want to run, select Run Now.  If you select multiple minions the Job will run on all minions selected.</p>
 <p>That is where you start to see the True Power of Salt. If you Select one, ten, a hundred or a thousand minions, the time to complete the selected job is very quick. As a Windows Admin and using PowerShell, it would not be as easy to run a script on a 1,000 Servers at the exact same time.</p>
 <hr>
-<div><b>List of all the Jobs:</b></div>
-<p><a class="lightgallery" href="images/post/Salt-20.PNG" title="images/post/Salt-20.PNG" data-thumbnail="images/post/Salt-20.PNG">
+<h6 id="list-of-all-the-jobs">List of all the Jobs:</h6>
+<figure><a class="lightgallery" href="/hugo-loveit/saltstack-config-part-02/Salt-20.PNG" title="/hugo-loveit/saltstack-config-part-02/Salt-20.PNG" data-thumbnail="/hugo-loveit/saltstack-config-part-02/Salt-20.PNG" data-sub-html="<h2>Click to see Larger Image</h2>">
         <img
             class="lazyload"
             src="/hugo-loveit/svg/loading.min.svg"
-            data-src="images/post/Salt-20.PNG"
-            data-srcset="images/post/Salt-20.PNG, images/post/Salt-20.PNG 1.5x, images/post/Salt-20.PNG 2x"
+            data-src="/hugo-loveit/saltstack-config-part-02/Salt-20.PNG"
+            data-srcset="/hugo-loveit/saltstack-config-part-02/Salt-20.PNG, /hugo-loveit/saltstack-config-part-02/Salt-20.PNG 1.5x, /hugo-loveit/saltstack-config-part-02/Salt-20.PNG 2x"
             data-sizes="auto"
-            alt="images/post/Salt-20.PNG" />
-    </a>
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-20.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a></p>
+            alt="/hugo-loveit/saltstack-config-part-02/Salt-20.PNG" width="1864" height="955" />
+    </a><figcaption class="image-caption">Click to see Larger Image</figcaption>
+    </figure>
 <hr>
-<div><b>Job to stop the Print Spooler Service:</b></div>
-<p><a class="lightgallery" href="images/post/Salt-21.PNG" title="images/post/Salt-21.PNG" data-thumbnail="images/post/Salt-21.PNG">
+<h6 id="job-to-stop-the-print-spooler-service">Job to stop the Print Spooler Service:</h6>
+<figure><a class="lightgallery" href="/hugo-loveit/saltstack-config-part-02/Salt-21.PNG" title="/hugo-loveit/saltstack-config-part-02/Salt-21.PNG" data-thumbnail="/hugo-loveit/saltstack-config-part-02/Salt-21.PNG" data-sub-html="<h2>Click to see Larger Image</h2>">
         <img
             class="lazyload"
             src="/hugo-loveit/svg/loading.min.svg"
-            data-src="images/post/Salt-21.PNG"
-            data-srcset="images/post/Salt-21.PNG, images/post/Salt-21.PNG 1.5x, images/post/Salt-21.PNG 2x"
+            data-src="/hugo-loveit/saltstack-config-part-02/Salt-21.PNG"
+            data-srcset="/hugo-loveit/saltstack-config-part-02/Salt-21.PNG, /hugo-loveit/saltstack-config-part-02/Salt-21.PNG 1.5x, /hugo-loveit/saltstack-config-part-02/Salt-21.PNG 2x"
             data-sizes="auto"
-            alt="images/post/Salt-21.PNG" />
-    </a>
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-21.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a></p>
+            alt="/hugo-loveit/saltstack-config-part-02/Salt-21.PNG" width="1311" height="752" />
+    </a><figcaption class="image-caption">Click to see Larger Image</figcaption>
+    </figure>
 <p>This job I am using a salt function service.stop. Pass the Service name as a argument.</p>
 <hr>
-<div><b>Job to stop the Print Spooler Service using a PowerShell Command:</b></div>
-<p><a class="lightgallery" href="images/post/Salt-22.PNG" title="images/post/Salt-22.PNG" data-thumbnail="images/post/Salt-22.PNG">
+<h6 id="job-to-stop-the-print-spooler-service-using-a-powershell-command">Job to stop the Print Spooler Service using a PowerShell Command:</h6>
+<figure><a class="lightgallery" href="/hugo-loveit/saltstack-config-part-02/Salt-22.PNG" title="/hugo-loveit/saltstack-config-part-02/Salt-22.PNG" data-thumbnail="/hugo-loveit/saltstack-config-part-02/Salt-22.PNG" data-sub-html="<h2>Click to see Larger Image</h2>">
         <img
             class="lazyload"
             src="/hugo-loveit/svg/loading.min.svg"
-            data-src="images/post/Salt-22.PNG"
-            data-srcset="images/post/Salt-22.PNG, images/post/Salt-22.PNG 1.5x, images/post/Salt-22.PNG 2x"
+            data-src="/hugo-loveit/saltstack-config-part-02/Salt-22.PNG"
+            data-srcset="/hugo-loveit/saltstack-config-part-02/Salt-22.PNG, /hugo-loveit/saltstack-config-part-02/Salt-22.PNG 1.5x, /hugo-loveit/saltstack-config-part-02/Salt-22.PNG 2x"
             data-sizes="auto"
-            alt="images/post/Salt-22.PNG" />
-    </a>
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-22.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a></p>
+            alt="/hugo-loveit/saltstack-config-part-02/Salt-22.PNG" width="1314" height="823" />
+    </a><figcaption class="image-caption">Click to see Larger Image</figcaption>
+    </figure>
 <p>This job I am using a salt function cmd.run. Pass the PowerShell code and type of cmd as arguments.</p>
 <hr>
-<div><b>Job to stop and disable the Print Spooler Service using a PowerShell script:</b></div>
-<p><a class="lightgallery" href="images/post/Salt-23.PNG" title="images/post/Salt-23.PNG" data-thumbnail="images/post/Salt-23.PNG">
+<h6 id="job-to-stop-and-disable-the-print-spooler-service-using-a-powershell-script">Job to stop and disable the Print Spooler Service using a PowerShell script:</h6>
+<figure><a class="lightgallery" href="/hugo-loveit/saltstack-config-part-02/Salt-23.PNG" title="/hugo-loveit/saltstack-config-part-02/Salt-23.PNG" data-thumbnail="/hugo-loveit/saltstack-config-part-02/Salt-23.PNG" data-sub-html="<h2>Click to see Larger Image</h2>">
         <img
             class="lazyload"
             src="/hugo-loveit/svg/loading.min.svg"
-            data-src="images/post/Salt-23.PNG"
-            data-srcset="images/post/Salt-23.PNG, images/post/Salt-23.PNG 1.5x, images/post/Salt-23.PNG 2x"
+            data-src="/hugo-loveit/saltstack-config-part-02/Salt-23.PNG"
+            data-srcset="/hugo-loveit/saltstack-config-part-02/Salt-23.PNG, /hugo-loveit/saltstack-config-part-02/Salt-23.PNG 1.5x, /hugo-loveit/saltstack-config-part-02/Salt-23.PNG 2x"
             data-sizes="auto"
-            alt="images/post/Salt-23.PNG" />
-    </a>
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-23.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a></p>
+            alt="/hugo-loveit/saltstack-config-part-02/Salt-23.PNG" width="1311" height="806" />
+    </a><figcaption class="image-caption">Click to see Larger Image</figcaption>
+    </figure>
 <p>This job I am using a salt function cmd.script. Pass the PowerShell script path and type of cmd as arguments.</p>
 <hr>
-<div><b>Job to copy a file to a minion:</b></div>
-<p><a class="lightgallery" href="images/post/Salt-24.PNG" title="images/post/Salt-24.PNG" data-thumbnail="images/post/Salt-24.PNG">
+<h6 id="job-to-copy-a-file-to-a-minion">Job to copy a file to a minion:</h6>
+<figure><a class="lightgallery" href="/hugo-loveit/saltstack-config-part-02/Salt-24.PNG" title="/hugo-loveit/saltstack-config-part-02/Salt-24.PNG" data-thumbnail="/hugo-loveit/saltstack-config-part-02/Salt-24.PNG" data-sub-html="<h2>Click to see Larger Image</h2>">
         <img
             class="lazyload"
             src="/hugo-loveit/svg/loading.min.svg"
-            data-src="images/post/Salt-24.PNG"
-            data-srcset="images/post/Salt-24.PNG, images/post/Salt-24.PNG 1.5x, images/post/Salt-24.PNG 2x"
+            data-src="/hugo-loveit/saltstack-config-part-02/Salt-24.PNG"
+            data-srcset="/hugo-loveit/saltstack-config-part-02/Salt-24.PNG, /hugo-loveit/saltstack-config-part-02/Salt-24.PNG 1.5x, /hugo-loveit/saltstack-config-part-02/Salt-24.PNG 2x"
             data-sizes="auto"
-            alt="images/post/Salt-24.PNG" />
-    </a>
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-24.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a></p>
+            alt="/hugo-loveit/saltstack-config-part-02/Salt-24.PNG" width="1311" height="797" />
+    </a><figcaption class="image-caption">Click to see Larger Image</figcaption>
+    </figure>
 <p>This job I am using a salt function cp.get_file. Pass the file source path and destination path as arguments.</p>
 <hr>
-<div><b>Job to reboot a minion:</b></div>
-<p><a class="lightgallery" href="images/post/Salt-25.PNG" title="images/post/Salt-25.PNG" data-thumbnail="images/post/Salt-25.PNG">
+<h6 id="job-to-reboot-a-minion">Job to reboot a minion:</h6>
+<figure><a class="lightgallery" href="/hugo-loveit/saltstack-config-part-02/Salt-25.PNG" title="/hugo-loveit/saltstack-config-part-02/Salt-25.PNG" data-thumbnail="/hugo-loveit/saltstack-config-part-02/Salt-25.PNG" data-sub-html="<h2>Click to see Larger Image</h2>">
         <img
             class="lazyload"
             src="/hugo-loveit/svg/loading.min.svg"
-            data-src="images/post/Salt-25.PNG"
-            data-srcset="images/post/Salt-25.PNG, images/post/Salt-25.PNG 1.5x, images/post/Salt-25.PNG 2x"
+            data-src="/hugo-loveit/saltstack-config-part-02/Salt-25.PNG"
+            data-srcset="/hugo-loveit/saltstack-config-part-02/Salt-25.PNG, /hugo-loveit/saltstack-config-part-02/Salt-25.PNG 1.5x, /hugo-loveit/saltstack-config-part-02/Salt-25.PNG 2x"
             data-sizes="auto"
-            alt="images/post/Salt-25.PNG" />
-    </a>
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-25.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a></p>
+            alt="/hugo-loveit/saltstack-config-part-02/Salt-25.PNG" width="1311" height="830" />
+    </a><figcaption class="image-caption">Click to see Larger Image</figcaption>
+    </figure>
 <p>This job I am using a salt function system.reboot. Pass the wait time to reboot and wait_for_reboot as arguments.</p>
 <hr>
 <p>If you noticed I have some jobs doing the same process but one is using a salt function and one is using a PowerShell command. I wanted to show you how your existing PowerShell skills as a Windows Server Admin can be used in SaltStack Config.  You don&rsquo;t need to re-learn everything.  Using PowerShell with a job is also very helpful when there is not a salt function to do what you need to accomplish. I have been trying to use the built-in salt functions whenever possible to get more familiar with the product.</p>
@@ -309,9 +353,35 @@ I have been able to spend more time with <b>VMware vRealize SaltStack Config</b>
 </ul>
 <div style="background-color:#ccffcc; Padding:20px;" >
 When I write about <b>vRealize Automation</b> ("vRA") I always say there are many ways to accomplish the same task.  <b>SaltStack Config</b> is the same way.  I am showing what I felt was important to see but every organization/environment will be different. There is no right or wrong way to use Salt. This is a <b>GREAT Tool</b> that is included with your vRealize Suite Advanced/Enterprise license. If you own the vRealize Suite, you own SaltStack Config.
-</div></div><div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
+</div></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2023-01-07</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/hugo-loveit/saltstack-config-part-02/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-02/" data-title="VMware vRealize SaltStack Config as a Windows Server Admin - Part 2" data-via="dalehassinger" data-hashtags="SaltStack Config,VMware Aria Automation,vRealize Automation,PowerShell,Windows Server,Configuration Management"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-02/" data-hashtag="SaltStack Config"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-02/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/hugo-loveit/tags/saltstack-config/">SaltStack Config</a>,&nbsp;<a href="/hugo-loveit/tags/vmware-aria-automation/">VMware Aria Automation</a>,&nbsp;<a href="/hugo-loveit/tags/vrealize-automation/">vRealize Automation</a>,&nbsp;<a href="/hugo-loveit/tags/powershell/">PowerShell</a>,&nbsp;<a href="/hugo-loveit/tags/windows-server/">Windows Server</a>,&nbsp;<a href="/hugo-loveit/tags/configuration-management/">Configuration Management</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/hugo-loveit/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/hugo-loveit/saltstack-config-part-01/" class="prev" rel="prev" title="VMware vRealize SaltStack Config as a Windows Server Admin - Part 1"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>VMware vRealize SaltStack Config as a Windows Server Admin - Part 1</a>
+            <a href="/hugo-loveit/vmworld-2021-mcl1895/" class="next" rel="next" title="VMworld 2021 - SaltStack Config Session">VMworld 2021 - SaltStack Config Session<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
-            </noscript></div></div></div>
+            </noscript></div></article></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line">Designed | Developed By vCROCS</div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/hugo-loveit/" target="_blank">| Dale Hassinger</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://www.vCROCS.info" target="_blank">www.vCROCS.info</a></span></div>
         </div>
@@ -322,5 +392,5 @@ When I write about <b>vRealize Automation</b> ("vRA") I always say there are man
             </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-        </div><script type="text/javascript" src="https://vcrocs.disqus.com/embed.js" defer></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"search":{"highlightTag":"em","lunrIndexURL":"/hugo-loveit/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/hugo-loveit/js/theme.min.js"></script></body>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://vcrocs.disqus.com/embed.js" defer></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/hugo-loveit/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/hugo-loveit/js/theme.min.js"></script></body>
 </html>

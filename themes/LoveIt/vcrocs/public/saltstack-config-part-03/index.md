@@ -1,24 +1,19 @@
 # VMware vRealize SaltStack Config as a Windows Server Admin - Part 3
 
 
-<div>
-  <b>Part 3: How to use SaltStack Config with Windows Server and PowerShell</b>
-</div>
-<div>
-  <br>
-</div>
+**Part 3: How to use SaltStack Config with Windows Server and PowerShell**
+
+<!--more-->
 
 ---
 
-<div>
 The next steps on my journey with **VMware vRealize SaltStack Config** as a **Windows Server Admin** will be beacons and reactors. Working with Jobs helped me understand how to make changes Ad-Hoc. I have a Job to quickly stop the Print Spooler but what if I always want the state of the Print Spooler Service to be stopped.  How do I NOT allow a Server Admin to login into the server and manually start the service?  
 
 This is where beacons and reactors work with minion configurations that you want to make permanent. This is the configuration Management Part of Salt Stack. To always make sure a Windows Service is stopped I created a beacon.conf file. On a Windows Server the Beacon.conf needs to be in the 'C:\salt\conf\minion.d\' folder. Anytime a beacon.conf file is added to a minion or modified the salt-minion service needs restarted. I have a salt Job to restart the salt-minion service.   
-</div>
 
 ###### Beacons:  
 
-<div><b>Beacon File: Sends events to the event bus on the salt master from a minion</b></div>
+###### Beacon File: Sends events to the event bus on the salt master from a minion
 
 This beacon.conf example is for service state changes. The Beacon sends an event to the salt master if a Windows Service is started/stopped.
 
@@ -46,7 +41,7 @@ salt/beacon/DBH-211/service/Spooler     {
 
 ###### Reactors:  
 
-<div><b>Reactor File: Monitors the event bus for events specified. IE: salt/beacon/*/service/Spooler</b></div>
+###### Reactor File: Monitors the event bus for events specified. IE: salt/beacon/*/service/Spooler
 
 {{< highlight powershell >}}
 reactor:
@@ -57,7 +52,7 @@ reactor:
 
 {{< /highlight >}}
 
-<div><b>How the beacons and reactors work together:</b></div>
+###### How the beacons and reactors work together:
 
 {{< highlight powershell >}}
 # What this line is doing in the reactor is watching for an beacon event from any minion
@@ -82,7 +77,7 @@ salt/beacon/DBH-211/service/Spooler
 
 ###### State File:  
 
-<div><b>State File: Stops the Spooler Service if it was started</b></div>
+###### State File: Stops the Spooler Service if it was started
 
 {{< highlight powershell >}}
 {% if data['Spooler']['running'] == true %}
@@ -94,7 +89,7 @@ stop_service:
 {% endif %}
 {{< /highlight >}}
 
-<div><b>State File: Starts the Spooler Service if it was stopped</b></div>
+###### State File: Starts the Spooler Service if it was stopped
 
 {{< highlight powershell >}}
 {% if data['Spooler']['running'] == False %}
@@ -113,14 +108,14 @@ start_service:
 To copy the beacon file to the minions I created a Job that I can manually run.
 
 ###### Job to copy a file to a minion:
-{{< image title="" w="" h="" o="webp q1" p="center" c="rounded" src="images/post/Salt-24.PNG" >}}
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-24.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a>
+
+{{< image src="Salt-24.PNG" caption="Click to see Larger Image">}}  
 
 After the beacon file is copied to the minion you MUST restart the minion service.
 
 ###### Job to restart minion service:
-{{< image title="" w="" h="" o="webp q1" p="center" c="rounded" src="images/post/Salt-28.PNG" >}}
-<a href="https://github.com/dalehassinger/geeky/raw/main/assets/images/post/Salt-28.PNG" target="_blank">Click Here to see Larger Image of Screen Shot</a>
+
+{{< image src="Salt-28.PNG" caption="Click to see Larger Image">}}  
 
 ---
 

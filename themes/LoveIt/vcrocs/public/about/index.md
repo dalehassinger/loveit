@@ -1,13 +1,11 @@
 # Dale Hassinger
 
 
-{{< image src="author.png" caption="">}}
+<center>{{< image src="author.png" caption="">}}</center>
 
-{{< admonition type=info title="about" open=true >}}
-* VMware TAM (Technical Account Manager)  
-* VMware vExpert 2020 - 2022  
-* VMware vExpert Cloud Management 2021 - 2022  
-{{< /admonition >}}
+>VMware TAM (Technical Account Manager)  
+>VMware vExpert 2020 - 2022  
+>VMware vExpert Cloud Management 2021 - 2022  
 
 >If you can script it, You can Automate it!  
 
@@ -81,6 +79,6 @@ The code that I have shared I use with vRealize Automation Cloud Templates/Catal
 {{< /admonition >}}
 
 {{< admonition type=info title="Info" open=true >}}
-I like to wear Crocs and I like VMware Products. So what better name than "vCrocs"  
+I like to wear Crocs and I like VMware Products. So what better name than "vCrocs for my Blog"  
 {{< /admonition >}}
 

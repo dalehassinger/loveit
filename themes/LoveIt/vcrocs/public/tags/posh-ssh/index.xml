@@ -23,10 +23,10 @@
 <item>
     <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 5</title>
     <link>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-05/</link>
-    <pubDate>Fri, 01 Oct 2021 00:00:00 -0500</pubDate>
-    <author>| Dale Hassinger</author>
+    <pubDate>Fri, 01 Oct 2021 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
     <guid>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-05/</guid>
-    <description><![CDATA[Part 5: How to use SaltStack Config with Windows Server and PowerShell The latest item on my journey with VMware vRealize SaltStack Config as a Windows Server Admin will be an update to some items that I have talked about in previous posts. I have been spending more time with VMware vRealize SaltStack Config and I have learned some better ways to do some of the processes that I have talked about already.]]></description>
+    <description><![CDATA[<p><strong>Part 5: How to use SaltStack Config with Windows Server and PowerShell</strong></p>]]></description>
 </item>
 </channel>
 </rss>

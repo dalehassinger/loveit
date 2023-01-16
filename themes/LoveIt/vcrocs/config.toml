@@ -18,7 +18,7 @@ languageName = "English"
 hasCJKLanguage = false
 
 # default amount of posts in each pages
-paginate = 5
+paginate = 10
 # google analytics code [UA-XXXXXXXX-X]
 googleAnalytics = ""
 # copyright description used only for seo schema
@@ -152,11 +152,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # Section (all posts) page config
   [params.section]
     # special amount of posts in each section page
-    paginate = 20
+    paginate = 50
     # date format (month and day)
     dateFormat = "01-02"
     # amount of RSS pages
-    rss = 10
+    rss = 50
 
   # List (category or tag) page config
   [params.list]
@@ -662,33 +662,33 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       [[languages.en.menu.main]]
         weight = 1
         identifier = "about"
-        pre = ""
+        pre = "<i class='fab fa-address-card fa-regular' aria-hidden='true'></i>"
         post = ""
-        name = "About"
+        name = " - About"
         url = "/about/"
         title = ""
       [[languages.en.menu.main]]
         weight = 2
         identifier = "posts"
-        pre = ""
+        pre = "<i class='fab fa-blog fa-solid' aria-hidden='true'></i>"
         post = ""
-        name = "Posts"
+        name = " - Posts"
         url = "/posts/"
         title = ""
       [[languages.en.menu.main]]
         weight = 3
         identifier = "tags"
-        pre = ""
+        pre = "<i class='fab fa-tag fa-solid' aria-hidden='true'></i>"
         post = ""
-        name = "Tags"
+        name = " - Tags"
         url = "/tags/"
         title = ""
       [[languages.en.menu.main]]
         weight = 4
         identifier = "categories"
-        pre = ""
+        pre = "<i class='fab fa-pen-to-square fa-solid' aria-hidden='true'></i>"
         post = ""
-        name = "Categories"
+        name = " - Categories"
         url = "/categories/"
         title = ""
       [[languages.en.menu.main]]
@@ -696,7 +696,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         identifier = "links"
         pre = "<i class='fab fa-bookmark fa-regular' aria-hidden='true'></i>"
         post = ""
-        name = ""
+        name = " - Links"
         url = "/links/"
         title = ""
       [[languages.en.menu.main]]
@@ -704,7 +704,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         identifier = "Pics"
         pre = "<i class='fab fa-image fa-regular' aria-hidden='true'></i>"
         post = ""
-        name = ""
+        name = " - Pics"
         url = "/pics/"
         title = ""
       #[[languages.en.menu.main]]
@@ -720,7 +720,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         identifier = "twitter"
         pre = "<i class='fab fa-twitter fa-fw' aria-hidden='true'></i>"
         post = ""
-        name = ""
+        name = " - Twitter"
         url = "https://twitter.com/dalehassinger"
         title = "Twitter"
     [languages.en.params]

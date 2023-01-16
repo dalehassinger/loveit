@@ -10,7 +10,7 @@
 >If you can script it, You can Automate it!  
 
 {{< image src="vexpert-2022.png" caption="">}}
-{{< image src="vexpert-2022-3-stars.png" caption="" >}}
+{{< image src="vexpert-2023-4-stars.png" caption="" >}}
 {{< image src="vexpert-cloud-management.png" caption="" >}}
 
 {{< admonition type=info title="Info" open=true >}}

@@ -45,6 +45,14 @@
     <description><![CDATA[<p><strong>Get-Review 2021</strong></p>]]></description>
 </item>
 <item>
+    <title>NSX-T security Tags and PowerShell</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/powershell-nsx-t/</link>
+    <pubDate>Fri, 31 Dec 2021 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/powershell-nsx-t/</guid>
+    <description><![CDATA[<p><strong>How to work with NSX-T security Tags using PowerShell</strong></p>]]></description>
+</item>
+<item>
     <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 6</title>
     <link>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-06/</link>
     <pubDate>Sat, 09 Oct 2021 00:00:00 &#43;0000</pubDate>
@@ -75,14 +83,6 @@
     <author>Dale Hassinger</author>
     <guid>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-04/</guid>
     <description><![CDATA[<p><strong>Part 4: How to use SaltStack Config with Windows Server and PowerShell</strong></p>]]></description>
-</item>
-<item>
-    <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 3</title>
-    <link>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-03/</link>
-    <pubDate>Fri, 27 Aug 2021 00:00:00 &#43;0000</pubDate>
-    <author>Dale Hassinger</author>
-    <guid>https://dalehassinger.github.io/hugo-loveit/saltstack-config-part-03/</guid>
-    <description><![CDATA[<p><strong>Part 3: How to use SaltStack Config with Windows Server and PowerShell</strong></p>]]></description>
 </item>
 </channel>
 </rss>

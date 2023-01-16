@@ -13,6 +13,14 @@
     <description><![CDATA[<p><strong>Get-Review 2021</strong></p>]]></description>
 </item>
 <item>
+    <title>NSX-T security Tags and PowerShell</title>
+    <link>https://dalehassinger.github.io/hugo-loveit/powershell-nsx-t/</link>
+    <pubDate>Fri, 31 Dec 2021 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>https://dalehassinger.github.io/hugo-loveit/powershell-nsx-t/</guid>
+    <description><![CDATA[<p><strong>How to work with NSX-T security Tags using PowerShell</strong></p>]]></description>
+</item>
+<item>
     <title>SaltConf 2021 | SaltStack Config Session</title>
     <link>https://dalehassinger.github.io/hugo-loveit/saltconf-2021/</link>
     <pubDate>Sat, 02 Oct 2021 00:00:00 &#43;0000</pubDate>

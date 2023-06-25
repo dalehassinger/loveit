@@ -1,4 +1,4 @@
-baseURL = "https://dalehassinger.github.io/hugo-loveit/"
+baseURL = "https://www.vcrocs.info/"
 
 # theme
 theme = "LoveIt"
@@ -20,7 +20,7 @@ hasCJKLanguage = false
 # default amount of posts in each pages
 paginate = 10
 # google analytics code [UA-XXXXXXXX-X]
-googleAnalytics = ""
+googleAnalytics = "307687227"
 # copyright description used only for seo schema
 copyright = ""
 
@@ -172,7 +172,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # optional site title override for the app when added to an iOS home screen or Android launcher
     title = "vCROCS"
     # whether to omit favicon resource links
-    noFavicon = false
+    noFavicon = true
     # modern SVG favicon to use in place of older style .png and .ico files
     svgFavicon = ""
     # Android browser theme color
@@ -536,12 +536,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   # Analytics config
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "UA-166234216-1"
+      #id = "G-307687227"
       # whether to anonymize IP
-      anonymizeIP = true
+      anonymizeIP = false
     # Fathom Analytics
     [params.analytics.fathom]
       id = ""
@@ -623,7 +624,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 # Privacy config (https://gohugo.io/about/hugo-and-gdpr/)
 [privacy]
   # privacy of the Google Analytics (replaced by params.analytics.google)
-  # Google Analytics 相关隐私 (被 params.analytics.google 替代)
   [privacy.googleAnalytics]
     # ...
   [privacy.twitter]
@@ -662,33 +662,37 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       [[languages.en.menu.main]]
         weight = 1
         identifier = "about"
-        pre = "<i class='fab fa-address-card fa-regular' aria-hidden='true'></i>"
+        #pre = "<i class='fab fa-address-card fa-regular' aria-hidden='true'></i>"
+        pre = ""
         post = ""
-        name = " - About"
+        name = "About"
         url = "/about/"
         title = ""
       [[languages.en.menu.main]]
         weight = 2
         identifier = "posts"
-        pre = "<i class='fab fa-blog fa-solid' aria-hidden='true'></i>"
+        #pre = "<i class='fab fa-blog fa-solid' aria-hidden='true'></i>"
+        pre = ""
         post = ""
-        name = " - Posts"
+        name = "Posts"
         url = "/posts/"
         title = ""
       [[languages.en.menu.main]]
         weight = 3
         identifier = "tags"
-        pre = "<i class='fab fa-tag fa-solid' aria-hidden='true'></i>"
+        #pre = "<i class='fab fa-tag fa-solid' aria-hidden='true'></i>"
+        pre = ""
         post = ""
-        name = " - Tags"
+        name = "Tags"
         url = "/tags/"
         title = ""
       [[languages.en.menu.main]]
         weight = 4
         identifier = "categories"
-        pre = "<i class='fab fa-pen-to-square fa-solid' aria-hidden='true'></i>"
+        #pre = "<i class='fab fa-pen-to-square fa-solid' aria-hidden='true'></i>"
+        pre = ""
         post = ""
-        name = " - Categories"
+        name = "Categories"
         url = "/categories/"
         title = ""
       [[languages.en.menu.main]]
@@ -743,13 +747,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           enable = true
           gravatarEmail = ""
           avatarURL = "/images/avatar.png"
-          title = "Automation | Monitoring | Logging"
+          title = "Automation | Monitoring | Logging | Configuration Management"
           subtitle = 'salt "*" read.blog'
           typeit = true
           social = true
-          disclaimer = "VMware Aria | vRealize | PowerCLI | PowerShell | more..."
+          disclaimer = "VMware Aria | PowerShell | PowerCLI | Salt | more..."
       [languages.en.params.social]
-        GitHub = "dalehassinger"
+        GitHub = "dalehassinger/unlocking-the-potential"
         Twitter = "dalehassinger"
         Linkedin = "dale-hassinger-5712301b"
         #Instagram = "xxxx"

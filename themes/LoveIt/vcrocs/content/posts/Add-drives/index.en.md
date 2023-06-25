@@ -12,7 +12,7 @@ resources:
 - name: "featured-image"
   src: "featured-image.png"
 
-tags: ["PowerShell", "PowerCLI", "Add Disk"]
+tags: ["PowerShell", "PowerCLI", "Add Disk", "Windows Server"]
 categories: ["PowerCLI"]
 
 lightgallery: true

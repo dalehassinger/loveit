@@ -28,7 +28,7 @@ If you have any APPs that you like better than I have listed please send them my
 
 ---
 
-## 1 Recent APPs
+###### Recent APPs
 
 **Here are some APPs that I started using recently to be productive:**  
 
@@ -40,7 +40,7 @@ If you have any APPs that you like better than I have listed please send them my
 
 ---
 
-## 2 Proven APPs
+###### Proven APPs
 
 **Here are some APPs that I have been using Daily for work or Blogging for awhile. They have proven their place in my workflows:**
 

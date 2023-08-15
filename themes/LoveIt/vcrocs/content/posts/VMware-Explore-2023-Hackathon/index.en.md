@@ -1,8 +1,8 @@
 ---
 weight: 1
 title: "VMware Explore 2023 | Hackathon"
-date: 2023-07-07T00:00:00+00:00
-lastmod: 2023-07-07T00:00:00+00:00
+date: 2023-08-15T00:00:00+00:00
+lastmod: 2023-08-15T00:00:00+00:00
 draft: false
 author: "Dale Hassinger"
 authorLink: "https://twitter.com/dalehassinger"
@@ -63,3 +63,22 @@ This is an AWESOME Team! I think it is great how we will be able to work togethe
 ###### Update 07/07/2023:
 Come back often to check for updates on how the "Hacking" is proceeding!
 
+---
+
+###### Update 08/15/2023:
+
+The "Well-Spoken" Team:  
+
+The Team is almost ready. We are looking forward to doing our presentation to the Hackathon Judges.
+
+{{< image src="well-spoken-hackathon-logo.jpeg" caption="Click to see Larger Image of Screen Shot">}}  
+
+{{< image src="hackathon-team-01.png" caption="Click to see Larger Image of Screen Shot">}}  
+
+{{< image src="hackathon-team-02.png" caption="Click to see Larger Image of Screen Shot">}}  
+
+---
+
+Here is a Sneak Peak at what we are working on. We will make it easier for anyone to get started with Automation.
+
+{{< image src="sneak-peak.png" caption="Click to see Larger Image of Screen Shot">}}  

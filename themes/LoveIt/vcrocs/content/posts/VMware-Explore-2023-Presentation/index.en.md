@@ -1,8 +1,8 @@
 ---
 weight: 1
 title: "VMware Explore 2023 - Presentation"
-date: 2023-06-17T00:00:00+00:00
-lastmod: 2023-06-17T00:00:00+00:00
+date: 2023-08-18T00:00:00+00:00
+lastmod: 2023-08-18T00:00:00+00:00
 draft: false
 author: "Dale Hassinger"
 authorLink: "https://twitter.com/dalehassinger"
@@ -66,3 +66,11 @@ VMware Explore Conference: 08/21/2023-08/24/2023
 <a href="https://event.vmware.com/flow/vmware/explore2023lv/content/page/catalog" target="_blank">VMware Explore 2023 | Content Catalog</a>
 
 ---
+###### Source Code:  
+
+All the code from my Presentation is in my GitHub Repository. 
+
+Here is the link:  
+* [vCROCS | GitHub Repository](https://github.com/dalehassinger/unlocking-the-potential)  
+
+

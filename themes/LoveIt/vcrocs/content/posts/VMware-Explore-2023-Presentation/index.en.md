@@ -1,6 +1,6 @@
 ---
 weight: 1
-title: "VMware Explore 2023 - Presentation"
+title: "VMware Explore 2023 | Presentation"
 date: 2023-08-18T00:00:00+00:00
 lastmod: 2023-08-25T00:00:00+00:00
 draft: false

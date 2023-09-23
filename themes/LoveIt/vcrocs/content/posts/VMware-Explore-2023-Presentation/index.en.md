@@ -2,7 +2,7 @@
 weight: 1
 title: "VMware Explore 2023 | Presentation"
 date: 2023-08-18T00:00:00+00:00
-lastmod: 2023-08-25T00:00:00+00:00
+lastmod: 2023-09-23T00:00:00+00:00
 draft: false
 author: "Dale Hassinger"
 authorLink: "https://twitter.com/dalehassinger"
@@ -83,6 +83,14 @@ Here is the link:
 ---
 
 {{< image src="presenting-02.jpg" caption="Click to see Larger Image of Screen Shot">}}  
+
+---
+
+###### Video of the Presentation at VMware Explore 2023.
+
+---
+
+{{< youtube k_BLvRb2SI4 >}}
 
 ---
 

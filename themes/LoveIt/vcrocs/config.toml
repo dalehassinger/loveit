@@ -21,7 +21,7 @@ hasCJKLanguage = false
 paginate = 10
 # google analytics code [UA-XXXXXXXX-X]
 #googleAnalytics = "307687227"
-googleAnalytics = "G-307687227"
+googleAnalytics = "G-KSLC6FHF36"
 # copyright description used only for seo schema
 copyright = ""
 
@@ -541,7 +541,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # Google Analytics
     [params.analytics.google]
       #id = "UA-166234216-1"
-      id = "G-307687227"
+      id = "G-KSLC6FHF36"
       # whether to anonymize IP
       anonymizeIP = false
     # Fathom Analytics

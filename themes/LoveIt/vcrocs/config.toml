@@ -94,6 +94,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       name = "Categories"
       url = "/categories/"
       title = ""
+    [[menu.main]]
+      weight = 6
+      identifier = "disclaimer"
+      pre = ""
+      post = ""
+      name = "Disclaimer"
+      url = "/disclaimer/"
+      title = ""
 
 [params]
   # site default theme ["auto", "light", "dark"]
@@ -712,14 +720,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         name = " - Pics"
         url = "/pics/"
         title = ""
-      #[[languages.en.menu.main]]
-      #  weight = 4
-      #  identifier = "documentation"
-      #  pre = ""
-      #  post = ""
-      #  name = "Docs"
-      #  url = "/categories/documentation/"
-      #  title = ""
       [[languages.en.menu.main]]
         weight = 7
         identifier = "twitter"
@@ -728,6 +728,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         name = " - Twitter"
         url = "https://twitter.com/dalehassinger"
         title = "Twitter"
+      [[languages.en.menu.main]]
+        weight = 8
+        identifier = "disclaimer"
+        pre = ""
+        post = ""
+        name = "Disclaimer"
+        url = "/disclaimer/"
+        title = ""
     [languages.en.params]
       [languages.en.params.search]
         enable = true

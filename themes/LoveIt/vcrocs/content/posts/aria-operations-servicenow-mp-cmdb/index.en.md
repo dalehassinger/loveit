@@ -14,7 +14,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["VMware", "VMware Aria Operations", "Management Pack", "PowerShell", "Servicenow"]
-categories: ["Monitoring"]
+categories: ["VMware Aria Operations"]
 
 lightgallery: true
 

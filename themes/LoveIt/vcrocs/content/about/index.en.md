@@ -8,22 +8,18 @@ description: ""
 lightgallery: true
 ---
 
-<center>{{< image src="author.png" caption="">}}</center>  
+<center>{{< image src="author-02.gif" caption="">}}</center>  
 
->  
-><center>{{< image src="vmware-by-broadcom-logo.png" caption="">}}</center>  
-><center><b>&nbsp;</b></center>  
-><center><b>VMware By <span style="color: Black;">Broadcom</span> | VMware Aria Suite Solution Architect</b></center>  
-><center><b>&nbsp;</b></center>  
-><center><b>VMware vExpert 2020 - Present</b></center>  
-><center><b>VMware vExpert Cloud Management 2021 - Present</b></center>  
-><center><b>&nbsp;</b></center>  
-><center><b>If you can script it, You can Automate it!</b></center>  
->  
+<center>{{< image src="vcrocs.gif" caption="">}}</center>  
 
-<center>{{< image src="vexpert-2023.png" caption="">}}</center>  
-<center>{{< image src="vexpert-2023-4-stars.png" caption="" >}}</center>  
-<center>{{< image src="vexpert-cloud-management.png" caption="" >}}</center>  
+<!--  
+#### vCF Specialist SE | VMware Aria Suite  
+###### VMware vExpert 2020 - Present  
+###### VMware vExpert Cloud Management 2021 - Present  
+###### If you can script it, You can Automate it!  
+-->
+
+<center>{{< image src="vexpert-23.gif" caption="">}}</center>  
 
 {{< admonition type=info title="Info" open=true >}}
 The views and opinions expressed on this blog are strictly my own and do not reflect the views and opinions of my employer. I Blog about Subjects and Products that I find interesting and will hopefully help someone get started on their Automation, Monitoring and Logging journey by providing some tips | tricks | processes | code needed.  

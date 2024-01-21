@@ -757,10 +757,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           gravatarEmail = ""
           avatarURL = "/images/avatar.png"
           title = "Automation | Monitoring | Logging | Configuration Management"
-          subtitle = 'salt "*" read.blog'
+          #subtitle = 'salt "*" read.blog'
+          subtitle = 'Blogs | Videos | Screen Shots | Source Code | included...'
           typeit = true
           social = true
-          disclaimer = "VMware Aria | PowerShell | PowerCLI | Salt | more..."
+          disclaimer = "vCF | Aria | PowerShell | PowerCLI | Dashboards | Alerts | Templates | more..."
       [languages.en.params.social]
         GitHub = "dalehassinger/unlocking-the-potential"
         Twitter = "dalehassinger"

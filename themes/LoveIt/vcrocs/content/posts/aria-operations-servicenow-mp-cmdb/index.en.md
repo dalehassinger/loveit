@@ -3,7 +3,7 @@
 weight: 1
 title: "VMware Aria Operations | Servicenow | Management Pack"
 date: 2023-12-22T00:00:00+00:00
-lastmod: 2023-12-22T00:00:00+00:00
+lastmod: 2024-02-09T00:00:00+00:00
 draft: false
 author: "Dale Hassinger"
 authorLink: "https://twitter.com/dalehassinger"
@@ -23,6 +23,12 @@ lightgallery: true
 **How to use the VMware Aria Operations | Servicenow | Management Pack to add information to the Servicenow CMDB**
 
 <!--more-->
+
+---
+
+###### Blog Update:  
+
+I presented the content from this Blog at a **TECH BYTES** session on February 9th, 2024. 150 people registered for the webinar and there was a lot of interest with the ServiceNow Management Pack (MP). We received good feedback from the attendees on the capabilities of the MP.  
 
 ---
 

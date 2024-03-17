@@ -761,7 +761,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           subtitle = 'Blogs | Videos | Screen Shots | Source Code | included...'
           typeit = true
           social = true
-          disclaimer = "vCF | Aria | PowerShell | PowerCLI | Dashboards | Alerts | Templates | more..."
+          disclaimer = "VCF | Aria | PowerShell | PowerCLI | Dashboards | Alerts | Templates | more..."
       [languages.en.params.social]
         GitHub = "dalehassinger/unlocking-the-potential"
         Twitter = "dalehassinger"

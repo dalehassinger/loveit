@@ -30,12 +30,11 @@ I want to thank Senior Staff TAM, [Ariel Sanchez](https://twitter.com/arielsanch
 
 ###### Team Members:  
 
-All Team Members work at VMware.  
-
 [Tina Krogull](https://www.linkedin.com/in/tinakrogull/) | Senior Technical Adoption Manager | Germany  
 [Wes Milliron](https://www.linkedin.com/in/wesmilliron/) | Technical Adoption Manager | Pennsylvania  
 [Viviana Miranda](https://www.linkedin.com/in/viviana-miranda-cubero/) | Senior Technical Marketing Architect | Costa Rica  
 [Madison Welsch](https://www.linkedin.com/in/madisonwelsch/) | Technical Adoption Manager | Ohio  
+[Edgar Sanchez](https://www.linkedin.com/in/edgar-sanchez-90439920/) | Systems Engineer II-VR/Windows at UMB | Alabama  
 [Dale Hassinger](https://www.linkedin.com/in/dale-hassinger-5712301b/) | Technical Adoption Manager | Pennsylvania  
 
 This is an AWESOME Team! I think it is great how we will be able to work together as an International Team. There is a lot of great experience and backgrounds on this Team.
@@ -111,8 +110,6 @@ It would have been nice if the Whole Hackathon Team would have been able to atte
 
 ---
 
-* If you like wearing Crocs and want to get a pair like I wear, follow this link to Amazon:
-<a target="_blank" href="https://www.amazon.com/dp/B001V7Z27W?psc=1&amp;ref=ppx_yo2ov_dt_b_product_details&_encoding=UTF8&tag=vcrocs-20&linkCode=ur2&linkId=fa4c787c9ab59a9b8a54b48c402b8517&camp=1789&creative=9325">My Favorite Crocs</a>  
 * If you found this Blog article useful and it helped you, Buy me a coffee to start my day.  
 
 <center>

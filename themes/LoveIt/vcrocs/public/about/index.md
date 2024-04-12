@@ -1,22 +1,21 @@
 # About
 
 
-<center>{{< image src="author.png" caption="">}}</center>
+<center>{{< image src="author-02.gif" caption="">}}</center>  
 
-><center>{{< image src="vmware-by-broadcom-logo.png" caption="">}}</center>  
+<center>{{< image src="vcrocs.gif" caption="">}}</center>  
 
-><center>VMware By <span style="color: Black;">Broadcom</span> | VMware Aria Suite Solution Architect</center>  
-><center>VMware vExpert 2020 - Present</center>  
-><center>VMware vExpert Cloud Management 2021 - Present</center>  
+<!--  
+#### vCF Specialist SE | VMware Aria Suite  
+###### VMware vExpert 2020 - Present  
+###### VMware vExpert Cloud Management 2021 - Present  
+###### If you can script it, You can Automate it!  
+-->
 
-><center>If you can script it, You can Automate it!</center>  
-
-{{< image src="vexpert-2023.png" caption="">}}
-{{< image src="vexpert-2023-4-stars.png" caption="" >}}
-{{< image src="vexpert-cloud-management.png" caption="" >}}
+<center>{{< image src="vexpert-24.gif" caption="">}}</center>  
 
 {{< admonition type=info title="Info" open=true >}}
-The views and opinions expressed on this blog are my strictly my own and do not reflect the views and opinions of my employer. I Blog about Subjects and Products that I find interesting and will hopefully help someone get started on their Automation, Monitoring and Logging journey by providing some tips | tricks | processes | code needed.  
+The views and opinions expressed on this blog are strictly my own and do not reflect the views and opinions of my employer. I Blog about Subjects and Products that I find interesting and will hopefully help someone get started on their Automation, Monitoring and Logging journey by providing some tips | tricks | processes | code needed.  
 {{< /admonition >}}
 
 ---
@@ -28,7 +27,7 @@ The views and opinions expressed on this blog are my strictly my own and do not 
 * I have also done Automation with Azure. I am using PowerShell to create VMs and SaltStack Config to complete the configuration management, install software and maintain state.  
 
 >  
-><center>Your thought process is the most powerful automation tool you’ll ever have! - Cody De Arkland</center>  
+><center><b>"Your thought process is the most powerful automation tool you’ll ever have!" - Cody De Arkland</b></center>  
 >  
 
 {{< admonition type=success title="vCommunity" open=true >}}
@@ -38,22 +37,24 @@ The views and opinions expressed on this blog are my strictly my own and do not 
 
 {{< /admonition >}}
 
-><center>“It doesn’t make sense to hire smart people and then tell them what to do, We hire smart people so they can tell us what to do.” - Steve Jobs</center>  
+><center><b>“It doesn’t make sense to hire smart people and then tell them what to do, We hire smart people so they can tell us what to do.” - Steve Jobs</b></center>  
 
 {{< admonition type=success title="Thanks!" open=true >}}
-* The Cloud Solution Architects team I am currently a part of is highly rated and renowned for its innovation and expertise. Over the past few years, several members of this team have become role models for me. I anticipate gaining significant knowledge from their expertise and, in turn, give back to the team.  
+* The **Cloud Solution Architects** team I am currently a part of is highly rated and renowned for its innovation and expertise. Over the past few years, several members of this team have become role models for me. I anticipate gaining significant knowledge from their expertise and, in turn, give back to the team.  
 
-* I have worked with a great group of people at VMware, past and present. I would like to thank the following people for all their support in no particular order: Steve Leiberson, Marshall Cline, Brock Peterson, Christopher Kusek, Ariel Sanchez, Karl Hauck, Cosmin Trif,  Daniel Thomas, Marcus Roberts, Paul Schlosser, Eric Pennente, Kevin Holland and others.  
+* I have worked with a great group of people at VMware, past and present. I would like to thank the following people for all their support in no particular order: Steve Leiberson, Marshall Cline, Brock Peterson, Christopher Kusek, Ariel Sanchez, Karl Hauck, Cosmin Trif, Tom Szabo, Daniel Thomas, Marcus Roberts, Ken Jordan, Eric Pennente, Kevin Holland and others.  
 
-* Special Thanks to David Kruse for getting me started with vRA.  
+* **Special Thanks** to David Kruse for getting me started with vRA.  
 
-* Special Thanks to Vincent Riccio for allowing me to do SaltStack Config Presentations with you at VMworld 21 and SaltConf 21.  
+* **Special Thanks** to Vincent Riccio for allowing me to do SaltStack Config Presentations with you at VMworld 21 and SaltConf 21.  
 
-* Special Thanks to my first manager at VMware: Alex Musicante. You believed in me and my passion/skills/knowledge of the VMware Products. You gave me a career opportunity that no one else did.  
+* **Special Thanks** to my first manager at VMware: Alex Musicante. You believed in me and my passion/skills/knowledge of the VMware Products. You gave me a career opportunity that no one else did.  
 
-* Special Thanks to some past and present co-workers, SEs, TAMs, HVC Members that I learned a lot from: Robert Mitchell, Dan Grove, Steve Holmes, Steve Pittenger, Anton Wesztergom (Opened my eyes to vRA Day 2), Ryan Palmer, Megan Koss, Josh Demcher, Kirk Shaffer.  
+* **Special Thanks** to some past and present co-workers, SEs, TAMs, HVC Members that I learned a lot from: Robert Mitchell, Dan Grove, Steve Holmes, Steve Pittenger, Anton Wesztergom (Opened my eyes to vRA Day 2), Ryan Palmer, Megan Koss, Josh Demcher, IIona Sirotinin.
 
-* Special Thanks to the person that gave me my first Job in IT: David Cornelius  
+* **Special Thanks** to my VMware Explore 2023 Hackathon Team, Madison Welsch, Wes Milliron, Tina Krogull, Viviana Miranda, and Edgar Sanchez.
+
+* **Special Thanks** to the person that gave me my first Job in IT: David Cornelius  
 
 * List of Bloggers that I follow and have learned a lot by them “Giving Back”: Cody De Arkland, Luc Dekens, Kyle Ruddy, William Lam, Nathen Bennett, Vince Wood, Alan Renouf.  
 
@@ -84,42 +85,44 @@ The views and opinions expressed on this blog are my strictly my own and do not 
 
 {{< /admonition >}}
 
-><center>"9 - 5 pays the bills, 5 - 10 advances your career" - Author Unknown</center>  
+><center><b>"9 - 5 pays the bills, 5 - 10 advances your career" - Author Unknown</b></center>  
 
 {{< admonition type=success title="vCommunity Activities" open=true >}}
-* VMware vExpert | 2020 - Present  
+* **VMware vExpert** | 2020 - Present  
 
-* VMware vExpert - Cloud Management | 2021 - Present  
+* **VMware vExpert - Cloud Management** | 2021 - Present  
 
-* VMware Explore 2023 Presentation | Use VMware Aria to Create/Manage/Monitor Windows Servers (on-prem/cloud) [CODE2501LV]  
+* **VMware Explore 2023 Presentation** | Use VMware Aria to Create/Manage/Monitor Windows Servers (on-prem/cloud) [CODE2501LV]  
 
-* Hackathon Team Captain (Finished in 2nd Place) | VMware Explore 2023  
+* **Hackathon Team Captain** (Finished in 2nd Place) | VMware Explore 2023  
 
-* SaltConf Session - 2021 | Managing Windows with SaltStack Config  
+* **SaltConf Session - 2021** | Managing Windows with SaltStack Config  
 
-* VMworld Session - 2021 | Manage Windows Workloads Through vRealize Automation SaltStack Config [MCL1895]  
+* **VMworld Session - 2021** | Manage Windows Workloads Through vRealize Automation SaltStack Config [MCL1895]  
 
-* Philly VMUG - 2023 | VMware Aria Automation and Operations  
+* **TECH BYTES - 2024** | VMware Aria Operations with ServiceNow Management Pack (MP) | How to keep your ServiceNow CMDB up to date  
 
-* Central PA VMUG - 2022 | VMware Explore 2022  
+* **Philly VMUG - 2023** | VMware Aria Automation and Operations  
 
-* VMware PowerBlock - 2021 | Customer Showcase - VM Right Sizing  
+* **Central PA VMUG - 2022** | VMware Explore 2022  
 
-* VMware PowerBlock- 2020 | vRealize Operations, your monitoring “Single Pane of Glass  
+* **VMware PowerBlock - 2021** | Customer Showcase - VM Right Sizing  
 
-* vBrownbag session for VMworld - 2020 | vRealize Operations, your monitoring “Single Pane of Glass  
+* **VMware PowerBlock - 2020** | vRealize Operations, your monitoring “Single Pane of Glass  
+
+* **vBrownbag session for VMworld - 2020** | vRealize Operations, your monitoring “Single Pane of Glass  
 
 {{< /admonition >}}
 
 {{< admonition type=info title="Info" open=true >}}
-I like to wear Crocs and I like VMware Products. So what better name than www.vCROCS.info for my Blog  
+* I like to wear Crocs and I like VMware Products. So what better name than www.vCROCS.info for my Blog  
 {{< /admonition >}}
 
 ---
 
-* If you like wearing Crocs and want to get a pair like I wear, follow this link to Amazon:
-<a target="_blank" href="https://www.amazon.com/dp/B001V7Z27W?psc=1&amp;ref=ppx_yo2ov_dt_b_product_details&_encoding=UTF8&tag=vcrocs-20&linkCode=ur2&linkId=fa4c787c9ab59a9b8a54b48c402b8517&camp=1789&creative=9325">My Favorite Crocs</a>  
-* If you found this Blog article useful and it helped you, Buy me a coffee to start my day.  
+<center><b>If you found this Blog article useful and it helped you, Buy me a coffee to start my day.</b></center>  
+
+---
 
 <center>
 <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="dalehassinger" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>

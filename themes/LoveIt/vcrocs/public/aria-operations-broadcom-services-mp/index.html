@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=51887&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>VMware Aria Operations | Broadcom Services | Management Pack - vCROCS</title><meta name="Description" content="Enterprise Automation, Monitoring and Logging. Plus more..."><meta property="og:title" content="VMware Aria Operations | Broadcom Services | Management Pack" />
+<meta property="og:description" content="How to use the VMware Aria Operations Management Pack Builder for Day 2 monitoring" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:51887/aria-operations-broadcom-services-mp/" /><meta property="og:image" content="http://localhost:51887/aria-operations-broadcom-services-mp/featured-image.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-04-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-04-01T00:00:00+00:00" /><meta property="og:site_name" content="vCROCS" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://localhost:51887/aria-operations-broadcom-services-mp/featured-image.png" /><meta name="twitter:title" content="VMware Aria Operations | Broadcom Services | Management Pack"/>
+<meta name="twitter:description" content="How to use the VMware Aria Operations Management Pack Builder for Day 2 monitoring"/>
+      <meta name="twitter:site" content="@dalehassinger"/>
+<meta name="application-name" content="vCROCS">
+<meta name="apple-mobile-web-app-title" content="vCROCS"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="canonical" href="http://localhost:51887/aria-operations-broadcom-services-mp/" /><link rel="prev" href="http://localhost:51887/aria-automation-messages-updates/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "VMware Aria Operations | Broadcom Services | Management Pack",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:51887\/aria-operations-broadcom-services-mp\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "http:\/\/localhost:51887\/aria-operations-broadcom-services-mp\/featured-image.png",
+                            "width":  1420 ,
+                            "height":  708 
+                        }],"genre": "posts","keywords": "VMware, VMware Aria Operations, Management Pack, Broadcom Services, Management Pack Builder","wordcount":  859 ,
+        "url": "http:\/\/localhost:51887\/aria-operations-broadcom-services-mp\/","datePublished": "2024-04-01T00:00:00+00:00","dateModified": "2024-04-01T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": {
+                    "@type": "ImageObject",
+                    "url": "http:\/\/localhost:51887\/images\/avatar.png",
+                    "width":  528 ,
+                    "height":  560 
+                }},"author": {
+                "@type": "Person",
+                "name": "Dale Hassinger"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7670183691519835" crossorigin="anonymous"></script>
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="vCROCS"><span class="header-title-pre"><i class='far fa-house fa-solid'></i></span>vCROCS</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/links/"><i class='fab fa-bookmark fa-regular' aria-hidden='true'></i>  - Links </a><a class="menu-item" href="/pics/"><i class='fab fa-image fa-regular' aria-hidden='true'></i>  - Pics </a><a class="menu-item" href="https://twitter.com/dalehassinger" title="Twitter" rel="noopener noreffer" target="_blank"><i class='fab fa-twitter fa-fw' aria-hidden='true'></i>  - Twitter </a><a class="menu-item" href="/disclaimer/"> Disclaimer </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7670183691519835" crossorigin="anonymous"></script>
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="vCROCS"><span class="header-title-pre"><i class='far fa-house fa-solid'></i></span>vCROCS</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/links/" title=""><i class='fab fa-bookmark fa-regular' aria-hidden='true'></i> - Links</a><a class="menu-item" href="/pics/" title=""><i class='fab fa-image fa-regular' aria-hidden='true'></i> - Pics</a><a class="menu-item" href="https://twitter.com/dalehassinger" title="Twitter" rel="noopener noreffer" target="_blank"><i class='fab fa-twitter fa-fw' aria-hidden='true'></i> - Twitter</a><a class="menu-item" href="/disclaimer/" title="">Disclaimer</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">VMware Aria Operations | Broadcom Services | Management Pack</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://twitter.com/dalehassinger" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Dale Hassinger</a></span>&nbsp;<span class="post-category">included in <a href="/categories/vmware-aria-operations/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>VMware Aria Operations</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-04-01">2024-04-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;859 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;5 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/aria-operations-broadcom-services-mp/featured-image.png"
+        data-srcset="/aria-operations-broadcom-services-mp/featured-image.png, /aria-operations-broadcom-services-mp/featured-image.png 1.5x, /aria-operations-broadcom-services-mp/featured-image.png 2x"
+        data-sizes="auto"
+        alt="/aria-operations-broadcom-services-mp/featured-image.png"
+        title="/aria-operations-broadcom-services-mp/featured-image.png" /></div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li>
+          <ul>
+            <li>
+              <ul>
+                <li>
+                  <ul>
+                    <li><a href="#vmware-aria-operations">VMware Aria Operations</a></li>
+                    <li><a href="#objects">Objects:</a></li>
+                    <li><a href="#relationships">Relationships:</a></li>
+                    <li><a href="#events">Events:</a></li>
+                    <li><a href="#content">Content:</a></li>
+                    <li><a href="#configuration">Configuration:</a></li>
+                    <li><a href="#perform-collection">Perform Collection:</a></li>
+                    <li><a href="#perform-collection-complete">Perform Collection Complete:</a></li>
+                    <li><a href="#mp-build-complete">MP Build Complete:</a></li>
+                    <li><a href="#links-to-resources-about-vmware-aria-operations-management-pack-builder">Links to resources about VMware Aria Operations Management Pack Builder:</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p><strong>How to use the VMware Aria Operations Management Pack Builder for Day 2 monitoring</strong></p>
+<hr>
+<h6 id="vmware-aria-operations">VMware Aria Operations</h6>
+<p>VMware Aria Operations 8.16.0 and Management Pack Builder 1.1.2 was used for this Blog Post. When new versions of VMware Aria Operations or the MP Builder are released, the code or process may need to be changed.</p>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-01.png" title="/aria-operations-broadcom-services-mp/mp-builder-01.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-01.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-01.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-01.png, /aria-operations-broadcom-services-mp/mp-builder-01.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-01.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-01.png" width="4174" height="2348" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<p>I wanted to share how I created a VMware Aria Operations Management Pack to use with the Broadcom Service Status web site, <a href="https://status.broadcom.com" target="_blank" rel="noopener noreffer ">status.broadcom.com</a>. This web site shows the current status of all Broadcom Services, Broadcom Software Group or VMware Software. As a VCF Specialist, my first thought when I saw that this web site provided API access, was to create a Aria Operations Management Pack.</p>
+<p>When Aria Operations is pulling in the status of the Broadcom Services with a Management Pack, that will enable you to create Alerts, Dashboards, Views, Reports, etc&hellip; that are important to your environment. If you are a VMware customer, monitoring the &ldquo;VMware Cloud Services&rdquo; may be important to you. I am going to show how I created the Management Pack using the MP Builder and some of the custom items I created in Aria Operations. I like to use Aria Operations as the &ldquo;Single Pane of Glass&rdquo; for monitoring.</p>
+<p>Please keep this in mind after reading the details of the Blog Article. The Management Pack Builder is Designed to allow you to bring data into Aria Operations, using an API, that is important to your Environment. This is a simple example of how Powerful the MP Builder can be. Other items that could be monitored with a MP could be: Temperatures of Networking closets or Data Centers (if you have a temperature senor with API capabilities), weather conditions around your physical DC locations (There are Web Sites that allow API weather updates), Storage/Compute/Networking that doesn&rsquo;t have a VMware provided MP, etc&hellip; So many use cases!</p>
+<hr>
+<p><strong>See how the items show in Object Browser:</strong>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-02.png" title="/aria-operations-broadcom-services-mp/mp-builder-02.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-02.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-02.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-02.png, /aria-operations-broadcom-services-mp/mp-builder-02.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-02.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-02.png" width="4412" height="2482" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure></p>
+<hr>
+<p><strong>Dashboard to show the Broadcom Service Statuses:</strong>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-03.png" title="/aria-operations-broadcom-services-mp/mp-builder-03.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-03.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-03.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-03.png, /aria-operations-broadcom-services-mp/mp-builder-03.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-03.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-03.png" width="4412" height="2482" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure></p>
+<hr>
+<p><strong>Views created to use with the Dashboard:</strong>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-04.png" title="/aria-operations-broadcom-services-mp/mp-builder-04.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-04.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-04.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-04.png, /aria-operations-broadcom-services-mp/mp-builder-04.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-04.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-04.png" width="4396" height="2472" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure></p>
+<hr>
+<p><strong>YouTube Video to show how I created the Management Pack using MP Builder:</strong></p>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-05.png" title="/aria-operations-broadcom-services-mp/mp-builder-05.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-05.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-05.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-05.png, /aria-operations-broadcom-services-mp/mp-builder-05.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-05.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-05.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-06.png" title="/aria-operations-broadcom-services-mp/mp-builder-06.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-06.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-06.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-06.png, /aria-operations-broadcom-services-mp/mp-builder-06.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-06.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-06.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-07.png" title="/aria-operations-broadcom-services-mp/mp-builder-07.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-07.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-07.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-07.png, /aria-operations-broadcom-services-mp/mp-builder-07.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-07.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-07.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-08.png" title="/aria-operations-broadcom-services-mp/mp-builder-08.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-08.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-08.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-08.png, /aria-operations-broadcom-services-mp/mp-builder-08.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-08.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-08.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-09.png" title="/aria-operations-broadcom-services-mp/mp-builder-09.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-09.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-09.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-09.png, /aria-operations-broadcom-services-mp/mp-builder-09.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-09.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-09.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-10.png" title="/aria-operations-broadcom-services-mp/mp-builder-10.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-10.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-10.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-10.png, /aria-operations-broadcom-services-mp/mp-builder-10.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-10.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-10.png" width="4188" height="2354" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-11.png" title="/aria-operations-broadcom-services-mp/mp-builder-11.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-11.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-11.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-11.png, /aria-operations-broadcom-services-mp/mp-builder-11.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-11.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-11.png" width="4188" height="2356" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-12.png" title="/aria-operations-broadcom-services-mp/mp-builder-12.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-12.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-12.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-12.png, /aria-operations-broadcom-services-mp/mp-builder-12.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-12.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-12.png" width="4366" height="2456" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-13.png" title="/aria-operations-broadcom-services-mp/mp-builder-13.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-13.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-13.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-13.png, /aria-operations-broadcom-services-mp/mp-builder-13.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-13.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-13.png" width="4342" height="2442" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-14.png" title="/aria-operations-broadcom-services-mp/mp-builder-14.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-14.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-14.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-14.png, /aria-operations-broadcom-services-mp/mp-builder-14.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-14.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-14.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-15.png" title="/aria-operations-broadcom-services-mp/mp-builder-15.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-15.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-15.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-15.png, /aria-operations-broadcom-services-mp/mp-builder-15.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-15.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-15.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-16.png" title="/aria-operations-broadcom-services-mp/mp-builder-16.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-16.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-16.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-16.png, /aria-operations-broadcom-services-mp/mp-builder-16.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-16.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-16.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-17.png" title="/aria-operations-broadcom-services-mp/mp-builder-17.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-17.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-17.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-17.png, /aria-operations-broadcom-services-mp/mp-builder-17.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-17.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-17.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-18.png" title="/aria-operations-broadcom-services-mp/mp-builder-18.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-18.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-18.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-18.png, /aria-operations-broadcom-services-mp/mp-builder-18.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-18.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-18.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-19.png" title="/aria-operations-broadcom-services-mp/mp-builder-19.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-19.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-19.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-19.png, /aria-operations-broadcom-services-mp/mp-builder-19.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-19.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-19.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-20.png" title="/aria-operations-broadcom-services-mp/mp-builder-20.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-20.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-20.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-20.png, /aria-operations-broadcom-services-mp/mp-builder-20.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-20.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-20.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-21.png" title="/aria-operations-broadcom-services-mp/mp-builder-21.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-21.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-21.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-21.png, /aria-operations-broadcom-services-mp/mp-builder-21.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-21.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-21.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-22.png" title="/aria-operations-broadcom-services-mp/mp-builder-22.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-22.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-22.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-22.png, /aria-operations-broadcom-services-mp/mp-builder-22.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-22.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-22.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-23-1.png" title="/aria-operations-broadcom-services-mp/mp-builder-23-1.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-23-1.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-23-1.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-23-1.png, /aria-operations-broadcom-services-mp/mp-builder-23-1.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-23-1.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-23-1.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-23-2.png" title="/aria-operations-broadcom-services-mp/mp-builder-23-2.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-23-2.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-23-2.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-23-2.png, /aria-operations-broadcom-services-mp/mp-builder-23-2.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-23-2.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-23-2.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-23-3.png" title="/aria-operations-broadcom-services-mp/mp-builder-23-3.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-23-3.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-23-3.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-23-3.png, /aria-operations-broadcom-services-mp/mp-builder-23-3.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-23-3.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-23-3.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-24.png" title="/aria-operations-broadcom-services-mp/mp-builder-24.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-24.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-24.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-24.png, /aria-operations-broadcom-services-mp/mp-builder-24.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-24.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-24.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-25.png" title="/aria-operations-broadcom-services-mp/mp-builder-25.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-25.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-25.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-25.png, /aria-operations-broadcom-services-mp/mp-builder-25.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-25.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-25.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-26.png" title="/aria-operations-broadcom-services-mp/mp-builder-26.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-26.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-26.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-26.png, /aria-operations-broadcom-services-mp/mp-builder-26.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-26.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-26.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-27.png" title="/aria-operations-broadcom-services-mp/mp-builder-27.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-27.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-27.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-27.png, /aria-operations-broadcom-services-mp/mp-builder-27.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-27.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-27.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<h6 id="objects">Objects:</h6>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-28.png" title="/aria-operations-broadcom-services-mp/mp-builder-28.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-28.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-28.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-28.png, /aria-operations-broadcom-services-mp/mp-builder-28.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-28.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-28.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<p>I like to pick a icon that represents the Object.
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-29.png" title="/aria-operations-broadcom-services-mp/mp-builder-29.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-29.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-29.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-29.png, /aria-operations-broadcom-services-mp/mp-builder-29.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-29.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-29.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure></p>
+<hr>
+<p>Select all attributes per the screen shot.
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-30.png" title="/aria-operations-broadcom-services-mp/mp-builder-30.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-30.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-30.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-30.png, /aria-operations-broadcom-services-mp/mp-builder-30.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-30.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-30.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure></p>
+<hr>
+<p>Make sure all items are marked as property.
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-31.png" title="/aria-operations-broadcom-services-mp/mp-builder-31.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-31.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-31.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-31.png, /aria-operations-broadcom-services-mp/mp-builder-31.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-31.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-31.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure></p>
+<hr>
+<p>Make sure instance name is &ldquo;Name&rdquo; and Identifiers is &ldquo;ID&rdquo;.
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-32.png" title="/aria-operations-broadcom-services-mp/mp-builder-32.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-32.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-32.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-32.png, /aria-operations-broadcom-services-mp/mp-builder-32.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-32.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-32.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure></p>
+<hr>
+<h6 id="relationships">Relationships:</h6>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-33.png" title="/aria-operations-broadcom-services-mp/mp-builder-33.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-33.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-33.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-33.png, /aria-operations-broadcom-services-mp/mp-builder-33.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-33.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-33.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<h6 id="events">Events:</h6>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-34.png" title="/aria-operations-broadcom-services-mp/mp-builder-34.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-34.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-34.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-34.png, /aria-operations-broadcom-services-mp/mp-builder-34.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-34.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-34.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<h6 id="content">Content:</h6>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-35.png" title="/aria-operations-broadcom-services-mp/mp-builder-35.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-35.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-35.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-35.png, /aria-operations-broadcom-services-mp/mp-builder-35.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-35.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-35.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<h6 id="configuration">Configuration:</h6>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-36.png" title="/aria-operations-broadcom-services-mp/mp-builder-36.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-36.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-36.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-36.png, /aria-operations-broadcom-services-mp/mp-builder-36.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-36.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-36.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<h6 id="perform-collection">Perform Collection:</h6>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-37.png" title="/aria-operations-broadcom-services-mp/mp-builder-37.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-37.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-37.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-37.png, /aria-operations-broadcom-services-mp/mp-builder-37.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-37.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-37.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<h6 id="perform-collection-complete">Perform Collection Complete:</h6>
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-38.png" title="/aria-operations-broadcom-services-mp/mp-builder-38.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-38.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-38.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-38.png, /aria-operations-broadcom-services-mp/mp-builder-38.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-38.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-38.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<h6 id="mp-build-complete">MP Build Complete:</h6>
+<p>Select Download to be able to add your your Aria Operations.
+<figure><a class="lightgallery" href="/aria-operations-broadcom-services-mp/mp-builder-39.png" title="/aria-operations-broadcom-services-mp/mp-builder-39.png" data-thumbnail="/aria-operations-broadcom-services-mp/mp-builder-39.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/aria-operations-broadcom-services-mp/mp-builder-39.png"
+            data-srcset="/aria-operations-broadcom-services-mp/mp-builder-39.png, /aria-operations-broadcom-services-mp/mp-builder-39.png 1.5x, /aria-operations-broadcom-services-mp/mp-builder-39.png 2x"
+            data-sizes="auto"
+            alt="/aria-operations-broadcom-services-mp/mp-builder-39.png" width="4344" height="2444" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure></p>
+<hr>
+<h6 id="links-to-resources-about-vmware-aria-operations-management-pack-builder">Links to resources about VMware Aria Operations Management Pack Builder:</h6>
+<ul>
+<li><a href="https://www.brockpeterson.com/post/vrops-management-pack-builder" target="_blank" rel="noopener noreffer ">Brock Peterson Blog Post | vROps Management Pack Builder</a>.</li>
+<li><a href="https://www.youtube.com/playlist?list=PLrFo2o1FG9n4gQ60pa8CjpTDbgpUz5Hrt" target="_blank" rel="noopener noreffer ">YouTube | VMware Aria Management Pack Builder v1.1</a>.</li>
+<li><a href="https://github.com/dalehassinger/unlocking-the-potential" target="_blank" rel="noopener noreffer ">GitHub Repository where you can download the Manage Pack, Dashboard and Views</a></li>
+</ul>
+<hr>
+<div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw" aria-hidden="true"></i>Info<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">When I write my blogs, I always say there are many ways to accomplish the same task. This article is just one way that you could accomplish this task. I am showing what I felt was a good way to complete the use case but every organization/environment will be different. There is no right or wrong way to complete the tasks in this article.</div>
+        </div>
+    </div>
+<hr>
+<ul>
+<li>If you found this Blog article useful and it helped you, Buy me a coffee to start my day.</li>
+</ul>
+<center>
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="dalehassinger" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+</center>
+<hr></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2024-04-01</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/aria-operations-broadcom-services-mp/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://localhost:51887/aria-operations-broadcom-services-mp/" data-title="VMware Aria Operations | Broadcom Services | Management Pack" data-via="dalehassinger" data-hashtags="VMware,VMware Aria Operations,Management Pack,Broadcom Services,Management Pack Builder"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://localhost:51887/aria-operations-broadcom-services-mp/" data-hashtag="VMware"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="http://localhost:51887/aria-operations-broadcom-services-mp/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/vmware/">VMware</a>,&nbsp;<a href="/tags/vmware-aria-operations/">VMware Aria Operations</a>,&nbsp;<a href="/tags/management-pack/">Management Pack</a>,&nbsp;<a href="/tags/broadcom-services/">Broadcom Services</a>,&nbsp;<a href="/tags/management-pack-builder/">Management Pack Builder</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/aria-automation-messages-updates/" class="prev" rel="prev" title="VMware Aria Automation | How to send messages and updates"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>VMware Aria Automation | How to send messages and updates</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Designed | Developed By vCROCS</div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">| Dale Hassinger</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://www.vCROCS.info" target="_blank">www.vCROCS.info</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/css/lightgallery-bundle.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

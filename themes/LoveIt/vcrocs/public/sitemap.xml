@@ -2,8 +2,8 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:51887/aria-operations-broadcom-services-mp/</loc><lastmod>2024-04-01T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://localhost:51887/aria-automation-messages-updates/</loc><lastmod>2024-03-18T12:47:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>http://localhost:51887/aria-operations-broadcom-services-mp/</loc><lastmod>2024-04-12T11:00:37-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:51887/aria-automation-messages-updates/</loc><lastmod>2024-03-18T12:47:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>http://localhost:51887/how-to-learn-about-vmware-products/</loc><lastmod>2024-03-17T10:37:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>http://localhost:51887/vexpert-2024/</loc><lastmod>2024-02-23T21:32:41-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:51887/aria-operations-text-display-widget-vmrc/</loc><lastmod>2024-02-23T21:32:41-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -75,21 +75,21 @@
             <loc>http://localhost:51887/automation-zero-trust/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:51887/powercli-getting-started/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:51887/add-registry-values/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:51887/tags/broadcom-services/</loc><lastmod>2024-04-01T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://localhost:51887/categories/</loc><lastmod>2024-04-01T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://localhost:51887/tags/management-pack/</loc><lastmod>2024-04-01T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://localhost:51887/tags/management-pack-builder/</loc><lastmod>2024-04-01T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://localhost:51887/posts/</loc><lastmod>2024-04-01T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://localhost:51887/</loc><lastmod>2024-04-01T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://localhost:51887/tags/vmware/</loc><lastmod>2024-04-01T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://localhost:51887/tags/vmware-aria-operations/</loc><lastmod>2024-04-01T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://localhost:51887/categories/vmware-aria-operations/</loc><lastmod>2024-04-01T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://localhost:51887/tags/alerts/</loc><lastmod>2024-03-18T12:47:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>http://localhost:51887/categories/automation/</loc><lastmod>2024-03-18T12:47:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>http://localhost:51887/tags/google-spaces/</loc><lastmod>2024-03-18T12:47:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>http://localhost:51887/tags/messages/</loc><lastmod>2024-03-18T12:47:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>http://localhost:51887/tags/teams-messages/</loc><lastmod>2024-03-18T12:47:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>http://localhost:51887/tags/vmware-aria-automation/</loc><lastmod>2024-03-18T12:47:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>http://localhost:51887/tags/broadcom-services/</loc><lastmod>2024-04-12T11:00:37-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:51887/categories/</loc><lastmod>2024-04-12T11:00:37-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:51887/tags/management-pack/</loc><lastmod>2024-04-12T11:00:37-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:51887/tags/management-pack-builder/</loc><lastmod>2024-04-12T11:00:37-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:51887/posts/</loc><lastmod>2024-04-12T11:00:37-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:51887/</loc><lastmod>2024-04-12T11:00:37-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:51887/tags/vmware/</loc><lastmod>2024-04-12T11:00:37-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:51887/tags/vmware-aria-operations/</loc><lastmod>2024-04-12T11:00:37-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:51887/categories/vmware-aria-operations/</loc><lastmod>2024-04-12T11:00:37-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:51887/tags/alerts/</loc><lastmod>2024-03-18T12:47:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>http://localhost:51887/categories/automation/</loc><lastmod>2024-03-18T12:47:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>http://localhost:51887/tags/google-spaces/</loc><lastmod>2024-03-18T12:47:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>http://localhost:51887/tags/messages/</loc><lastmod>2024-03-18T12:47:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>http://localhost:51887/tags/teams-messages/</loc><lastmod>2024-03-18T12:47:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>http://localhost:51887/tags/vmware-aria-automation/</loc><lastmod>2024-03-18T12:47:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>http://localhost:51887/tags/esxi/</loc><lastmod>2024-03-17T10:37:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>http://localhost:51887/tags/home-lab/</loc><lastmod>2024-03-17T10:37:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>http://localhost:51887/categories/home-lab/</loc><lastmod>2024-03-17T10:37:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>

@@ -1,67 +1,67 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>VCommunity - Tag - vCROCS</title>
-        <link>http://localhost:51887/tags/vcommunity/</link>
+        <link>http://localhost:1313/tags/vcommunity/</link>
         <description>VCommunity - Tag - vCROCS</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</managingEditor>
-            <webMaster>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 23 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:51887/tags/vcommunity/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 23 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/vcommunity/" rel="self" type="application/rss+xml" /><item>
     <title>VMware vExpert 2024 | Fifth Year</title>
-    <link>http://localhost:51887/vexpert-2024/</link>
+    <link>http://localhost:1313/vexpert-2024/</link>
     <pubDate>Fri, 23 Feb 2024 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/vexpert-2024/</guid>
+    <guid>http://localhost:1313/vexpert-2024/</guid>
     <description><![CDATA[<p><strong>VMware vExpert 2024</strong></p>]]></description>
 </item>
 <item>
     <title>The VMware Community Podcast | I was a Guest on the show</title>
-    <link>http://localhost:51887/vmware-community-podcast-659/</link>
+    <link>http://localhost:1313/vmware-community-podcast-659/</link>
     <pubDate>Wed, 06 Sep 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/vmware-community-podcast-659/</guid>
+    <guid>http://localhost:1313/vmware-community-podcast-659/</guid>
     <description><![CDATA[<p><strong>The VMware Community Podcast, episode #659 | I was a Guest on the show</strong></p>
 <hr>]]></description>
 </item>
 <item>
     <title>The PowerShell Podcast | I was a Guest on the show</title>
-    <link>http://localhost:51887/the-powershell-podcast/</link>
+    <link>http://localhost:1313/the-powershell-podcast/</link>
     <pubDate>Sun, 12 Mar 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/the-powershell-podcast/</guid>
+    <guid>http://localhost:1313/the-powershell-podcast/</guid>
     <description><![CDATA[<p><strong>The PowerShell Podcast | I was a Guest on the show</strong></p>
 <hr>]]></description>
 </item>
 <item>
     <title>Philly VMUG | VMware Aria Automation and Operations</title>
-    <link>http://localhost:51887/philly-vmug-03-2023/</link>
+    <link>http://localhost:1313/philly-vmug-03-2023/</link>
     <pubDate>Fri, 10 Mar 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/philly-vmug-03-2023/</guid>
+    <guid>http://localhost:1313/philly-vmug-03-2023/</guid>
     <description><![CDATA[<p><strong>Philly VMUG | VMware Aria Automation and Operations | Recorded Session now available!</strong></p>
 <hr>]]></description>
 </item>
 <item>
     <title>vExpert 2023 | vExpert Cloud Management</title>
-    <link>http://localhost:51887/vexpert-2023/</link>
+    <link>http://localhost:1313/vexpert-2023/</link>
     <pubDate>Fri, 17 Feb 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/vexpert-2023/</guid>
+    <guid>http://localhost:1313/vexpert-2023/</guid>
     <description><![CDATA[<p>VMware vExpert 2020 - Present | VMware vExpert Cloud Management 2021 - Present</p>]]></description>
 </item>
 <item>
     <title>Central PA VMUG | August 2022</title>
-    <link>http://localhost:51887/centra-pa-vmug-08-2022/</link>
+    <link>http://localhost:1313/centra-pa-vmug-08-2022/</link>
     <pubDate>Wed, 24 Aug 2022 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/centra-pa-vmug-08-2022/</guid>
+    <guid>http://localhost:1313/centra-pa-vmug-08-2022/</guid>
     <description><![CDATA[<p><strong>VMware Explore 2022 | San Francisco</strong></p>
 <hr>]]></description>
 </item>
 <item>
     <title>vExpert 2022 | vExpert Cloud Management</title>
-    <link>http://localhost:51887/vexpert-2022/</link>
+    <link>http://localhost:1313/vexpert-2022/</link>
     <pubDate>Tue, 22 Feb 2022 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/vexpert-2022/</guid>
+    <guid>http://localhost:1313/vexpert-2022/</guid>
     <description><![CDATA[<p>VMware vExpert 2020 - 2022 | VMware vExpert Cloud Management 2021 - 2022</p>]]></description>
 </item>
 </channel>

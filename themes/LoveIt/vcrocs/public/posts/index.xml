@@ -1,417 +1,417 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - vCROCS</title>
-        <link>http://localhost:51887/posts/</link>
+        <link>http://localhost:1313/posts/</link>
         <description>All Posts | vCROCS</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</managingEditor>
-            <webMaster>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 01 Apr 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:51887/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 01 Apr 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
     <title>VMware Aria Operations | Broadcom Services | Management Pack</title>
-    <link>http://localhost:51887/aria-operations-broadcom-services-mp/</link>
+    <link>http://localhost:1313/aria-operations-broadcom-services-mp/</link>
     <pubDate>Mon, 01 Apr 2024 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/aria-operations-broadcom-services-mp/</guid>
+    <guid>http://localhost:1313/aria-operations-broadcom-services-mp/</guid>
     <description><![CDATA[<p><strong>How to use the VMware Aria Operations Management Pack Builder for Day 2 monitoring</strong></p>]]></description>
 </item>
 <item>
     <title>VMware Aria Automation | How to send messages and updates</title>
-    <link>http://localhost:51887/aria-automation-messages-updates/</link>
+    <link>http://localhost:1313/aria-automation-messages-updates/</link>
     <pubDate>Sun, 17 Mar 2024 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/aria-automation-messages-updates/</guid>
+    <guid>http://localhost:1313/aria-automation-messages-updates/</guid>
     <description><![CDATA[<p><strong>How to send messages/updates to a Microsoft Teams Channel or Google Spaces.</strong></p>]]></description>
 </item>
 <item>
     <title>How to learn about VMware Products</title>
-    <link>http://localhost:51887/how-to-learn-about-vmware-products/</link>
+    <link>http://localhost:1313/how-to-learn-about-vmware-products/</link>
     <pubDate>Sat, 09 Mar 2024 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/how-to-learn-about-vmware-products/</guid>
+    <guid>http://localhost:1313/how-to-learn-about-vmware-products/</guid>
     <description><![CDATA[<p><strong>How to learn about and use VMware Products in a Home Lab</strong></p>]]></description>
 </item>
 <item>
     <title>VMware vExpert 2024 | Fifth Year</title>
-    <link>http://localhost:51887/vexpert-2024/</link>
+    <link>http://localhost:1313/vexpert-2024/</link>
     <pubDate>Fri, 23 Feb 2024 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/vexpert-2024/</guid>
+    <guid>http://localhost:1313/vexpert-2024/</guid>
     <description><![CDATA[<p><strong>VMware vExpert 2024</strong></p>]]></description>
 </item>
 <item>
     <title>VMware Aria Operations | VM console access with VMRC</title>
-    <link>http://localhost:51887/aria-operations-text-display-widget-vmrc/</link>
+    <link>http://localhost:1313/aria-operations-text-display-widget-vmrc/</link>
     <pubDate>Sun, 18 Feb 2024 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/aria-operations-text-display-widget-vmrc/</guid>
+    <guid>http://localhost:1313/aria-operations-text-display-widget-vmrc/</guid>
     <description><![CDATA[<p><strong>How to use the VMware Aria Operations and a Text Display Widget to launch VMRC</strong></p>]]></description>
 </item>
 <item>
     <title>Schedule RVTools Data Export</title>
-    <link>http://localhost:51887/schedule-rvtools/</link>
+    <link>http://localhost:1313/schedule-rvtools/</link>
     <pubDate>Thu, 08 Feb 2024 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/schedule-rvtools/</guid>
+    <guid>http://localhost:1313/schedule-rvtools/</guid>
     <description><![CDATA[<p><strong>Export RVTools xlsx Files Everyday</strong></p>
 <hr>]]></description>
 </item>
 <item>
     <title>VMware Aria Operations | Use vCenter TAGS/Custom Groups/Super Metrics to get VM Details</title>
-    <link>http://localhost:51887/aria-operations-vcenter-tags-vm-info/</link>
+    <link>http://localhost:1313/aria-operations-vcenter-tags-vm-info/</link>
     <pubDate>Fri, 26 Jan 2024 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/aria-operations-vcenter-tags-vm-info/</guid>
+    <guid>http://localhost:1313/aria-operations-vcenter-tags-vm-info/</guid>
     <description><![CDATA[<p><strong>How to group VMs together in VMware Aria Operations using vCenter TAGs and show resource usage totals across all VMs within the custom group</strong></p>]]></description>
 </item>
 <item>
     <title>VMware Aria Automation | Custom Form with ChatGPT</title>
-    <link>http://localhost:51887/aria-automation-custom-form-with-chatgpt/</link>
+    <link>http://localhost:1313/aria-automation-custom-form-with-chatgpt/</link>
     <pubDate>Mon, 08 Jan 2024 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/aria-automation-custom-form-with-chatgpt/</guid>
+    <guid>http://localhost:1313/aria-automation-custom-form-with-chatgpt/</guid>
     <description><![CDATA[<p><strong>How to use add ChatGPT (AI) to a VMware Aria Automation Custom Form.</strong></p>]]></description>
 </item>
 <item>
     <title>VMware Aria Automation Orchestrator | Active Directory OUs</title>
-    <link>http://localhost:51887/aria-automation-orchestrator-actions-ad-ou/</link>
+    <link>http://localhost:1313/aria-automation-orchestrator-actions-ad-ou/</link>
     <pubDate>Sun, 07 Jan 2024 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/aria-automation-orchestrator-actions-ad-ou/</guid>
+    <guid>http://localhost:1313/aria-automation-orchestrator-actions-ad-ou/</guid>
     <description><![CDATA[<p><strong>How to use VMware Aria Automation Orchestrator Actions to make sure AD (Active Directory) OU (Organizational Unit) structure is in place BEFORE creating new Servers.</strong></p>]]></description>
 </item>
 <item>
     <title>End of Year Review - 2023</title>
-    <link>http://localhost:51887/end-of-year-review-2023/</link>
+    <link>http://localhost:1313/end-of-year-review-2023/</link>
     <pubDate>Mon, 01 Jan 2024 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/end-of-year-review-2023/</guid>
+    <guid>http://localhost:1313/end-of-year-review-2023/</guid>
     <description><![CDATA[<p><strong>End Of Year Review 2023</strong></p>]]></description>
 </item>
 <item>
     <title>VMware Aria Operations | Servicenow | Management Pack</title>
-    <link>http://localhost:51887/aria-operations-servicenow-mp-cmdb/</link>
+    <link>http://localhost:1313/aria-operations-servicenow-mp-cmdb/</link>
     <pubDate>Fri, 22 Dec 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/aria-operations-servicenow-mp-cmdb/</guid>
+    <guid>http://localhost:1313/aria-operations-servicenow-mp-cmdb/</guid>
     <description><![CDATA[<p><strong>How to use the VMware Aria Operations | Servicenow | Management Pack to add information to the Servicenow CMDB</strong></p>]]></description>
 </item>
 <item>
     <title>Productive APPs | 2023</title>
-    <link>http://localhost:51887/productive-apps-2023/</link>
+    <link>http://localhost:1313/productive-apps-2023/</link>
     <pubDate>Sat, 02 Dec 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/productive-apps-2023/</guid>
+    <guid>http://localhost:1313/productive-apps-2023/</guid>
     <description><![CDATA[<p><strong>APPs that I use everyday to be Productive | 2023</strong></p>
 <hr>]]></description>
 </item>
 <item>
     <title>Unlocking the Potential | VMware Aria Automation | ABX Action Constants and Secrets</title>
-    <link>http://localhost:51887/unlocking-the-potential-vmware-aria-automation-abx-secrets-action-constants/</link>
+    <link>http://localhost:1313/unlocking-the-potential-vmware-aria-automation-abx-secrets-action-constants/</link>
     <pubDate>Tue, 14 Nov 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/unlocking-the-potential-vmware-aria-automation-abx-secrets-action-constants/</guid>
+    <guid>http://localhost:1313/unlocking-the-potential-vmware-aria-automation-abx-secrets-action-constants/</guid>
     <description><![CDATA[<p><strong>Using VMware Aria Automation Action Constants and Secrets</strong></p>]]></description>
 </item>
 <item>
     <title>Unlocking the Potential | VMware Aria Automation Config API</title>
-    <link>http://localhost:51887/unlocking-the-potential-vmware-aria-automation-config-api/</link>
+    <link>http://localhost:1313/unlocking-the-potential-vmware-aria-automation-config-api/</link>
     <pubDate>Sun, 12 Nov 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/unlocking-the-potential-vmware-aria-automation-config-api/</guid>
+    <guid>http://localhost:1313/unlocking-the-potential-vmware-aria-automation-config-api/</guid>
     <description><![CDATA[<p><strong>Using PowerShell with the VMware Aria Automation Config API</strong></p>]]></description>
 </item>
 <item>
     <title>Unlocking the Potential | VMware Aria Operations | October 2023 PowerBlock</title>
-    <link>http://localhost:51887/unlocking-the-potential-vmware-aria-operations-powerblock-2023-10/</link>
+    <link>http://localhost:1313/unlocking-the-potential-vmware-aria-operations-powerblock-2023-10/</link>
     <pubDate>Wed, 25 Oct 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/unlocking-the-potential-vmware-aria-operations-powerblock-2023-10/</guid>
+    <guid>http://localhost:1313/unlocking-the-potential-vmware-aria-operations-powerblock-2023-10/</guid>
     <description><![CDATA[<p><strong>Unlocking the Power of VMware Aria Operations: A Comprehensive Guide</strong></p>]]></description>
 </item>
 <item>
     <title>Unlocking the Potential | VMware Aria Operations | Automation Central | Snapshot Age</title>
-    <link>http://localhost:51887/unlocking-the-potential-vmware-aria-operations-snapshot-age/</link>
+    <link>http://localhost:1313/unlocking-the-potential-vmware-aria-operations-snapshot-age/</link>
     <pubDate>Mon, 16 Oct 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/unlocking-the-potential-vmware-aria-operations-snapshot-age/</guid>
+    <guid>http://localhost:1313/unlocking-the-potential-vmware-aria-operations-snapshot-age/</guid>
     <description><![CDATA[<p><strong>How to change “Snapshot Age older than” value in VMware Aria Operations | Automation Central.</strong></p>]]></description>
 </item>
 <item>
     <title>VMware Aria Operations for Logs (SaaS) | ESXi Host syslog setting</title>
-    <link>http://localhost:51887/unlocking-the-potential-vmware-aria-operations-for-logs-syslog-settings/</link>
+    <link>http://localhost:1313/unlocking-the-potential-vmware-aria-operations-for-logs-syslog-settings/</link>
     <pubDate>Sat, 07 Oct 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/unlocking-the-potential-vmware-aria-operations-for-logs-syslog-settings/</guid>
+    <guid>http://localhost:1313/unlocking-the-potential-vmware-aria-operations-for-logs-syslog-settings/</guid>
     <description><![CDATA[<p><strong>How to Automate the ESXi Host &ldquo;Syslog.global.logHost&rdquo; setting, when using Cloud Proxies.</strong></p>]]></description>
 </item>
 <item>
     <title>The VMware Community Podcast | I was a Guest on the show</title>
-    <link>http://localhost:51887/vmware-community-podcast-659/</link>
+    <link>http://localhost:1313/vmware-community-podcast-659/</link>
     <pubDate>Wed, 06 Sep 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/vmware-community-podcast-659/</guid>
+    <guid>http://localhost:1313/vmware-community-podcast-659/</guid>
     <description><![CDATA[<p><strong>The VMware Community Podcast, episode #659 | I was a Guest on the show</strong></p>
 <hr>]]></description>
 </item>
 <item>
     <title>VMware Explore 2023 | Review and Experience</title>
-    <link>http://localhost:51887/vmware-explore-2023-review/</link>
+    <link>http://localhost:1313/vmware-explore-2023-review/</link>
     <pubDate>Sat, 26 Aug 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/vmware-explore-2023-review/</guid>
+    <guid>http://localhost:1313/vmware-explore-2023-review/</guid>
     <description><![CDATA[<p><strong>VMware Expore 2023 was the best Conference that I ever attended!</strong></p>]]></description>
 </item>
 <item>
     <title>VMware Explore 2023 | Presentation</title>
-    <link>http://localhost:51887/vmware-explore-2023-presentation/</link>
+    <link>http://localhost:1313/vmware-explore-2023-presentation/</link>
     <pubDate>Fri, 18 Aug 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/vmware-explore-2023-presentation/</guid>
+    <guid>http://localhost:1313/vmware-explore-2023-presentation/</guid>
     <description><![CDATA[<p><strong>Use VMware Aria to Create/Manage/Monitor Windows Servers (on-prem/cloud)</strong></p>]]></description>
 </item>
 <item>
     <title>VMware Explore 2023 | Hackathon</title>
-    <link>http://localhost:51887/vmware-explore-2023-hackathon/</link>
+    <link>http://localhost:1313/vmware-explore-2023-hackathon/</link>
     <pubDate>Tue, 15 Aug 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/vmware-explore-2023-hackathon/</guid>
+    <guid>http://localhost:1313/vmware-explore-2023-hackathon/</guid>
     <description><![CDATA[<p><strong>VMware Explore 2023 | Hackathon Team Captain</strong></p>]]></description>
 </item>
 <item>
     <title>GitHub Repository | Code and Examples to help you get started</title>
-    <link>http://localhost:51887/github-repository/</link>
+    <link>http://localhost:1313/github-repository/</link>
     <pubDate>Sat, 24 Jun 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/github-repository/</guid>
+    <guid>http://localhost:1313/github-repository/</guid>
     <description><![CDATA[<p><strong>GitHub Repository | Code and Examples to help you get started</strong></p>]]></description>
 </item>
 <item>
     <title>Unlocking the Potential | VMware Aria Automation | Custom Form Versioning</title>
-    <link>http://localhost:51887/unlocking-the-potential-vmware-aria-automation-custom-form-versioning/</link>
+    <link>http://localhost:1313/unlocking-the-potential-vmware-aria-automation-custom-form-versioning/</link>
     <pubDate>Sat, 20 May 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/unlocking-the-potential-vmware-aria-automation-custom-form-versioning/</guid>
+    <guid>http://localhost:1313/unlocking-the-potential-vmware-aria-automation-custom-form-versioning/</guid>
     <description><![CDATA[<p><strong>Custom Form Versioning Demo</strong></p>]]></description>
 </item>
 <item>
     <title>Unlocking the Potential | VMware Aria Operations | Automation Central | VM Snaps</title>
-    <link>http://localhost:51887/unlocking-the-potential-vmware-aria-operations-snap-cleanup/</link>
+    <link>http://localhost:1313/unlocking-the-potential-vmware-aria-operations-snap-cleanup/</link>
     <pubDate>Sat, 13 May 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/unlocking-the-potential-vmware-aria-operations-snap-cleanup/</guid>
+    <guid>http://localhost:1313/unlocking-the-potential-vmware-aria-operations-snap-cleanup/</guid>
     <description><![CDATA[<p><strong>Adding &ldquo;DoNotDelete&rdquo; to a VM Snap Name to control if Auto Deleted.</strong></p>]]></description>
 </item>
 <item>
     <title>Unlocking the Potential | VMware Aria Operations | Metric Search</title>
-    <link>http://localhost:51887/unlocking-the-potential-vmware-aria-operations-metric-searching/</link>
+    <link>http://localhost:1313/unlocking-the-potential-vmware-aria-operations-metric-searching/</link>
     <pubDate>Sat, 06 May 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/unlocking-the-potential-vmware-aria-operations-metric-searching/</guid>
+    <guid>http://localhost:1313/unlocking-the-potential-vmware-aria-operations-metric-searching/</guid>
     <description><![CDATA[<p><strong>Example metric queries to help you with &ldquo;Real World&rdquo; questions.</strong></p>]]></description>
 </item>
 <item>
     <title>VMware Aria Operations | RVTools Dashboard</title>
-    <link>http://localhost:51887/vmware-aria-operations-rvtools-dashboard/</link>
+    <link>http://localhost:1313/vmware-aria-operations-rvtools-dashboard/</link>
     <pubDate>Sat, 01 Apr 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/vmware-aria-operations-rvtools-dashboard/</guid>
+    <guid>http://localhost:1313/vmware-aria-operations-rvtools-dashboard/</guid>
     <description><![CDATA[<p><strong>How to show RVTools data in a VMware Aria Operations Dashboard.</strong></p>]]></description>
 </item>
 <item>
     <title>Rest API calls in VMware Aria Automation with PowerShell</title>
-    <link>http://localhost:51887/rest-api-calls-vmware-aria-automation/</link>
+    <link>http://localhost:1313/rest-api-calls-vmware-aria-automation/</link>
     <pubDate>Mon, 20 Mar 2023 00:00:00 &#43;0000</pubDate>
     <author>Dave Kaber</author>
-    <guid>http://localhost:51887/rest-api-calls-vmware-aria-automation/</guid>
+    <guid>http://localhost:1313/rest-api-calls-vmware-aria-automation/</guid>
     <description><![CDATA[<p><strong>Rest API calls in VMware Aria Automation with PowerShell</strong></p>
 <hr>]]></description>
 </item>
 <item>
     <title>The PowerShell Podcast | I was a Guest on the show</title>
-    <link>http://localhost:51887/the-powershell-podcast/</link>
+    <link>http://localhost:1313/the-powershell-podcast/</link>
     <pubDate>Sun, 12 Mar 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/the-powershell-podcast/</guid>
+    <guid>http://localhost:1313/the-powershell-podcast/</guid>
     <description><![CDATA[<p><strong>The PowerShell Podcast | I was a Guest on the show</strong></p>
 <hr>]]></description>
 </item>
 <item>
     <title>Philly VMUG | VMware Aria Automation and Operations</title>
-    <link>http://localhost:51887/philly-vmug-03-2023/</link>
+    <link>http://localhost:1313/philly-vmug-03-2023/</link>
     <pubDate>Fri, 10 Mar 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/philly-vmug-03-2023/</guid>
+    <guid>http://localhost:1313/philly-vmug-03-2023/</guid>
     <description><![CDATA[<p><strong>Philly VMUG | VMware Aria Automation and Operations | Recorded Session now available!</strong></p>
 <hr>]]></description>
 </item>
 <item>
     <title>VMware Aria Automation | Working with Windows Server Drives</title>
-    <link>http://localhost:51887/vmware-aria-automation-config-windows-server-drives/</link>
+    <link>http://localhost:1313/vmware-aria-automation-config-windows-server-drives/</link>
     <pubDate>Sat, 18 Feb 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/vmware-aria-automation-config-windows-server-drives/</guid>
+    <guid>http://localhost:1313/vmware-aria-automation-config-windows-server-drives/</guid>
     <description><![CDATA[<p><strong>How to add Windows Server Drives to VMware Aria Automation Cloud Templates.</strong></p>]]></description>
 </item>
 <item>
     <title>vExpert 2023 | vExpert Cloud Management</title>
-    <link>http://localhost:51887/vexpert-2023/</link>
+    <link>http://localhost:1313/vexpert-2023/</link>
     <pubDate>Fri, 17 Feb 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/vexpert-2023/</guid>
+    <guid>http://localhost:1313/vexpert-2023/</guid>
     <description><![CDATA[<p>VMware vExpert 2020 - Present | VMware vExpert Cloud Management 2021 - Present</p>]]></description>
 </item>
 <item>
     <title>VMware Aria Automation and SaltStack Config Resource</title>
-    <link>http://localhost:51887/vmware-aria-automation-saltstack-config-resource/</link>
+    <link>http://localhost:1313/vmware-aria-automation-saltstack-config-resource/</link>
     <pubDate>Sat, 11 Feb 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/vmware-aria-automation-saltstack-config-resource/</guid>
+    <guid>http://localhost:1313/vmware-aria-automation-saltstack-config-resource/</guid>
     <description><![CDATA[<p><strong>How to start using the SaltStack Config Resource with VMware Aria Automation Cloud Templates.</strong></p>]]></description>
 </item>
 <item>
     <title>Use vCenter TAGs to maintain VM Storage Placement</title>
-    <link>http://localhost:51887/use-vcenter-tags-to-maintain-vm-storage-placement/</link>
+    <link>http://localhost:1313/use-vcenter-tags-to-maintain-vm-storage-placement/</link>
     <pubDate>Fri, 27 Jan 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/use-vcenter-tags-to-maintain-vm-storage-placement/</guid>
+    <guid>http://localhost:1313/use-vcenter-tags-to-maintain-vm-storage-placement/</guid>
     <description><![CDATA[<p><strong>Use vCenter TAGs to maintain VM Storage Placement.</strong></p>]]></description>
 </item>
 <item>
     <title>VMware Aria Automation and Ansible Integration</title>
-    <link>http://localhost:51887/vmware-aria-automation-ansible-integration/</link>
+    <link>http://localhost:1313/vmware-aria-automation-ansible-integration/</link>
     <pubDate>Fri, 30 Dec 2022 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/vmware-aria-automation-ansible-integration/</guid>
+    <guid>http://localhost:1313/vmware-aria-automation-ansible-integration/</guid>
     <description><![CDATA[<p>How to setup and configure your VMware Aria Automation environment to work with Ansible.</p>]]></description>
 </item>
 <item>
     <title>Productive APPs | 2022</title>
-    <link>http://localhost:51887/productive-apps-2022/</link>
+    <link>http://localhost:1313/productive-apps-2022/</link>
     <pubDate>Sat, 26 Nov 2022 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/productive-apps-2022/</guid>
+    <guid>http://localhost:1313/productive-apps-2022/</guid>
     <description><![CDATA[<p><strong>APPs that I use everyday to be Productive | 2022</strong></p>
 <hr>]]></description>
 </item>
 <item>
     <title>What have I been up to? | 2nd half 2022</title>
-    <link>http://localhost:51887/2nd-half-2022/</link>
+    <link>http://localhost:1313/2nd-half-2022/</link>
     <pubDate>Tue, 01 Nov 2022 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/2nd-half-2022/</guid>
+    <guid>http://localhost:1313/2nd-half-2022/</guid>
     <description><![CDATA[<p><strong>New Job | August 2022 | Technical Account Manager (TAM)</strong></p>
 <hr>]]></description>
 </item>
 <item>
     <title>Central PA VMUG | August 2022</title>
-    <link>http://localhost:51887/centra-pa-vmug-08-2022/</link>
+    <link>http://localhost:1313/centra-pa-vmug-08-2022/</link>
     <pubDate>Wed, 24 Aug 2022 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/centra-pa-vmug-08-2022/</guid>
+    <guid>http://localhost:1313/centra-pa-vmug-08-2022/</guid>
     <description><![CDATA[<p><strong>VMware Explore 2022 | San Francisco</strong></p>
 <hr>]]></description>
 </item>
 <item>
     <title>VMware PowerBlock | August 2022</title>
-    <link>http://localhost:51887/vmware-powerblock-08-2022/</link>
+    <link>http://localhost:1313/vmware-powerblock-08-2022/</link>
     <pubDate>Fri, 19 Aug 2022 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/vmware-powerblock-08-2022/</guid>
+    <guid>http://localhost:1313/vmware-powerblock-08-2022/</guid>
     <description><![CDATA[<p><strong>VMware PowerBlock | August 2022</strong></p>
 <hr>]]></description>
 </item>
 <item>
     <title>VMware vRealize SaltStack Config API</title>
-    <link>http://localhost:51887/saltstack-config-api/</link>
+    <link>http://localhost:1313/saltstack-config-api/</link>
     <pubDate>Sun, 26 Jun 2022 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/saltstack-config-api/</guid>
+    <guid>http://localhost:1313/saltstack-config-api/</guid>
     <description><![CDATA[<p>Using SaltStack Config api for Automation from vRA Catalog or cmd</p>]]></description>
 </item>
 <item>
     <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 9</title>
-    <link>http://localhost:51887/saltstack-config-part-09/</link>
+    <link>http://localhost:1313/saltstack-config-part-09/</link>
     <pubDate>Fri, 10 Jun 2022 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/saltstack-config-part-09/</guid>
+    <guid>http://localhost:1313/saltstack-config-part-09/</guid>
     <description><![CDATA[<p>Part 9: Using salt-api with PowerShell for Windows Server Automation</p>]]></description>
 </item>
 <item>
     <title>VMware vRealize SaltStack Config cheat sheet for a Windows Server Admin</title>
-    <link>http://localhost:51887/saltstack-cheatsheet/</link>
+    <link>http://localhost:1313/saltstack-cheatsheet/</link>
     <pubDate>Sun, 06 Mar 2022 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/saltstack-cheatsheet/</guid>
+    <guid>http://localhost:1313/saltstack-cheatsheet/</guid>
     <description><![CDATA[<p>Salt functions that I find myself using the most.</p>]]></description>
 </item>
 <item>
     <title>vExpert 2022 | vExpert Cloud Management</title>
-    <link>http://localhost:51887/vexpert-2022/</link>
+    <link>http://localhost:1313/vexpert-2022/</link>
     <pubDate>Tue, 22 Feb 2022 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/vexpert-2022/</guid>
+    <guid>http://localhost:1313/vexpert-2022/</guid>
     <description><![CDATA[<p>VMware vExpert 2020 - 2022 | VMware vExpert Cloud Management 2021 - 2022</p>]]></description>
 </item>
 <item>
     <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 8</title>
-    <link>http://localhost:51887/saltstack-config-part-08/</link>
+    <link>http://localhost:1313/saltstack-config-part-08/</link>
     <pubDate>Sat, 12 Feb 2022 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/saltstack-config-part-08/</guid>
+    <guid>http://localhost:1313/saltstack-config-part-08/</guid>
     <description><![CDATA[<p>Part 8: Pouring the salt grains</p>]]></description>
 </item>
 <item>
     <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 7</title>
-    <link>http://localhost:51887/saltstack-config-part-07/</link>
+    <link>http://localhost:1313/saltstack-config-part-07/</link>
     <pubDate>Fri, 14 Jan 2022 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/saltstack-config-part-07/</guid>
+    <guid>http://localhost:1313/saltstack-config-part-07/</guid>
     <description><![CDATA[<p>VMware vRealize SaltStack Config as a Windows Server Admin - Part 7</p>]]></description>
 </item>
 <item>
     <title>Year in Review - 2021 | 2022 Goals</title>
-    <link>http://localhost:51887/look-back-2021/</link>
+    <link>http://localhost:1313/look-back-2021/</link>
     <pubDate>Sat, 01 Jan 2022 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/look-back-2021/</guid>
+    <guid>http://localhost:1313/look-back-2021/</guid>
     <description><![CDATA[<p><strong>Get-Review 2021</strong></p>]]></description>
 </item>
 <item>
     <title>NSX-T security Tags and PowerShell</title>
-    <link>http://localhost:51887/powershell-nsx-t/</link>
+    <link>http://localhost:1313/powershell-nsx-t/</link>
     <pubDate>Fri, 31 Dec 2021 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/powershell-nsx-t/</guid>
+    <guid>http://localhost:1313/powershell-nsx-t/</guid>
     <description><![CDATA[<p><strong>How to work with NSX-T security Tags using PowerShell</strong></p>]]></description>
 </item>
 <item>
     <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 6</title>
-    <link>http://localhost:51887/saltstack-config-part-06/</link>
+    <link>http://localhost:1313/saltstack-config-part-06/</link>
     <pubDate>Sat, 09 Oct 2021 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/saltstack-config-part-06/</guid>
+    <guid>http://localhost:1313/saltstack-config-part-06/</guid>
     <description><![CDATA[<p>Part 6: How to use SaltStack Config with Windows Server and PowerShell</p>]]></description>
 </item>
 <item>
     <title>SaltConf 2021 | SaltStack Config Session</title>
-    <link>http://localhost:51887/saltconf-2021/</link>
+    <link>http://localhost:1313/saltconf-2021/</link>
     <pubDate>Sat, 02 Oct 2021 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/saltconf-2021/</guid>
+    <guid>http://localhost:1313/saltconf-2021/</guid>
     <description><![CDATA[<p><strong>SaltConf 2021 | SaltStack Config Session</strong></p>]]></description>
 </item>
 <item>
     <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 5</title>
-    <link>http://localhost:51887/saltstack-config-part-05/</link>
+    <link>http://localhost:1313/saltstack-config-part-05/</link>
     <pubDate>Fri, 01 Oct 2021 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/saltstack-config-part-05/</guid>
+    <guid>http://localhost:1313/saltstack-config-part-05/</guid>
     <description><![CDATA[<p><strong>Part 5: How to use SaltStack Config with Windows Server and PowerShell</strong></p>]]></description>
 </item>
 <item>
     <title>VMware vRealize SaltStack Config as a Windows Server Admin - Part 4</title>
-    <link>http://localhost:51887/saltstack-config-part-04/</link>
+    <link>http://localhost:1313/saltstack-config-part-04/</link>
     <pubDate>Sun, 05 Sep 2021 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/saltstack-config-part-04/</guid>
+    <guid>http://localhost:1313/saltstack-config-part-04/</guid>
     <description><![CDATA[<p><strong>Part 4: How to use SaltStack Config with Windows Server and PowerShell</strong></p>]]></description>
 </item>
 </channel>

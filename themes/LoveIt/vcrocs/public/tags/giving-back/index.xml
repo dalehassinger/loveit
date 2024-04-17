@@ -1,31 +1,31 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Giving Back - Tag - vCROCS</title>
-        <link>http://localhost:51887/tags/giving-back/</link>
+        <link>http://localhost:1313/tags/giving-back/</link>
         <description>Giving Back - Tag - vCROCS</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</managingEditor>
-            <webMaster>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 23 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:51887/tags/giving-back/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 23 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/giving-back/" rel="self" type="application/rss+xml" /><item>
     <title>VMware vExpert 2024 | Fifth Year</title>
-    <link>http://localhost:51887/vexpert-2024/</link>
+    <link>http://localhost:1313/vexpert-2024/</link>
     <pubDate>Fri, 23 Feb 2024 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/vexpert-2024/</guid>
+    <guid>http://localhost:1313/vexpert-2024/</guid>
     <description><![CDATA[<p><strong>VMware vExpert 2024</strong></p>]]></description>
 </item>
 <item>
     <title>vExpert 2023 | vExpert Cloud Management</title>
-    <link>http://localhost:51887/vexpert-2023/</link>
+    <link>http://localhost:1313/vexpert-2023/</link>
     <pubDate>Fri, 17 Feb 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/vexpert-2023/</guid>
+    <guid>http://localhost:1313/vexpert-2023/</guid>
     <description><![CDATA[<p>VMware vExpert 2020 - Present | VMware vExpert Cloud Management 2021 - Present</p>]]></description>
 </item>
 <item>
     <title>vExpert 2022 | vExpert Cloud Management</title>
-    <link>http://localhost:51887/vexpert-2022/</link>
+    <link>http://localhost:1313/vexpert-2022/</link>
     <pubDate>Tue, 22 Feb 2022 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/vexpert-2022/</guid>
+    <guid>http://localhost:1313/vexpert-2022/</guid>
     <description><![CDATA[<p>VMware vExpert 2020 - 2022 | VMware vExpert Cloud Management 2021 - 2022</p>]]></description>
 </item>
 </channel>

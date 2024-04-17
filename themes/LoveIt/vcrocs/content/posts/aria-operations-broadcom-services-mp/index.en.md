@@ -2,8 +2,8 @@
 
 weight: 1
 title: "VMware Aria Operations | Broadcom Services | Management Pack"
-date: 2024-04-01T00:00:00+00:00
-lastmod: 2024-04-01T00:00:00+00:00
+date: 2099-04-01T00:00:00+00:00
+lastmod: 2099-04-01T00:00:00+00:00
 draft: false
 author: "Dale Hassinger"
 authorLink: "https://twitter.com/dalehassinger"

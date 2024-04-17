@@ -1,89 +1,89 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>VMware Aria Automation - Tag - vCROCS</title>
-        <link>http://localhost:51887/tags/vmware-aria-automation/</link>
+        <link>http://localhost:1313/tags/vmware-aria-automation/</link>
         <description>VMware Aria Automation - Tag - vCROCS</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</managingEditor>
-            <webMaster>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 17 Mar 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:51887/tags/vmware-aria-automation/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 17 Mar 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/vmware-aria-automation/" rel="self" type="application/rss+xml" /><item>
     <title>VMware Aria Automation | How to send messages and updates</title>
-    <link>http://localhost:51887/aria-automation-messages-updates/</link>
+    <link>http://localhost:1313/aria-automation-messages-updates/</link>
     <pubDate>Sun, 17 Mar 2024 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/aria-automation-messages-updates/</guid>
+    <guid>http://localhost:1313/aria-automation-messages-updates/</guid>
     <description><![CDATA[<p><strong>How to send messages/updates to a Microsoft Teams Channel or Google Spaces.</strong></p>]]></description>
 </item>
 <item>
     <title>VMware Aria Automation | Custom Form with ChatGPT</title>
-    <link>http://localhost:51887/aria-automation-custom-form-with-chatgpt/</link>
+    <link>http://localhost:1313/aria-automation-custom-form-with-chatgpt/</link>
     <pubDate>Mon, 08 Jan 2024 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/aria-automation-custom-form-with-chatgpt/</guid>
+    <guid>http://localhost:1313/aria-automation-custom-form-with-chatgpt/</guid>
     <description><![CDATA[<p><strong>How to use add ChatGPT (AI) to a VMware Aria Automation Custom Form.</strong></p>]]></description>
 </item>
 <item>
     <title>VMware Aria Automation Orchestrator | Active Directory OUs</title>
-    <link>http://localhost:51887/aria-automation-orchestrator-actions-ad-ou/</link>
+    <link>http://localhost:1313/aria-automation-orchestrator-actions-ad-ou/</link>
     <pubDate>Sun, 07 Jan 2024 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/aria-automation-orchestrator-actions-ad-ou/</guid>
+    <guid>http://localhost:1313/aria-automation-orchestrator-actions-ad-ou/</guid>
     <description><![CDATA[<p><strong>How to use VMware Aria Automation Orchestrator Actions to make sure AD (Active Directory) OU (Organizational Unit) structure is in place BEFORE creating new Servers.</strong></p>]]></description>
 </item>
 <item>
     <title>End of Year Review - 2023</title>
-    <link>http://localhost:51887/end-of-year-review-2023/</link>
+    <link>http://localhost:1313/end-of-year-review-2023/</link>
     <pubDate>Mon, 01 Jan 2024 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/end-of-year-review-2023/</guid>
+    <guid>http://localhost:1313/end-of-year-review-2023/</guid>
     <description><![CDATA[<p><strong>End Of Year Review 2023</strong></p>]]></description>
 </item>
 <item>
     <title>Unlocking the Potential | VMware Aria Automation | ABX Action Constants and Secrets</title>
-    <link>http://localhost:51887/unlocking-the-potential-vmware-aria-automation-abx-secrets-action-constants/</link>
+    <link>http://localhost:1313/unlocking-the-potential-vmware-aria-automation-abx-secrets-action-constants/</link>
     <pubDate>Tue, 14 Nov 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/unlocking-the-potential-vmware-aria-automation-abx-secrets-action-constants/</guid>
+    <guid>http://localhost:1313/unlocking-the-potential-vmware-aria-automation-abx-secrets-action-constants/</guid>
     <description><![CDATA[<p><strong>Using VMware Aria Automation Action Constants and Secrets</strong></p>]]></description>
 </item>
 <item>
     <title>Unlocking the Potential | VMware Aria Automation Config API</title>
-    <link>http://localhost:51887/unlocking-the-potential-vmware-aria-automation-config-api/</link>
+    <link>http://localhost:1313/unlocking-the-potential-vmware-aria-automation-config-api/</link>
     <pubDate>Sun, 12 Nov 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/unlocking-the-potential-vmware-aria-automation-config-api/</guid>
+    <guid>http://localhost:1313/unlocking-the-potential-vmware-aria-automation-config-api/</guid>
     <description><![CDATA[<p><strong>Using PowerShell with the VMware Aria Automation Config API</strong></p>]]></description>
 </item>
 <item>
     <title>Unlocking the Potential | VMware Aria Automation | Custom Form Versioning</title>
-    <link>http://localhost:51887/unlocking-the-potential-vmware-aria-automation-custom-form-versioning/</link>
+    <link>http://localhost:1313/unlocking-the-potential-vmware-aria-automation-custom-form-versioning/</link>
     <pubDate>Sat, 20 May 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/unlocking-the-potential-vmware-aria-automation-custom-form-versioning/</guid>
+    <guid>http://localhost:1313/unlocking-the-potential-vmware-aria-automation-custom-form-versioning/</guid>
     <description><![CDATA[<p><strong>Custom Form Versioning Demo</strong></p>]]></description>
 </item>
 <item>
     <title>Rest API calls in VMware Aria Automation with PowerShell</title>
-    <link>http://localhost:51887/rest-api-calls-vmware-aria-automation/</link>
+    <link>http://localhost:1313/rest-api-calls-vmware-aria-automation/</link>
     <pubDate>Mon, 20 Mar 2023 00:00:00 &#43;0000</pubDate>
     <author>Dave Kaber</author>
-    <guid>http://localhost:51887/rest-api-calls-vmware-aria-automation/</guid>
+    <guid>http://localhost:1313/rest-api-calls-vmware-aria-automation/</guid>
     <description><![CDATA[<p><strong>Rest API calls in VMware Aria Automation with PowerShell</strong></p>
 <hr>]]></description>
 </item>
 <item>
     <title>The PowerShell Podcast | I was a Guest on the show</title>
-    <link>http://localhost:51887/the-powershell-podcast/</link>
+    <link>http://localhost:1313/the-powershell-podcast/</link>
     <pubDate>Sun, 12 Mar 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/the-powershell-podcast/</guid>
+    <guid>http://localhost:1313/the-powershell-podcast/</guid>
     <description><![CDATA[<p><strong>The PowerShell Podcast | I was a Guest on the show</strong></p>
 <hr>]]></description>
 </item>
 <item>
     <title>Philly VMUG | VMware Aria Automation and Operations</title>
-    <link>http://localhost:51887/philly-vmug-03-2023/</link>
+    <link>http://localhost:1313/philly-vmug-03-2023/</link>
     <pubDate>Fri, 10 Mar 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:51887/philly-vmug-03-2023/</guid>
+    <guid>http://localhost:1313/philly-vmug-03-2023/</guid>
     <description><![CDATA[<p><strong>Philly VMUG | VMware Aria Automation and Operations | Recorded Session now available!</strong></p>
 <hr>]]></description>
 </item>

@@ -5,57 +5,25 @@
         <description>Tags - Tag - vCROCS</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</managingEditor>
             <webMaster>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>Broadcom Services</title>
-    <link>http://localhost:1313/tags/broadcom-services/</link>
-    <pubDate>Mon, 01 Apr 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/broadcom-services/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Management Pack</title>
-    <link>http://localhost:1313/tags/management-pack/</link>
-    <pubDate>Mon, 01 Apr 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/management-pack/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Management Pack Builder</title>
-    <link>http://localhost:1313/tags/management-pack-builder/</link>
-    <pubDate>Mon, 01 Apr 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/management-pack-builder/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>VMware</title>
-    <link>http://localhost:1313/tags/vmware/</link>
-    <pubDate>Mon, 01 Apr 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/vmware/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>VMware Aria Operations</title>
-    <link>http://localhost:1313/tags/vmware-aria-operations/</link>
-    <pubDate>Mon, 01 Apr 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/vmware-aria-operations/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
     <title>Alerts</title>
     <link>http://localhost:1313/tags/alerts/</link>
-    <pubDate>Sun, 17 Mar 2024 00:00:00 &#43;0000</pubDate>
+    <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
     <author>| Dale Hassinger</author>
     <guid>http://localhost:1313/tags/alerts/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
+    <title>Giving Back</title>
+    <link>http://localhost:1313/tags/giving-back/</link>
+    <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/giving-back/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Google Spaces</title>
     <link>http://localhost:1313/tags/google-spaces/</link>
-    <pubDate>Sun, 17 Mar 2024 00:00:00 &#43;0000</pubDate>
+    <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
     <author>| Dale Hassinger</author>
     <guid>http://localhost:1313/tags/google-spaces/</guid>
     <description><![CDATA[]]></description>
@@ -63,7 +31,7 @@
 <item>
     <title>Messages</title>
     <link>http://localhost:1313/tags/messages/</link>
-    <pubDate>Sun, 17 Mar 2024 00:00:00 &#43;0000</pubDate>
+    <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
     <author>| Dale Hassinger</author>
     <guid>http://localhost:1313/tags/messages/</guid>
     <description><![CDATA[]]></description>
@@ -71,17 +39,49 @@
 <item>
     <title>Teams Messages</title>
     <link>http://localhost:1313/tags/teams-messages/</link>
-    <pubDate>Sun, 17 Mar 2024 00:00:00 &#43;0000</pubDate>
+    <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
     <author>| Dale Hassinger</author>
     <guid>http://localhost:1313/tags/teams-messages/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
+    <title>VCommunity</title>
+    <link>http://localhost:1313/tags/vcommunity/</link>
+    <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/vcommunity/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VMware</title>
+    <link>http://localhost:1313/tags/vmware/</link>
+    <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/vmware/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>VMware Aria Automation</title>
     <link>http://localhost:1313/tags/vmware-aria-automation/</link>
-    <pubDate>Sun, 17 Mar 2024 00:00:00 &#43;0000</pubDate>
+    <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
     <author>| Dale Hassinger</author>
     <guid>http://localhost:1313/tags/vmware-aria-automation/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VMware VExpert 2020 - Present</title>
+    <link>http://localhost:1313/tags/vmware-vexpert-2020---present/</link>
+    <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/vmware-vexpert-2020---present/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>ESXi</title>
+    <link>http://localhost:1313/tags/esxi/</link>
+    <pubDate>Sat, 09 Mar 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/esxi/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

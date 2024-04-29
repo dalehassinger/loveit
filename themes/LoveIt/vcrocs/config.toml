@@ -335,7 +335,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # whether to show link to Raw Markdown content of the content
     linkToMarkdown = true
     # whether to show the full text content in RSS
-    rssFullText = false
+    rssFullText = true
     # Table of the contents config
     [params.page.toc]
       # whether to enable the table of the contents
@@ -654,7 +654,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 # Options to make hugo output files
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-  page = ["HTML", "MarkDown"]
+  #page = ["HTML", "MarkDown"]
+  page = ["HTML"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
   taxonomyTerm = ["HTML"]

@@ -95,7 +95,7 @@ ruby: true
 fraction: true
 fontawesome: true
 linkToMarkdown: true
-rssFullText: false
+rssFullText: true
 
 toc:
   enable: true

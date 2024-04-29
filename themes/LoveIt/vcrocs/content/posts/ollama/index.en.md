@@ -13,7 +13,7 @@ resources:
 - name: "featured-image"
   src: "featured-image.png"
 
-tags: ["VMware", "VMware Aria Automation", "Teams Messages", "Google Spaces", "Alerts", "Messages"]
+tags: ["VMware", "VMware Aria Automation", "ollama", "llama", "PowerShell", "AI"]
 categories: ["Automation"]
 
 lightgallery: true

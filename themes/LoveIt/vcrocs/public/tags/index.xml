@@ -5,11 +5,11 @@
         <description>Tags - Tag - vCROCS</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</managingEditor>
             <webMaster>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>Alerts</title>
-    <link>http://localhost:1313/tags/alerts/</link>
+    <title>AI</title>
+    <link>http://localhost:1313/tags/ai/</link>
     <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
     <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/alerts/</guid>
+    <guid>http://localhost:1313/tags/ai/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
@@ -21,27 +21,27 @@
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>Google Spaces</title>
-    <link>http://localhost:1313/tags/google-spaces/</link>
+    <title>Llama</title>
+    <link>http://localhost:1313/tags/llama/</link>
     <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
     <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/google-spaces/</guid>
+    <guid>http://localhost:1313/tags/llama/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>Messages</title>
-    <link>http://localhost:1313/tags/messages/</link>
+    <title>Ollama</title>
+    <link>http://localhost:1313/tags/ollama/</link>
     <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
     <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/messages/</guid>
+    <guid>http://localhost:1313/tags/ollama/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>Teams Messages</title>
-    <link>http://localhost:1313/tags/teams-messages/</link>
+    <title>PowerShell</title>
+    <link>http://localhost:1313/tags/powershell/</link>
     <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
     <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/teams-messages/</guid>
+    <guid>http://localhost:1313/tags/powershell/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
@@ -77,11 +77,11 @@
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>ESXi</title>
-    <link>http://localhost:1313/tags/esxi/</link>
-    <pubDate>Sat, 09 Mar 2024 00:00:00 &#43;0000</pubDate>
+    <title>Alerts</title>
+    <link>http://localhost:1313/tags/alerts/</link>
+    <pubDate>Sun, 17 Mar 2024 00:00:00 &#43;0000</pubDate>
     <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/esxi/</guid>
+    <guid>http://localhost:1313/tags/alerts/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

@@ -7,6 +7,79 @@
             <webMaster>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 01 Apr 2099 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>VMware Explore 2024</title>
+    <link>http://localhost:1313/vmware-explore-2024/</link>
+    <pubDate>Wed, 01 May 2024 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>http://localhost:1313/vmware-explore-2024/</guid>
+    <description><![CDATA[<p><strong>Why I enjoy going to VMware Explore. First as a Customer. Now as a Employee.</strong></p>
+<hr>
+<blockquote>
+<p>&ldquo;Innovate like a startup, deliver like an enterprise” - Pat Gelsinger</p>
+</blockquote>
+<hr>
+<h6 id="vmware-explore-2024">VMware Explore 2024</h6>
+<p>Website: <a href="https://www.vmware.com/explore" target="_blank" rel="noopener noreffer ">VMware Explore 2024.</a><br>
+Las Vegas Date: August 26 – 29, 2024<br>
+The Venetian Convention and Expo Center<br>
+Registration is open!</p>
+<hr>
+<h6 id="why-attend">Why Attend</h6>
+<p><strong>When I was a VMware Customer, I tried to go to VMware Explore every year. Here is a list of reasons why I enjoyed the conference:</strong></p>
+<ul>
+<li>To meet other people in the same field as myself. Exchange stories, ideas, contact information, etc.. The Community side of the event alone, is worth the cost to go.</li>
+<li>To attend sessions that are done by people that you follow their blogs or socials, is an exciting experience.</li>
+<li>The Key Note Sessions get you excited to see what is coming with the next releases of the VMware Products.</li>
+<li>Vendor Parties are a great way to meet people and have good food and drink.</li>
+<li>Other Highlights for evening Parties for me:
+<ul>
+<li>vExpert Party</li>
+<li>VMUG Party</li>
+<li>Event Concert on the last night (Black Keys Concert was my favorite)</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>As a Employee my reasons are different to attend. Here is a list:</strong></p>
+<ul>
+<li>To meet people in person that I work with everyday. We are located across the country and don&rsquo;t get to meet in person. Even if we went into a office everyday, we would never get to meet.</li>
+<li>Get Sessions accepted and share the knowledge with the products I work with every day. I like doing presentations on the Automation, Monitoring and Logging Products.</li>
+<li>I like to participate in the Hackathon that is part of the conference. In 2023 my Team received 2nd place.</li>
+</ul>
+<hr>
+<h6 id="sessions">Sessions</h6>
+<p>I submitted a couple sessions that hope get accepted in 2024, Fingers Crossed. One session I will be presenting with a customer, and 2 sessions I included TAMs to present with me. I am excited about the topics. When the sessions get announced, check back on this blog. I will update what was accepted.</p>
+<hr>
+<h6 id="my-favorite-places-to-eat-or-things-to-do-while-at-vmware-explore">My favorite places to eat or things to do while at VMware Explore:</h6>
+<p><strong>Eating - Paces that I have gone and enjoyed:</strong></p>
+<ul>
+<li><a href="https://www.joes.net/las-vegas/" target="_blank" rel="noopener noreffer ">Joes&rsquo;s Prime Steak and Stone Crab</a> - I have always had a great experience here</li>
+<li><a href="https://www.venetianlasvegas.com/restaurants/delmonico-steakhouse.html" target="_blank" rel="noopener noreffer ">Delmonico Steakhouse</a> - You can&rsquo;t leave without having EMERIL’S BANANA CREAM PIE!</li>
+<li><a href="https://www.venetianlasvegas.com/restaurants/grand-lux-cafe-palazzo.html" target="_blank" rel="noopener noreffer ">Grand Lux Café at The Palazzo</a> is great for Breakfast!</li>
+<li><a href="https://www.venetianlasvegas.com/restaurants/yardbird.html" target="_blank" rel="noopener noreffer ">Yardbird</a> is close to conference entrance and food to very good</li>
+<li><a href="https://www.in-n-out.com/menu" target="_blank" rel="noopener noreffer ">IN-N-Out BURGER</a> | If you live in the US East and have never gone to an IN-N-Out BURGER, you need to go at least one time.</li>
+</ul>
+<p><strong>Things to do that I have done and enjoyed:</strong></p>
+<ul>
+<li><a href="https://www.usbr.gov/lc/hooverdam/index.html" target="_blank" rel="noopener noreffer ">Hoover Damn</a> was nice to go see. Pictures can&rsquo;t replace a visit in person.</li>
+<li><a href="https://www.clarkcountynv.gov/government/departments/parks___recreation/shooting_complex/guest_services.php" target="_blank" rel="noopener noreffer ">Sporting Clays at Clark County Shooting Complex</a> - World-Class Shotgun Center</li>
+<li><a href="https://www.blm.gov/programs/national-conservation-lands/nevada/red-rock-canyon" target="_blank" rel="noopener noreffer ">Red Rock Canyon National Conservation Area</a></li>
+</ul>
+<hr>
+<h6 id="links-to-resources-discussed-is-this-blog-post">Links to resources discussed is this Blog Post:</h6>
+<ul>
+<li><a href="https://www.vmware.com/explore" target="_blank" rel="noopener noreffer ">VMware Explore 2024.</a></li>
+</ul>
+<hr>
+<ul>
+<li>If you found this blog article helpful and it assisted you, consider buying me a coffee to kickstart my day.</li>
+</ul>
+<center>
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="dalehassinger" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+</center>
+<hr>]]></description>
+</item>
+<item>
     <title>Automation Code Creation with ollama</title>
     <link>http://localhost:1313/ollama/</link>
     <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
@@ -355,6 +428,32 @@ is a testament to its fast processing capabilities.</p>
 <li>ollama and llama3 are both available at no cost today (04/2024).</li>
 <li>I pay $20 per month for ChatGPT. You get more with ChatGPT but ollama does a good job for a way to have a local LLM option.</li>
 </ul>
+<p><strong>Use Cases to use ollama local:</strong></p>
+<ul>
+<li>Traveling and no internet access for AI like ChatGPT.
+<ul>
+<li>Use ollama while flying. Nice way to get some help at 35,000 ft.</li>
+</ul>
+</li>
+<li>Go to your family cabin off the grid and still use ollama on the MacBook.</li>
+<li>Off the grid camping.</li>
+<li>Basically, if the laptop has power, you have access to ollama AI, which is very cool in my mind. It is awesome to have the power of AI at your fingertips and not require the power of the internet to use it.</li>
+</ul>
+<hr>
+<p><strong>Stream Deck and ollama commands together is a great time saver.</strong></p>
+<ul>
+<li>I assign commands I use the most with ollama to buttons.</li>
+<li>When I have a prompt that works well, assigning the prompt to a stream deck button makes it easy to always run the command the same way. I should call them Prompt Engineering Buttons.</li>
+</ul>
+<figure><a class="lightgallery" href="/ollama/ollama-08.png" title="/ollama/ollama-08.png" data-thumbnail="/ollama/ollama-08.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<p>In this video, the ollama commands were run using a Stream Deck Button. Realtime speed, no video edits:</p>
+<figure><a class="lightgallery" href="/ollama/ollama-09.gif" title="/ollama/ollama-09.gif" data-thumbnail="/ollama/ollama-09.gif" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
 <hr>
 <h6 id="links-to-resources-discussed-is-this-blog-post">Links to resources discussed is this Blog Post:</h6>
 <ul>
@@ -2262,162 +2361,6 @@ Changes: Updated script to work with newest version of RVTools</p>
 <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="dalehassinger" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
 </center>
 <hr>]]></description>
-</item>
-<item>
-    <title>End of Year Review - 2023</title>
-    <link>http://localhost:1313/end-of-year-review-2023/</link>
-    <pubDate>Mon, 01 Jan 2024 00:00:00 &#43;0000</pubDate>
-    <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/end-of-year-review-2023/</guid>
-    <description><![CDATA[<p><strong>End Of Year Review 2023</strong></p>
-<hr>
-<p>The year 2023 was a good chapter in my career, emphasizing the importance of community contribution. I hold a belief that my endeavors are worthwhile if they benefit even one person. This past year, I engaged in numerous presentations and blog posts, focusing on giving back to the vCommunity. My efforts in sharing knowledge and resources have, I believe, positively impacted others, making 2023 a year of success and meaningful community engagement.</p>
-<hr>
-<h6 id="highlights-of-2023">Highlights of 2023</h6>
-<ul>
-<li>Started a VMware Aria Suite Solution Architect Role. I get to work with some people that have been role models to me. The culture within this Team is the best that I have ever experienced.</li>
-<li>vExpert 2023 | Member since 2020</li>
-<li>vExpert 2023 | vExpert Cloud Management</li>
-<li>VMware Explore 2023 Hackathon: I was the Hackathon Team Lead and we finished 2nd place.</li>
-<li>VMware Explore 2023 session (Presentation): Use VMware Aria to Create/Manage/Monitor Windows Servers (on-prem/cloud) [CODE2501LV]</li>
-<li>The VMware Community Podcast | I was a Guest on the show.</li>
-<li>The PowerShell Podcast | I was a Guest on the show</li>
-<li>Philly VMUG Presentation | VMware Aria Automation and Operations</li>
-</ul>
-<hr>
-<h6 id="my-top-20-blog-posts-of-2023">My Top 20 Blog Posts of 2023</h6>
-<table>
-<thead>
-<tr>
-<th>Rank</th>
-<th>Blog Topic</th>
-<th>Views</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>01</td>
-<td>vCROCS - Home Page</td>
-<td>3061</td>
-</tr>
-<tr>
-<td>02</td>
-<td>VMware Aria Automation and Ansible Integration</td>
-<td>1227</td>
-</tr>
-<tr>
-<td>03</td>
-<td>Unlocking the Potential - VMware Aria Operations - Automation Central - Snapshot Age</td>
-<td>713</td>
-</tr>
-<tr>
-<td>04</td>
-<td>VMware Aria Automation - Working with Windows Server Drives</td>
-<td>660</td>
-</tr>
-<tr>
-<td>05</td>
-<td>Unlocking the Potential - VMware Aria Automation Config API</td>
-<td>574</td>
-</tr>
-<tr>
-<td>06</td>
-<td>How vRealize Operations can help with Right Sizing VMs</td>
-<td>509</td>
-</tr>
-<tr>
-<td>07</td>
-<td>VMware Aria Automation and SaltStack Config Resource</td>
-<td>380</td>
-</tr>
-<tr>
-<td>08</td>
-<td>VMware Aria Operations - RVTools Dashboard</td>
-<td>331</td>
-</tr>
-<tr>
-<td>09</td>
-<td>How to use PowerShell Modules with vRA 8.2</td>
-<td>305</td>
-</tr>
-<tr>
-<td>10</td>
-<td>Unlocking the Potential - VMware Aria Operations - Metric Search</td>
-<td>291</td>
-</tr>
-<tr>
-<td>11</td>
-<td>Unlocking the Potential - VMware Aria Operations - October 2023 PowerBlock</td>
-<td>290</td>
-</tr>
-<tr>
-<td>12</td>
-<td>VMware Aria Operations - Servicenow - Management Pack</td>
-<td>265</td>
-</tr>
-<tr>
-<td>13</td>
-<td>Schedule RVTools Data Export</td>
-<td>250</td>
-</tr>
-<tr>
-<td>14</td>
-<td>Rest API calls in VMware Aria Automation with PowerShell</td>
-<td>228</td>
-</tr>
-<tr>
-<td>15</td>
-<td>VMware Explore 2023 - Presentation</td>
-<td>208</td>
-</tr>
-<tr>
-<td>16</td>
-<td>Unlocking the Potential - VMware Aria Automation - ABX Action Constants and Secrets</td>
-<td>166</td>
-</tr>
-<tr>
-<td>17</td>
-<td>Unlocking the Potential - VMware Aria Automation - Custom Form Versioning</td>
-<td>156</td>
-</tr>
-<tr>
-<td>18</td>
-<td>VMware Aria Operations for Logs (SaaS) - ESXi Host syslog setting</td>
-<td>146</td>
-</tr>
-<tr>
-<td>19</td>
-<td>Unlocking the Potential - VMware Aria Operations - Automation Central - VM Snaps</td>
-<td>131</td>
-</tr>
-<tr>
-<td>20</td>
-<td>VMware Explore 2023 - Hackathon</td>
-<td>125</td>
-</tr>
-</tbody>
-</table>
-<p>The top 20 list reveals a significant interest in utilizing Automation and Operations. The fact that Ansible&rsquo;s integration with VMware Aria Automation ranked #1 was unexpected, evidenced by the frequent views of this particular blog post. This observation has inspired me to dedicate more of my blogging efforts to VMware Aria Automation Ansible integration in the upcoming year.</p>
-<p>*Stats from Google Analytics.</p>
-<hr>
-<h6 id="set-goals-2024">Set-Goals 2024</h6>
-<ul>
-<li>Give back more to the vCommunity.</li>
-<li>Be a good mentor.</li>
-<li>Get a session approved for VMware Explore 2024.</li>
-<li>Do more VMware Aria Presentations | PowerBlocks | Videos | etc&hellip;</li>
-<li>Create more Blog Posts.</li>
-<li>Never Stop Learning&hellip;</li>
-</ul>
-<hr>
-<h6 id="thanks-for-visiting-in-2023">Thanks for visiting in 2023!</h6>
-<hr>
-<ul>
-<li>If you found this Blog site useful and it helped you, Buy me a coffee to start my day.</li>
-</ul>
-<center>
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="dalehassinger" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
-</center>]]></description>
 </item>
 </channel>
 </rss>

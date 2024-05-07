@@ -289,6 +289,25 @@ Two commands I use the most:
 * ollama and llama3 are both available at no cost today (04/2024).
 * I pay $20 per month for ChatGPT. You get more with ChatGPT but ollama does a good job for a way to have a local LLM option.
 
+**Use Cases to use ollama local:**  
+* Traveling and no internet access for AI like ChatGPT.  
+  * Use ollama while flying. Nice way to get some help at 35,000 ft.  
+* Go to your family cabin off the grid and still use ollama on the MacBook.
+* Off the grid camping.
+* Basically, if the laptop has power, you have access to ollama AI, which is very cool in my mind. It is awesome to have the power of AI at your fingertips and not require the power of the internet to use it.
+
+---
+
+**Stream Deck and ollama commands together is a great time saver.**  
+
+* I assign commands I use the most with ollama to buttons.  
+* When I have a prompt that works well, assigning the prompt to a stream deck button makes it easy to always run the command the same way. I should call them Prompt Engineering Buttons.
+
+{{< image src="ollama-08.png" caption="Click to see Larger Image of Screen Shot">}}  
+
+In this video, the ollama commands were run using a Stream Deck Button. Realtime speed, no video edits:
+
+{{< image src="ollama-09.gif" caption="Click to see Larger Image of Screen Shot">}}  
 
 ---
 

@@ -100,6 +100,8 @@ The views and opinions expressed on this blog are strictly my own and do not ref
 
 * **VMware vExpert - vSphere** | 2024 - Present  
 
+* **Central PA VMUG - 2024** | VCF Aria Operations Presentation  
+
 * **VMware Explore 2023 Presentation** | Use VMware Aria to Create/Manage/Monitor Windows Servers (on-prem/cloud) [CODE2501LV]  
 
 * **Hackathon Team Captain** (Finished in 2nd Place) | VMware Explore 2023  

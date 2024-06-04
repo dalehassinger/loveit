@@ -69,6 +69,8 @@ The views and opinions expressed on this blog are strictly my own and do not ref
 
 {{< /admonition >}}
 
+> <center><b>"Dale Hassinger, you push the dashboards beyond what I thought was possible." - Iwan 'e1' Rahabok</b></center>
+
 {{< admonition type=success title="Experience" open=true >}}
 * VMware Aria  
 

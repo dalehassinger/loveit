@@ -88,12 +88,14 @@ In the view filter, I specified two metrics: “guestfilesystem:/storage/imagebu
 {{< image src="vcenter-observability-04.gif" caption="Click to see Larger Image of Screen Shot">}}  
 
 ---
-> Stay tuned for future blog posts. I plan to create dashboards for monitoring Aria appliances, similar to what I did for VMware vCenter. It's crucial to ensure these appliances are well monitored and maintained, like a Swiss watch.    
+> Stay tuned for future blog posts. I plan to create dashboards for monitoring Aria appliances, similar to what I did for VMware vCenter. It's crucial to ensure these appliances are well monitored and maintained, like a Swiss watch.  
+
+> Update: [Link to Aria Appliances Observability Blog](https://www.vcrocs.info/aria-appliances-observability/)  
 
 ---
 
 ###### Links to resources discussed is this Blog Post: 
-* [Dale's Github Repository](https://github.com/dalehassinger/unlocking-the-potential/tree/main/VMware-Aria-Operations/Dashboards/vCenter-Observability)    
+* [Dale's Github Repository](https://github.com/dalehassinger/unlocking-the-potential/tree/main/VMware-Aria-Operations/Dashboards/vCenter-Observability)  
 
 ---
 

@@ -34,9 +34,11 @@ lightgallery: true
 
 In my previous blog, I discussed **VMware vCenter** appliance observability. [Click here to read the blog](https://www.vcrocs.info/vcenter-observability/). Building on those ideas, I now want to demonstrate how to monitor **VMware Aria** Appliances. Monitoring and observing VMware Aria Appliance VMs is crucial in a VMware environment where many such appliances are present.
 
-For VMware Aria Appliances, I created a Custom Group within VMware Aria Operations. These appliances have a property named "Summary|Configuration|Product Name". By using a filter that checks if the Product Name contains "Aria", "vRealize", or "Log Insight", I was able to group all VMware Aria Appliance VMs together.
+For VMware Aria Appliances, I created a Custom Group within VMware Aria Operations. These appliances have a property named "Summary|Configuration|Product Name". By using a filter that checks if the Product Name contains "Aria", "vRealize", or "Log Insight", I was able to group all VMware Aria Appliance VMs together. See Screen Shot below.  
 
-This filter is applicable to the following Aria Appliances:  
+---
+
+**This filter is applicable to the following Aria Appliances:**  
 - Aria Operations  
 - Aria Operations for Logs  
 - Aria Automation

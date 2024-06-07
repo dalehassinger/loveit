@@ -32,7 +32,7 @@ lightgallery: true
 
 ###### VMware Explore 2024  
 
-Website: [VMware Explore 2024.](https://www.vmware.com/explore)  
+Website: [VMware Explore 2024.](https://www.vmware.com/explore/us)  
 Las Vegas Date: August 26 – 29, 2024  
 The Venetian Convention and Expo Center  
 Registration is open!
@@ -88,8 +88,8 @@ I submitted a couple sessions that hope get accepted in 2024, Fingers Crossed. O
 ---
 
 ###### Links to resources discussed is this Blog Post: 
-* [VMware Explore 2024.](https://www.vmware.com/explore)    
-
+* [VMware Explore 2024.](https://www.vmware.com/explore/us)  
+* [VMware Explore 2024 | Registration Link.](https://event.vmware.com/flow/vmware/explore2024lv/reg/login)  
 ---
 
 * If you found this blog article helpful and it assisted you, consider buying me a coffee to kickstart my day.  

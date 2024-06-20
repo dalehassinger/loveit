@@ -67,9 +67,29 @@ I submitted a couple sessions that hope get accepted in 2024, Fingers Crossed. O
 
 ---
 
+###### Sessions Update!
+
+I am very excited to announce that I will be doing (3) presentations at VMware Explore 2024.  
+
+* Streamlining Healthcare with Automation: How VMware Can Help | [INDB1917LV](https://event.vmware.com/flow/vmware/explore2024lv/content/page/catalog?search=INDB1917LV)
+* Transform VCF Automation Inputs to ABX and Orchestrator Workflow Variables | [CODE1164LV](https://event.vmware.com/flow/vmware/explore2024lv/content/page/catalog?search=CODE1164LV)
+* Maximizing VMware Workstation/Fusion for Business, Education, and Home Labs | [CODE1162LV](https://event.vmware.com/flow/vmware/explore2024lv/content/page/catalog?search=CODE1162LV)
+
+---
+
+[Link to all my sessions in the VMware Explore 2024 Content Catalog](https://event.vmware.com/flow/vmware/explore2024lv/content/page/catalog?search=Hassinger)
+
+---
+
+**Session Details:**
+
+{{< image src="vmware-explore-2024-01.png" caption="Click to see Larger Image of Screen Shot">}}  
+
+---
+
 ###### My favorite places to eat or things to do while at VMware Explore:
 
-**Eating - Paces that I have gone and enjoyed:**  
+**Eating - Places that I have gone and enjoyed:**  
 * [Joes's Prime Steak and Stone Crab](https://www.joes.net/las-vegas/) - I have always had a great experience here  
 * [Delmonico Steakhouse](https://www.venetianlasvegas.com/restaurants/delmonico-steakhouse.html) - You can't leave without having EMERIL’S BANANA CREAM PIE!  
 * [Grand Lux Café at The Palazzo](https://www.venetianlasvegas.com/restaurants/grand-lux-cafe-palazzo.html) is great for Breakfast!  

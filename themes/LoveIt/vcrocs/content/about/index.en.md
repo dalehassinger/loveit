@@ -49,7 +49,7 @@ The views and opinions expressed on this blog are strictly my own and do not ref
 {{< admonition type=success title="Thanks!" open=true >}}
 * The **VCF Specialist Architects** team I am currently a part of is highly rated and renowned for its innovation and expertise. Over the past few years, several members of this team have become role models for me. I anticipate gaining significant knowledge from their expertise and, in turn, give back to the team.  
 
-* I have worked with a great group of people at VMware, past and present. I would like to thank the following people for all their support in no particular order: Steve Leiberson, Marshall Cline, Brock Peterson, Christopher Kusek, Marjorie Abdelkrime, Eric Murray, Ariel Sanchez, Karl Hauck, Cosmin Trif, Daniel Thomas, Marcus Roberts, Ken Jordan, Eric Pennente, Corey Blaz, Wes Milliron, Matt Emerson and others.  
+* I have worked with a great group of people at VMware, past and present. I would like to thank the following people for all their support in no particular order: Steve Leiberson, Marshall Cline, Brock Peterson, Christopher Kusek, Cosmin Trif, Marjorie Abdelkrime, Eric Murray, Ariel Sanchez, Karl Hauck, Daniel Thomas, Marcus Roberts, Ken Jordan, Eric Pennente, Corey Blaz, Wes Milliron, Matt Emerson and others.  
 
 * **Special Thanks** to David Kruse for getting me started with vRA.  
 
@@ -57,7 +57,7 @@ The views and opinions expressed on this blog are strictly my own and do not ref
 
 * **Special Thanks** to my first manager at VMware: Alex Musicante. You believed in me and my passion/skills/knowledge of the VMware Products. You gave me a career opportunity that no one else did.  
 
-* **Special Thanks** to some past and present co-workers, SEs, TAMs, HVC Members that I learned a lot from: Robert Mitchell, Dan Grove, Steve Holmes, Steve Pittenger, Anton Wesztergom (Opened my eyes to vRA Day 2), Ryan Palmer, Megan Koss, Josh Demcher, IIona Sirotinin.
+* **Special Thanks** to some past and present co-workers, SEs, TAMs, HVC Members that I learned a lot from: Robert Mitchell, Dan Grove, Steve Holmes, Steve Pittenger, Anton Wesztergom (Opened my eyes to vRA Day 2), Ryan Palmer, Megan Koss, Josh Demcher.
 
 * **Special Thanks** to my VMware Explore 2023 Hackathon Team, Madison Welsch, Wes Milliron, Tina Krogull, Viviana Miranda, and Edgar Sanchez.
 
@@ -73,23 +73,15 @@ The views and opinions expressed on this blog are strictly my own and do not ref
 
 {{< admonition type=success title="Experience" open=true >}}
 * VMware Aria  
-
 * VMware Aria Automation | VMware Aria Automation Config  
-
 * VMware Aria Operations | VMware Aria Operations for Logs  
-
 * VMware vCenter | VMware vSphere  
-
 * vRealize Automation | vRealize SaltStack Config | vRealize Operations | vRealize Log Insight  
-
 * PowerShell | PowerCLI | Python  
-
+* AI | ChatGPT | ollama
 * Windows Servers | Linux Servers | macOS  
-
 * Salt | Ansible  
-
 * SQL Server  
-
 * more...  
 
 {{< /admonition >}}
@@ -99,31 +91,19 @@ The views and opinions expressed on this blog are strictly my own and do not ref
 {{< admonition type=success title="vCommunity Activities" open=true >}}
 * **VMware vExpert** | 2020 - Present | [Link to vExpert Profile](https://vexpert.vmware.com/directory/5721)  
 * **VMware vExpert - Cloud Management** | 2021 - Present  
-
 * **VMware vExpert - vSphere** | 2024 - Present  
-
+* **Joined 'Two and a Half Geeks, with Doug Finke** | Where the intersection of AI and IT unfolds in real-time. In this session, Dale Hassinger, with his deep expertise in automation and latest work with AI, teams up with Doug Finke, an AI Tinkerer.
 * **Central PA VMUG - 2024** | VCF Aria Operations Presentation  
-
 * **VMware Explore 2023 Presentation** | Use VMware Aria to Create/Manage/Monitor Windows Servers (on-prem/cloud) [CODE2501LV]  
-
 * **Hackathon Team Captain** (Finished in 2nd Place) | VMware Explore 2023  
-
 * **SaltConf Session - 2021** | Managing Windows with SaltStack Config  
-
 * **VMworld Session - 2021** | Manage Windows Workloads Through vRealize Automation SaltStack Config [MCL1895]  
-
 * **TECH BYTES - 2024** | VMware Aria Operations with ServiceNow Management Pack (MP) | How to keep your ServiceNow CMDB up to date  
-
 * **Philly VMUG - 2023** | VMware Aria Automation and Operations  
-
 * **Central PA VMUG - 2022** | VMware Explore 2022  
-
 * **VMware PowerBlock - 2021** | Customer Showcase - VM Right Sizing  
-
 * **VMware PowerBlock - 2020** | vRealize Operations, your monitoring “Single Pane of Glass  
-
 * **vBrownbag session for VMworld - 2020** | vRealize Operations, your monitoring “Single Pane of Glass  
-
 {{< /admonition >}}
 
 {{< admonition type=info title="Info" open=true >}}

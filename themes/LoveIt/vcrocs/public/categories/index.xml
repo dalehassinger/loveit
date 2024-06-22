@@ -84,5 +84,125 @@
     <guid>http://localhost:1313/categories/vmware-aria-operations-for-logs/</guid>
     <description><![CDATA[]]></description>
 </item>
+<item>
+    <title>Podcast</title>
+    <link>http://localhost:1313/categories/podcast/</link>
+    <pubDate>Wed, 06 Sep 2023 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/categories/podcast/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VMware Aria</title>
+    <link>http://localhost:1313/categories/vmware-aria/</link>
+    <pubDate>Fri, 18 Aug 2023 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/categories/vmware-aria/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VMUG</title>
+    <link>http://localhost:1313/categories/vmug/</link>
+    <pubDate>Fri, 10 Mar 2023 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/categories/vmug/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Career</title>
+    <link>http://localhost:1313/categories/career/</link>
+    <pubDate>Tue, 01 Nov 2022 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/categories/career/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>PowerBlock</title>
+    <link>http://localhost:1313/categories/powerblock/</link>
+    <pubDate>Fri, 19 Aug 2022 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/categories/powerblock/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>SaltStack Config</title>
+    <link>http://localhost:1313/categories/saltstack-config/</link>
+    <pubDate>Fri, 10 Jun 2022 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/categories/saltstack-config/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Year in Review</title>
+    <link>http://localhost:1313/categories/year-in-review/</link>
+    <pubDate>Sat, 01 Jan 2022 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/categories/year-in-review/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>PowerCLI</title>
+    <link>http://localhost:1313/categories/powercli/</link>
+    <pubDate>Fri, 31 Dec 2021 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/categories/powercli/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>SaltConf</title>
+    <link>http://localhost:1313/categories/saltconf/</link>
+    <pubDate>Sat, 02 Oct 2021 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/categories/saltconf/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VRealize Operations</title>
+    <link>http://localhost:1313/categories/vrealize-operations/</link>
+    <pubDate>Sat, 15 May 2021 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/categories/vrealize-operations/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VRealize Automation</title>
+    <link>http://localhost:1313/categories/vrealize-automation/</link>
+    <pubDate>Mon, 18 Jan 2021 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/categories/vrealize-automation/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Recipe for Success</title>
+    <link>http://localhost:1313/categories/recipe-for-success/</link>
+    <pubDate>Fri, 15 Jan 2021 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/categories/recipe-for-success/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Raspberry PI</title>
+    <link>http://localhost:1313/categories/raspberry-pi/</link>
+    <pubDate>Sun, 11 Oct 2020 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/categories/raspberry-pi/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VBrownbag</title>
+    <link>http://localhost:1313/categories/vbrownbag/</link>
+    <pubDate>Thu, 01 Oct 2020 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/categories/vbrownbag/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>WFH</title>
+    <link>http://localhost:1313/categories/wfh/</link>
+    <pubDate>Sat, 11 Jul 2020 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/categories/wfh/</guid>
+    <description><![CDATA[]]></description>
+</item>
 </channel>
 </rss>

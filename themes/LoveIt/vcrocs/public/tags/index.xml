@@ -84,5 +84,125 @@
     <guid>http://localhost:1313/tags/vcf/</guid>
     <description><![CDATA[]]></description>
 </item>
+<item>
+    <title>AI</title>
+    <link>http://localhost:1313/tags/ai/</link>
+    <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/ai/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Giving Back</title>
+    <link>http://localhost:1313/tags/giving-back/</link>
+    <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/giving-back/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Llama</title>
+    <link>http://localhost:1313/tags/llama/</link>
+    <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/llama/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Ollama</title>
+    <link>http://localhost:1313/tags/ollama/</link>
+    <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/ollama/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>PowerShell</title>
+    <link>http://localhost:1313/tags/powershell/</link>
+    <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/powershell/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VCommunity</title>
+    <link>http://localhost:1313/tags/vcommunity/</link>
+    <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/vcommunity/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VMware VExpert 2020 - Present</title>
+    <link>http://localhost:1313/tags/vmware-vexpert-2020---present/</link>
+    <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/vmware-vexpert-2020---present/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Alerts</title>
+    <link>http://localhost:1313/tags/alerts/</link>
+    <pubDate>Sun, 17 Mar 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/alerts/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Google Spaces</title>
+    <link>http://localhost:1313/tags/google-spaces/</link>
+    <pubDate>Sun, 17 Mar 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/google-spaces/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Messages</title>
+    <link>http://localhost:1313/tags/messages/</link>
+    <pubDate>Sun, 17 Mar 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/messages/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Teams Messages</title>
+    <link>http://localhost:1313/tags/teams-messages/</link>
+    <pubDate>Sun, 17 Mar 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/teams-messages/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>ESXi</title>
+    <link>http://localhost:1313/tags/esxi/</link>
+    <pubDate>Sat, 09 Mar 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/esxi/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Home Lab</title>
+    <link>http://localhost:1313/tags/home-lab/</link>
+    <pubDate>Sat, 09 Mar 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/home-lab/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VMware Workstation</title>
+    <link>http://localhost:1313/tags/vmware-workstation/</link>
+    <pubDate>Sat, 09 Mar 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/vmware-workstation/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Text Display Widget</title>
+    <link>http://localhost:1313/tags/text-display-widget/</link>
+    <pubDate>Sun, 18 Feb 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/text-display-widget/</guid>
+    <description><![CDATA[]]></description>
+</item>
 </channel>
 </rss>

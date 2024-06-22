@@ -165,7 +165,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # date format (month and day)
     dateFormat = "01-02"
     # amount of RSS pages
-    rss = 50
+    rss = 25
 
   # List (category or tag) page config
   [params.list]
@@ -174,7 +174,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # date format (month and day)
     dateFormat = "01-02"
     # amount of RSS pages
-    rss = 10
+    rss = 25
 
   # App icon config
   [params.app]
@@ -216,7 +216,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # Home page config
   [params.home]
     # amount of RSS pages
-    rss = 10
+    rss = 25
     # Home page profile
     [params.home.profile]
       enable = true
@@ -335,7 +335,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # whether to show link to Raw Markdown content of the content
     linkToMarkdown = true
     # whether to show the full text content in RSS
-    rssFullText = true
+    #rssFullText = true
+    rssFullText = false
     # Table of the contents config
     [params.page.toc]
       # whether to enable the table of the contents
@@ -752,7 +753,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           appID = ""
           searchKey = ""
       [languages.en.params.home]
-        rss = 10
+        rss = 25
         [languages.en.params.home.profile]
           enable = true
           gravatarEmail = ""

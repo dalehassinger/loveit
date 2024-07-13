@@ -22,16 +22,16 @@ lightgallery: true
 <center>{{< image src="vexpert-24.gif" caption="">}}</center>  
 
 {{< admonition type=info title="Info" open=true >}}
-The views and opinions expressed on this blog are strictly my own and do not reflect the views and opinions of my employer. I Blog about Subjects and Products that I find interesting and will hopefully help someone get started on their Automation, Monitoring and Logging journey by providing some tips | tricks | processes | code needed.  
+The views and opinions expressed on this blog are strictly my own and do not reflect the views and opinions of my employer. I blog about subjects and products that I find interesting, and aim to help someone get started on their automation, monitoring, and logging journey by providing some tips, tricks, processes, and code needed.  
 {{< /admonition >}}
 
 ---
 
-* My focus is Automation, Monitoring and Logging. When I was a VMware customer I created an IaC (Infrastructure as Code) Environment. I used VMware vRealize Automation and SaltStack Config to complete server builds, software installs, schedule VM snap shots, Microsoft 365 automation, Citrix Management, Automate Data Center Flips, Server Decommissions, and many other Day 2 processes… For monitoring I used vRealize Operations for the “Single Pane of Glass” experience. I also used vRealize Log Insight for logging and LCM (Life Cycle Manager) for installing all the vRealize Products.  
+* My focus is on Automation, Monitoring, and Logging. When I was a VMware customer, I created an IaC (Infrastructure as Code) environment. I used VMware vRealize Automation and SaltStack Config to complete server builds, software installs, schedule VM snapshots, Microsoft 365 automation, Citrix management, automate data center flips, server decommissions, and many other Day 2 processes… For monitoring, I used vRealize Operations for the “Single Pane of Glass” experience. I also used vRealize Log Insight for logging and LCM (Life Cycle Manager) for installing all the vRealize products.  
 
-* Almost all the code I write to complete the Automation that I create is done with PowerShell. The reason I choose to use PowerShell is because to do Automation with VMware products, VMware has a PowerShell module named PowerCLI. There hasn’t been anything that I wanted to Automate that I haven’t been able to do with PowerShell.
+* The code I write to complete the automation that I create is mostly done with PowerShell because, to automate with VMware products, VMware has a PowerShell module named PowerCLI. There hasn't been anything that I wanted to automate that I haven't been able to do with PowerShell.  
 
-* I have also done Automation with Azure. I am using PowerShell to create VMs and SaltStack Config to complete the configuration management, install software and maintain state.  
+* I have also done Automation with Azure. I am using PowerShell to create VMs and SaltStack Config to complete configuration management, install software, and maintain state.  
 
 >  
 ><center><b>"Your thought process is the most powerful automation tool you’ll ever have!" - Cody De Arkland</b></center>  

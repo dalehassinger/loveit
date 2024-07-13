@@ -38,24 +38,45 @@ What I personally witnessed yesterday at the VMware HVC event, was that the cult
 
 ###### Here are my Key Takeaways:  
 
-* A VMware Healthcare Customer took the time out of their busy schedule to tell their story and journey with VCF, that started in 2021. The good and the bad were discussed. I can honestly say that the customers pointed out that there was more positive than negative. One example was upgrades and patching. Far less time spent doing these activities. Engineers spend more time do Engineering work. Upgrades and patching become more of a monitoring activity.  
+* A VMware Healthcare Customer took the time out of their busy schedule to tell their story and journey with VCF, that started in 2021. The good and the bad were discussed. I can honestly say that the customers pointed out that there was more positive than negative. One example was upgrades and patching. Far less time spent doing these activities. Engineers spend more time doing Engineering work. Upgrades and patching become more of a monitoring activity.  
 * Everyone was shaking hands, hugs, laughing,  and just catching up.  
 * Attendees engaged in lively discussions, networking, and sharing project updates.  
 * The food and drink provided was awesome.  
-*The event had zero negativity, reflecting a strong sense of community among the attendees.  
+* The event had zero negativity, reflecting a strong sense of community among the attendees.  
 
 
 ---
 
 ###### Personal Highlights:  
 * I was able to meet a co-worker that I have known for almost 5 years, in person. [Brock Peterson](https://www.brockpeterson.com) and I are both VCF Aria Specialists. We help VMware Healthcare and Life Sciences customers with Automation, Monitoring and Logging. Brock has been a Role Model/Mentor of mine and it was nice to personally say thanks for all the help he has provided these past couple of years and being a valuable resource for me. If you use the VMware product Aria Operations (vROPS), I can guarantee you have read at least one of the awesome [blogs](https://www.brockpeterson.com) that he has written about the product.  
-* The event's organizers, [Marcus Roberts](https://www.linkedin.com/in/marcus-roberts-1a418724/) and [Dan Thomas](https://www.linkedin.com/in/dan0thom/), deserve special recognition for their hard work in making the event a success. Marcus provided a good conversation at the beginning of the event to give everyone updates and Dan a great fireside chat with the customer discussing their VCF journey.  
+* The event's organizers, [Marcus Roberts](https://www.linkedin.com/in/marcus-roberts-1a418724/) and [Dan Thomas](https://www.linkedin.com/in/dan0thom/), deserve special recognition for their hard work in making the event a success. Marcus provided a good conversation at the beginning of the event to give everyone updates and Dan had great fireside chat with the customer discussing their VCF journey, see pic below.  
 
 ---
 
-Here are some pics from the event to enjoy.  
+###### Here are some pics from the event to enjoy.:
 
-{{< image src="learn-01.png" caption="Click to see Larger Image of Screen Shot">}}  
+**Brock Peterson and Dale Hassinger:**
+{{< image src="hvc-01.jpeg" caption="Click to see Larger Image of Screen Shot">}}  
+
+---
+
+**Dan Thomas having a Fireside Chat:**
+{{< image src="hvc-02.jpeg" caption="Click to see Larger Image of Screen Shot">}}  
+
+---
+
+**HVC Community:**
+{{< image src="hvc-03.jpeg" caption="Click to see Larger Image of Screen Shot">}}  
+
+---
+
+**HVC Community:**
+{{< image src="hvc-04.jpeg" caption="Click to see Larger Image of Screen Shot">}}  
+
+---
+
+**VMware by Broadcom Team:**
+{{< image src="hvc-05.jpeg" caption="Click to see Larger Image of Screen Shot">}}  
 
 ---
 

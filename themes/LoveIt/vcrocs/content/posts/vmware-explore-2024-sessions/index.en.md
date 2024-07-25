@@ -20,7 +20,7 @@ lightgallery: true
 
 ---
 
-**I am presenting (3) sessions at VMware Explore 2024.**
+**I am presenting (4) sessions at VMware Explore 2024.**
 
 <!--more-->
 
@@ -39,7 +39,9 @@ The Venetian Convention and Expo Center
 
 ---
 
-I'm thrilled to announce that I will be presenting three sessions at VMware Explore 2024! My journey to this moment began at the Mid-Atlantic HVC (Healthcare Virtualization Community) events. I initially attended these events as a VMware customer eager to learn. Eventually, I was invited to present on the automation work I was doing with VMware Products. Though nerve-wracking, my first presentation was a success, and the positive feedback encouraged me to start my blog, sharing knowledge with the vCommunity.  
+**Updated: 07/22/2024**
+
+I'm thrilled to announce that I will be presenting four sessions at VMware Explore 2024! Note that two of the VMware {code} sessions have been combined into consecutive presentations, ensuring that all material is covered in these updated sessions. My journey to this moment began at the Mid-Atlantic HVC (Healthcare Virtualization Community) events. I initially attended these events as a VMware customer eager to learn. Eventually, I was invited to present on the automation work I was doing with VMware Products. Though nerve-wracking, my first presentation was a success, and the positive feedback encouraged me to start my blog, sharing knowledge with the vCommunity.  
 
 After countless blog posts and community events, I'm now honored to present a General Session at VMware Explore 2024. For those in the VMware community, this is the pinnacle of recognition and opportunity. I'm excited to bring my passion for VMware products to these sessions, and I invite you to sign up and join me. I'll do my best to share valuable insights and help you enhance your environments. Check out the links to my sessions below and in the [VMware Explore 2024 Content Catalog](https://event.vmware.com/flow/vmware/explore2024lv/content/page/catalog?search=Hassinger). Hope to see you in Vegas!  
 
@@ -56,6 +58,9 @@ After countless blog posts and community events, I'm now honored to present a Ge
 * **Maximizing VMware Workstation/Fusion for Business, Education, and Home Labs** | [CODE1162LV](https://event.vmware.com/flow/vmware/explore2024lv/content/page/catalog?search=CODE1162LV)  
   * Explore the versatility of VMware Workstation and Fusion for diverse applications within your setup. Discover my personal methodology for leveraging Workstation/Fusion to evaluate software on virtual machines, conduct nested ESXi for educational purposes, or operate Linux VMs on Windows or Mac laptops. Delve into the included Workstation/Fusion APIs as a resource for automation education. I'll demo PowerShell Functions I developed, using the APIs, for efficient VM management on Workstation/Fusion.  
   * My goal with this session is to assist everyone from beginners in virtualization to those looking to enhance their daily automation tasks. You'll learn how to set up a powerful home lab and leverage APIs to advance your coding skills.  
+* **Integrate status.broadcom.com Alerts into VCF via Tailored Management Pack** [CODE1161LV](https://event.vmware.com/flow/vmware/explore2024lv/content/page/catalog?search=CODE1161LV)  
+  * Discover the process of building a custom VCF Aria Operations Management Pack for displaying and alerting on VMware and Broadcom components. Utilize data from status.broadcom.com to transform Aria Operations into your central management hub. Plus, gain insights into both upcoming and past Notices for the tracked services. The session will feature demonstrations of customized Dashboards, Views, and Alert configurations.
+  * I'll walk you through creating a VMware Aria Management Pack using the MP Builder tool. By following along with the example, you'll be able to recreate the same Management Pack and use it in your own environment.  
 
 ---
 

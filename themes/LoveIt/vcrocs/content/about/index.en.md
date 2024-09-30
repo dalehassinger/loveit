@@ -40,7 +40,7 @@ The views and opinions expressed on this blog are strictly my own and do not ref
 {{< admonition type=success title="vCommunity" open=true >}}
 * I have learned a lot from the vCommunity, Powershell and PowerCLI web sites. I want to use this Blog Site as a way for me to give back. If one person finds anything I post helpful, I will consider my efforts successful.  
 
-* The code that I have shared on this Blog Site is code that I use with vRealize Automation Cloud Templates/Catalog Items and everyday VMware Admin functions. Everyday I learn something new. If I think it should be shared I will write a blog about it. Check back often to see what I am doing next.  
+* The code that I have shared on this Blog Site is code that I use with VCF Automation Templates/Catalog Items and everyday VMware Admin functions. Everyday I learn something new. If I think it should be shared I will write a blog about it. Check back often to see what I am doing next.  
 
 {{< /admonition >}}
 
@@ -49,7 +49,7 @@ The views and opinions expressed on this blog are strictly my own and do not ref
 {{< admonition type=success title="Thanks!" open=true >}}
 * The **VCF Specialist Architects** team I am currently a part of is highly rated and renowned for its innovation and expertise. Over the past few years, several members of this team have become role models for me. I anticipate gaining significant knowledge from their expertise and, in turn, give back to the team.  
 
-* I have worked with a great group of people at VMware, past and present. I would like to thank the following people for all their support in no particular order: Steve Leiberson, Marshall Cline, Brock Peterson, Christopher Kusek, Cosmin Trif, Marjorie Abdelkrime, Eric Murray, Ariel Sanchez, Karl Hauck, Daniel Thomas, Marcus Roberts, Ken Jordan, Eric Pennente, Corey Blaz, Wes Milliron, Matt Emerson and others.  
+* I have worked with a great group of people at VMware, past and present. I would like to thank the following people for all their support in no particular order: Steve Leiberson, Brock Peterson, Cosmin Trif, Christopher Kusek, Marshall Cline, Marjorie Abdelkrime, Eric Murray, Ariel Sanchez, Karl Hauck, Daniel Thomas, Marcus Roberts, Ken Jordan, Eric Pennente, Corey Blaz, Wes Milliron, Iwan 'e1' Rahabok, Franky Barragan and others.  
 
 * **Special Thanks** to David Kruse for getting me started with vRA.  
 
@@ -57,13 +57,15 @@ The views and opinions expressed on this blog are strictly my own and do not ref
 
 * **Special Thanks** to my first manager at VMware: Alex Musicante. You believed in me and my passion/skills/knowledge of the VMware Products. You gave me a career opportunity that no one else did.  
 
-* **Special Thanks** to some past and present co-workers, SEs, TAMs, HVC Members that I learned a lot from: Robert Mitchell, Dan Grove, Steve Holmes, Steve Pittenger, Anton Wesztergom (Opened my eyes to vRA Day 2), Ryan Palmer, Megan Koss, Josh Demcher.
+* **Special Thanks** to some past and present co-workers, SEs, TAMs, HVC Members that I learned a lot from: Robert Mitchell, Dan Grove, Steve Holmes, Steve Pittenger, Anton Wesztergom (Opened my eyes to vRA Day 2), Megan Koss, Josh Demcher.  
 
-* **Special Thanks** to my VMware Explore 2023 Hackathon Team, Madison Welsch, Wes Milliron, Tina Krogull, Viviana Miranda, and Edgar Sanchez.
+* **Special Thanks** to my VMware Explore 2023 Hackathon Team: Madison Welsch, Wes Milliron, Tina Krogull, Viviana Miranda, and Edgar Sanchez.  
 
-* **Special Thanks** to the person that gave me my first Job in IT: David Cornelius  
+* **Special Thanks** to my VMware Explore 2024 Hackathon Team: Don Horrox, Amos Clerizier, Brian Haskell, and Adrian Ayran.  
 
-* List of Bloggers that I follow and have learned a lot by them “Giving Back”: Cody De Arkland, Luc Dekens, Kyle Ruddy, William Lam, Nathen Bennett, Vince Wood, Alan Renouf.  
+* **Special Thanks** to the person that gave me my first Job in IT and an early role model in my career: David Cornelius  
+
+* **List of Bloggers** that I follow and have learned a lot by them “Giving Back”: Cody De Arkland, Luc Dekens, Kyle Ruddy, William Lam, Alan Renouf.  
 
 * and anyone else that helped me in my journey called my career…  
 
@@ -72,7 +74,8 @@ The views and opinions expressed on this blog are strictly my own and do not ref
 > <center><b>"Dale Hassinger, you push the dashboards beyond what I thought was possible." - Iwan 'e1' Rahabok</b></center>
 
 {{< admonition type=success title="Experience" open=true >}}
-* VMware Aria  
+* VMware Cloud Foundation (VCF)
+* VCF Automation | VCF Operations
 * VMware Aria Automation | VMware Aria Automation Config  
 * VMware Aria Operations | VMware Aria Operations for Logs  
 * VMware vCenter | VMware vSphere  
@@ -92,12 +95,26 @@ The views and opinions expressed on this blog are strictly my own and do not ref
 * **VMware vExpert** | 2020 - Present | [Link to vExpert Profile](https://vexpert.vmware.com/directory/5721)  
 * **VMware vExpert - Cloud Management** | 2021 - Present  
 * **VMware vExpert - vSphere** | 2024 - Present  
+* **VMware Explore 2024 Activites:**
+  * **Presentations:**  
+    * Streamlining Healthcare with Automation: How VMware Can Help [INDB1917LV]  
+    * Transform VCF Automation Inputs to ABX and Orchestrator Workflow Variables [CODE1164LV]  
+    * Maximizing VMware Workstation/Fusion for Business, Education, and Home Labs [CODE1162LV]  
+    * Integrate status.broadcom.com Alerts into VCF via Tailored Management Pack [CODE1161LV]  
+    * {code} Lab: Advanced Lab Using ChatGPT To Write Powershell Automation [CODE2554LV] 
+  * **Hackathon Team Captain**  
+    * ollama and RVTools | (Finished in 2nd Place)  
+* **VMware Explore 2023 Activites:**
+  * **Presentation:**  
+    * Use VMware Aria to Create/Manage/Monitor Windows Servers (on-prem/cloud) [CODE2501LV]  
+  * **Hackathon Team Captain**  
+    * ChatGPT and Aria Automation | (Finished in 2nd Place)  
+* **VMware World 2021 Activites:**
+  * **Presentation:**  
+    * Manage Windows Workloads Through vRealize Automation SaltStack Config [MCL1895]  
+* **SaltConf Session - 2021** | Managing Windows with SaltStack Config  
 * **Joined 'Two and a Half Geeks, with Doug Finke** | Where the intersection of AI and IT unfolds in real-time. In this session, Dale Hassinger, with his deep expertise in automation and latest work with AI, teams up with Doug Finke, an AI Tinkerer.
 * **Central PA VMUG - 2024** | VCF Aria Operations Presentation  
-* **VMware Explore 2023 Presentation** | Use VMware Aria to Create/Manage/Monitor Windows Servers (on-prem/cloud) [CODE2501LV]  
-* **Hackathon Team Captain** (Finished in 2nd Place) | VMware Explore 2023  
-* **SaltConf Session - 2021** | Managing Windows with SaltStack Config  
-* **VMworld Session - 2021** | Manage Windows Workloads Through vRealize Automation SaltStack Config [MCL1895]  
 * **TECH BYTES - 2024** | VMware Aria Operations with ServiceNow Management Pack (MP) | How to keep your ServiceNow CMDB up to date  
 * **Philly VMUG - 2023** | VMware Aria Automation and Operations  
 * **Central PA VMUG - 2022** | VMware Explore 2022  

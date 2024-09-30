@@ -26,7 +26,7 @@ lightgallery: true
 
 ---
 
->Hock Tan's message to VMware customers was clear: "Your Success is Our Success!"
+>Hock Tan's message to VMware customers was clear: "Your Success represents Our Success!"
 
 ---
 
@@ -85,15 +85,29 @@ If you attended my **VMware Explore Sessions** and want to watch the recordings 
 
 * **Streamlining Healthcare with Automation: How VMware Can Help** | [INDB1917LV](https://www.vmware.com/explore/video-library/video/6360760139112)  
   * In this session, learn to elevate your automation game. Join us to discover practical strategies for boosting your team's efficiency. 1) Automate Windows and Linux VM builds 2) Streamline Day 2 tasks like snapshots and reboots 3) Enhance security incident management by configuring Aria Operations for Logs to alert on log analysis, and 4) Automate snapshot deletion and power operations using Aria Operations Automation Central.  
+    * ***Session Survey Feedback - What would you improve about the session?***  
+      * "Very informative and got my creative juices going."  
+      * "Positives with showing real world experience"  
+      * "Nothing, Dale and Don gave great real world examples and I walked away with actionable knowledge I can use to improve my own VMware environment."  
+      * "I am a little more open to the snapshot cleanup feature and server decommissioning."  
+      * "Had a great time!"  
+      * "Great presentation"  
   
 * **Transform VCF Automation Inputs to ABX and Orchestrator Workflow Variables** | [CODE1164LV](https://www.youtube.com/live/ukh10J4diSU?si=T-LGROlz7s-VW2wn)  
   * Master the art of converting any VCF Aria Automation template input into a dynamic variable for ABX or Orchestrator Workflows. This session will guide you through the process of turning inputs into versatile properties, ready to be integrated as parameters for any script. Unlock the potential to automate virtually any task within your infrastructure. By the end of this session, you'll realize that your creativity in variable use is the most powerful automation tool at your disposal.  
+    * ***Session Survey Feedback - What would you improve about the session?***  
+      * "Nothing this is one of the best sessions and speakers available"  
   
 * **Maximizing VMware Workstation/Fusion for Business, Education, and Home Labs** | [CODE1162LV](https://www.youtube.com/live/D7hXsucZqu8?si=vPIKN76-i116A0ml)  
   * Explore the versatility of VMware Workstation and Fusion for diverse applications within your setup. Discover my personal methodology for leveraging Workstation/Fusion to evaluate software on virtual machines, conduct nested ESXi for educational purposes, or operate Linux VMs on Windows or Mac laptops. Delve into the included Workstation/Fusion APIs as a resource for automation education. I'll demo PowerShell Functions I developed, using the APIs, for efficient VM management on Workstation/Fusion.  
+    * ***Session Survey Feedback - What would you improve about the session?***  
+      * "Great information. Should keep on presenting this information."  
 
 * **Integrate status.broadcom.com Alerts into VCF via Tailored Management Pack** | [CODE1161LV](https://www.youtube.com/live/EcQNwO_skAA?si=xkLv3PvocHy5ka0f)  
   * Discover the process of building a custom VCF Aria Operations Management Pack for displaying and alerting on VMware and Broadcom components. Utilize data from status.broadcom.com to transform Aria Operations into your central management hub. Plus, gain insights into both upcoming and past Notices for the tracked services. The session will feature demonstrations of customized Dashboards, Views, and Alert configurations.
+    * ***Session Survey Feedback - What would you improve about the session?***  
+      * "None - instructor did a great job with the time allowed."  
+      * "Great presentation. Wished the session was longer to get more details."  
 
 * **{code} Lab: Advanced Lab Using ChatGPT To Write Powershell Automation** | CODE2554LV (No Recordings of these Sessions)
   * I also co-presented and presented several sessions in the {code} Labs with [Eric Nielsen](https://twitter.com/ericnipro), where we demonstrated advanced ChatGPT prompting and how to use the OpenAI API. These sessions were fully booked every day.  
@@ -107,6 +121,12 @@ If you attended my **VMware Explore Sessions** and want to watch the recordings 
 
 ---
 
+###### VMware Explore 2024 Video | See a brief shot of me doing one of my presentations in the {code} Theatre  
+
+[VMware Community space in The Hub](https://x.com/vExpert/status/1828174163967910156)  
+
+---
+
 ###### VMware Explore 2024 Pics | Sessions, Hackathon, Swag, Prizes, More...  
 
 **Sessions:**
@@ -117,8 +137,8 @@ If you attended my **VMware Explore Sessions** and want to watch the recordings 
 {{< image src="vmware-explore-2024-04.jpg" caption="Click to see Larger Image of Screen Shot">}}  
 {{< image src="vmware-explore-2024-05.jpg" caption="Click to see Larger Image of Screen Shot">}}  
 {{< image src="vmware-explore-2024-03.jpg" caption="Click to see Larger Image of Screen Shot">}}  
-{{< image src="vmware-explore-2024-18.jpg" caption="Click to see Larger Image of Screen Shot">}} 
-
+{{< image src="vmware-explore-2024-18.jpg" caption="Click to see Larger Image of Screen Shot">}}  
+{{< image src="vmware-explore-2024-20.jpg" caption="Click to see Larger Image of Screen Shot">}}  
 **Hackathon:**
 {{< image src="vmware-explore-2024-01.jpg" caption="Click to see Larger Image of Screen Shot">}}  
 {{< image src="vmware-explore-2024-07.jpg" caption="Click to see Larger Image of Screen Shot">}}  

@@ -1,97 +1,97 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>PowerCLI - Tag - vCROCS</title>
-        <link>http://localhost:1313/tags/powercli/</link>
+        <link>http://localhost:62043/tags/powercli/</link>
         <description>PowerCLI - Tag - vCROCS</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</managingEditor>
-            <webMaster>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 07 Oct 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/powercli/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 07 Oct 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:62043/tags/powercli/" rel="self" type="application/rss+xml" /><item>
     <title>VMware Aria Operations for Logs (SaaS) | ESXi Host syslog setting</title>
-    <link>http://localhost:1313/unlocking-the-potential-vmware-aria-operations-for-logs-syslog-settings/</link>
+    <link>http://localhost:62043/unlocking-the-potential-vmware-aria-operations-for-logs-syslog-settings/</link>
     <pubDate>Sat, 07 Oct 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/unlocking-the-potential-vmware-aria-operations-for-logs-syslog-settings/</guid>
+    <guid>http://localhost:62043/unlocking-the-potential-vmware-aria-operations-for-logs-syslog-settings/</guid>
     <description><![CDATA[<p><strong>How to Automate the ESXi Host &ldquo;Syslog.global.logHost&rdquo; setting, when using Cloud Proxies.</strong></p>]]></description>
 </item>
 <item>
     <title>GitHub Repository | Code and Examples to help you get started</title>
-    <link>http://localhost:1313/github-repository/</link>
+    <link>http://localhost:62043/github-repository/</link>
     <pubDate>Sat, 24 Jun 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/github-repository/</guid>
+    <guid>http://localhost:62043/github-repository/</guid>
     <description><![CDATA[<p><strong>GitHub Repository | Code and Examples to help you get started</strong></p>]]></description>
 </item>
 <item>
     <title>Rest API calls in VMware Aria Automation with PowerShell</title>
-    <link>http://localhost:1313/rest-api-calls-vmware-aria-automation/</link>
+    <link>http://localhost:62043/rest-api-calls-vmware-aria-automation/</link>
     <pubDate>Mon, 20 Mar 2023 00:00:00 &#43;0000</pubDate>
     <author>Dave Kaber</author>
-    <guid>http://localhost:1313/rest-api-calls-vmware-aria-automation/</guid>
+    <guid>http://localhost:62043/rest-api-calls-vmware-aria-automation/</guid>
     <description><![CDATA[<p><strong>Rest API calls in VMware Aria Automation with PowerShell</strong></p>
 <hr>]]></description>
 </item>
 <item>
     <title>The PowerShell Podcast | I was a Guest on the show</title>
-    <link>http://localhost:1313/the-powershell-podcast/</link>
+    <link>http://localhost:62043/the-powershell-podcast/</link>
     <pubDate>Sun, 12 Mar 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/the-powershell-podcast/</guid>
+    <guid>http://localhost:62043/the-powershell-podcast/</guid>
     <description><![CDATA[<p><strong>The PowerShell Podcast | I was a Guest on the show</strong></p>
 <hr>]]></description>
 </item>
 <item>
     <title>Use vCenter TAGs to maintain VM Storage Placement</title>
-    <link>http://localhost:1313/use-vcenter-tags-to-maintain-vm-storage-placement/</link>
+    <link>http://localhost:62043/use-vcenter-tags-to-maintain-vm-storage-placement/</link>
     <pubDate>Fri, 27 Jan 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/use-vcenter-tags-to-maintain-vm-storage-placement/</guid>
+    <guid>http://localhost:62043/use-vcenter-tags-to-maintain-vm-storage-placement/</guid>
     <description><![CDATA[<p><strong>Use vCenter TAGs to maintain VM Storage Placement.</strong></p>]]></description>
 </item>
 <item>
     <title>NSX-T security Tags and PowerShell</title>
-    <link>http://localhost:1313/powershell-nsx-t/</link>
+    <link>http://localhost:62043/powershell-nsx-t/</link>
     <pubDate>Fri, 31 Dec 2021 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/powershell-nsx-t/</guid>
+    <guid>http://localhost:62043/powershell-nsx-t/</guid>
     <description><![CDATA[<p><strong>How to work with NSX-T security Tags using PowerShell</strong></p>]]></description>
 </item>
 <item>
     <title>Open Ports | Zero Trust</title>
-    <link>http://localhost:1313/check-ports/</link>
+    <link>http://localhost:62043/check-ports/</link>
     <pubDate>Sat, 24 Apr 2021 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/check-ports/</guid>
+    <guid>http://localhost:62043/check-ports/</guid>
     <description><![CDATA[<p><strong>How to check if ports are open to a remote server</strong></p>]]></description>
 </item>
 <item>
     <title>Add disk to a Remote Windows Server | VMware VM</title>
-    <link>http://localhost:1313/add-drives/</link>
+    <link>http://localhost:62043/add-drives/</link>
     <pubDate>Sun, 19 Apr 2020 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/add-drives/</guid>
+    <guid>http://localhost:62043/add-drives/</guid>
     <description><![CDATA[<p><strong>Add disk to a Remote Windows Server | VMware VM</strong></p>]]></description>
 </item>
 <item>
     <title>One way to do Automation in a Zero Trust Environment</title>
-    <link>http://localhost:1313/automation-zero-trust/</link>
+    <link>http://localhost:62043/automation-zero-trust/</link>
     <pubDate>Sun, 19 Apr 2020 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/automation-zero-trust/</guid>
+    <guid>http://localhost:62043/automation-zero-trust/</guid>
     <description><![CDATA[<p><strong>Automation with Zero Trust</strong></p>]]></description>
 </item>
 <item>
     <title>PowerCLI Getting Started</title>
-    <link>http://localhost:1313/powercli-getting-started/</link>
+    <link>http://localhost:62043/powercli-getting-started/</link>
     <pubDate>Sun, 19 Apr 2020 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/powercli-getting-started/</guid>
+    <guid>http://localhost:62043/powercli-getting-started/</guid>
     <description><![CDATA[<p><strong>PowerCLI Basics</strong></p>]]></description>
 </item>
 <item>
     <title>Powershell code to add custom Registry values</title>
-    <link>http://localhost:1313/add-registry-values/</link>
+    <link>http://localhost:62043/add-registry-values/</link>
     <pubDate>Sun, 19 Apr 2020 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/add-registry-values/</guid>
+    <guid>http://localhost:62043/add-registry-values/</guid>
     <description><![CDATA[<p><strong>Add Windows Server Registry Values</strong></p>]]></description>
 </item>
 </channel>

@@ -1,207 +1,207 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - Tag - vCROCS</title>
-        <link>http://localhost:1313/tags/</link>
+        <link>http://localhost:62043/tags/</link>
         <description>Tags - Tag - vCROCS</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</managingEditor>
-            <webMaster>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>VCF Automation</title>
-    <link>http://localhost:1313/tags/vcf-automation/</link>
-    <pubDate>Fri, 30 Aug 2024 00:00:00 &#43;0000</pubDate>
+            <webMaster>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="http://localhost:62043/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Dashboard</title>
+    <link>http://localhost:62043/tags/dashboard/</link>
+    <pubDate>Sat, 05 Oct 2024 00:00:00 &#43;0000</pubDate>
     <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/vcf-automation/</guid>
+    <guid>http://localhost:62043/tags/dashboard/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>VCF Operations</title>
-    <link>http://localhost:1313/tags/vcf-operations/</link>
-    <pubDate>Fri, 30 Aug 2024 00:00:00 &#43;0000</pubDate>
+    <title>ESXi</title>
+    <link>http://localhost:62043/tags/esxi/</link>
+    <pubDate>Sat, 05 Oct 2024 00:00:00 &#43;0000</pubDate>
     <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/vcf-operations/</guid>
+    <guid>http://localhost:62043/tags/esxi/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>VCF Operations Management Pack Builder</title>
-    <link>http://localhost:1313/tags/vcf-operations-management-pack-builder/</link>
-    <pubDate>Fri, 30 Aug 2024 00:00:00 &#43;0000</pubDate>
+    <title>FastAPI</title>
+    <link>http://localhost:62043/tags/fastapi/</link>
+    <pubDate>Sat, 05 Oct 2024 00:00:00 &#43;0000</pubDate>
     <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/vcf-operations-management-pack-builder/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>VMware</title>
-    <link>http://localhost:1313/tags/vmware/</link>
-    <pubDate>Fri, 30 Aug 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/vmware/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>VMware Explore 2024</title>
-    <link>http://localhost:1313/tags/vmware-explore-2024/</link>
-    <pubDate>Fri, 30 Aug 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/vmware-explore-2024/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>VMware Fusion</title>
-    <link>http://localhost:1313/tags/vmware-fusion/</link>
-    <pubDate>Fri, 30 Aug 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/vmware-fusion/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>VMware Work Station</title>
-    <link>http://localhost:1313/tags/vmware-work-station/</link>
-    <pubDate>Fri, 30 Aug 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/vmware-work-station/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Culture</title>
-    <link>http://localhost:1313/tags/culture/</link>
-    <pubDate>Sat, 13 Jul 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/culture/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Healthcare</title>
-    <link>http://localhost:1313/tags/healthcare/</link>
-    <pubDate>Sat, 13 Jul 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/healthcare/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>HVC</title>
-    <link>http://localhost:1313/tags/hvc/</link>
-    <pubDate>Sat, 13 Jul 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/hvc/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>VCommunity</title>
-    <link>http://localhost:1313/tags/vcommunity/</link>
-    <pubDate>Sat, 13 Jul 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/vcommunity/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Vegas</title>
-    <link>http://localhost:1313/tags/vegas/</link>
-    <pubDate>Thu, 20 Jun 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/vegas/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>VMware Aria Automation</title>
-    <link>http://localhost:1313/tags/vmware-aria-automation/</link>
-    <pubDate>Thu, 20 Jun 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/vmware-aria-automation/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>VMware Aria Operations</title>
-    <link>http://localhost:1313/tags/vmware-aria-operations/</link>
-    <pubDate>Thu, 20 Jun 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/vmware-aria-operations/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>VMware Aria Operations for Logs</title>
-    <link>http://localhost:1313/tags/vmware-aria-operations-for-logs/</link>
-    <pubDate>Thu, 20 Jun 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/vmware-aria-operations-for-logs/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>VMware Explore</title>
-    <link>http://localhost:1313/tags/vmware-explore/</link>
-    <pubDate>Thu, 20 Jun 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/vmware-explore/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Templates</title>
-    <link>http://localhost:1313/tags/templates/</link>
-    <pubDate>Wed, 19 Jun 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/templates/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Aria Operations</title>
-    <link>http://localhost:1313/tags/aria-operations/</link>
-    <pubDate>Tue, 04 Jun 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/aria-operations/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>VCenter</title>
-    <link>http://localhost:1313/tags/vcenter/</link>
-    <pubDate>Tue, 04 Jun 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/vcenter/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>VCF</title>
-    <link>http://localhost:1313/tags/vcf/</link>
-    <pubDate>Tue, 04 Jun 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/vcf/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>AI</title>
-    <link>http://localhost:1313/tags/ai/</link>
-    <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/ai/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Giving Back</title>
-    <link>http://localhost:1313/tags/giving-back/</link>
-    <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/giving-back/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Llama</title>
-    <link>http://localhost:1313/tags/llama/</link>
-    <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/llama/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Ollama</title>
-    <link>http://localhost:1313/tags/ollama/</link>
-    <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/ollama/</guid>
+    <guid>http://localhost:62043/tags/fastapi/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>PowerShell</title>
-    <link>http://localhost:1313/tags/powershell/</link>
-    <pubDate>Sat, 27 Apr 2024 00:00:00 &#43;0000</pubDate>
+    <link>http://localhost:62043/tags/powershell/</link>
+    <pubDate>Sat, 05 Oct 2024 00:00:00 &#43;0000</pubDate>
     <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/powershell/</guid>
+    <guid>http://localhost:62043/tags/powershell/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Tiered Memory</title>
+    <link>http://localhost:62043/tags/tiered-memory/</link>
+    <pubDate>Sat, 05 Oct 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:62043/tags/tiered-memory/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VCF Operations</title>
+    <link>http://localhost:62043/tags/vcf-operations/</link>
+    <pubDate>Sat, 05 Oct 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:62043/tags/vcf-operations/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VCF Operations Management Pack Builder</title>
+    <link>http://localhost:62043/tags/vcf-operations-management-pack-builder/</link>
+    <pubDate>Sat, 05 Oct 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:62043/tags/vcf-operations-management-pack-builder/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VCF Automation</title>
+    <link>http://localhost:62043/tags/vcf-automation/</link>
+    <pubDate>Fri, 30 Aug 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:62043/tags/vcf-automation/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VMware</title>
+    <link>http://localhost:62043/tags/vmware/</link>
+    <pubDate>Fri, 30 Aug 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:62043/tags/vmware/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VMware Explore 2024</title>
+    <link>http://localhost:62043/tags/vmware-explore-2024/</link>
+    <pubDate>Fri, 30 Aug 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:62043/tags/vmware-explore-2024/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VMware Fusion</title>
+    <link>http://localhost:62043/tags/vmware-fusion/</link>
+    <pubDate>Fri, 30 Aug 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:62043/tags/vmware-fusion/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VMware Work Station</title>
+    <link>http://localhost:62043/tags/vmware-work-station/</link>
+    <pubDate>Fri, 30 Aug 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:62043/tags/vmware-work-station/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Culture</title>
+    <link>http://localhost:62043/tags/culture/</link>
+    <pubDate>Sat, 13 Jul 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:62043/tags/culture/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Healthcare</title>
+    <link>http://localhost:62043/tags/healthcare/</link>
+    <pubDate>Sat, 13 Jul 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:62043/tags/healthcare/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>HVC</title>
+    <link>http://localhost:62043/tags/hvc/</link>
+    <pubDate>Sat, 13 Jul 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:62043/tags/hvc/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VCommunity</title>
+    <link>http://localhost:62043/tags/vcommunity/</link>
+    <pubDate>Sat, 13 Jul 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:62043/tags/vcommunity/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Vegas</title>
+    <link>http://localhost:62043/tags/vegas/</link>
+    <pubDate>Thu, 20 Jun 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:62043/tags/vegas/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VMware Aria Automation</title>
+    <link>http://localhost:62043/tags/vmware-aria-automation/</link>
+    <pubDate>Thu, 20 Jun 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:62043/tags/vmware-aria-automation/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VMware Aria Operations</title>
+    <link>http://localhost:62043/tags/vmware-aria-operations/</link>
+    <pubDate>Thu, 20 Jun 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:62043/tags/vmware-aria-operations/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VMware Aria Operations for Logs</title>
+    <link>http://localhost:62043/tags/vmware-aria-operations-for-logs/</link>
+    <pubDate>Thu, 20 Jun 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:62043/tags/vmware-aria-operations-for-logs/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VMware Explore</title>
+    <link>http://localhost:62043/tags/vmware-explore/</link>
+    <pubDate>Thu, 20 Jun 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:62043/tags/vmware-explore/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Templates</title>
+    <link>http://localhost:62043/tags/templates/</link>
+    <pubDate>Wed, 19 Jun 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:62043/tags/templates/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Aria Operations</title>
+    <link>http://localhost:62043/tags/aria-operations/</link>
+    <pubDate>Tue, 04 Jun 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:62043/tags/aria-operations/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VCenter</title>
+    <link>http://localhost:62043/tags/vcenter/</link>
+    <pubDate>Tue, 04 Jun 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:62043/tags/vcenter/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VCF</title>
+    <link>http://localhost:62043/tags/vcf/</link>
+    <pubDate>Tue, 04 Jun 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:62043/tags/vcf/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

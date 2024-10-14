@@ -711,33 +711,41 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         identifier = "links"
         pre = "<i class='fab fa-bookmark fa-regular' aria-hidden='true'></i>"
         post = ""
-        name = " - Links"
+        name = ""
         url = "/links/"
-        title = ""
+        title = "Links"
       [[languages.en.menu.main]]
         weight = 6
         identifier = "Pics"
         pre = "<i class='fab fa-image fa-regular' aria-hidden='true'></i>"
         post = ""
-        name = " - Pics"
+        name = ""
         url = "/pics/"
-        title = ""
+        title = "Pics"
       [[languages.en.menu.main]]
         weight = 7
         identifier = "twitter"
-        pre = "<i class='fab fa-twitter fa-fw' aria-hidden='true'></i>"
+        pre = "<i class='fab fa-twitter'></i>"
         post = ""
-        name = " - Twitter"
+        name = ""
         url = "https://twitter.com/dalehassinger"
         title = "Twitter"
       [[languages.en.menu.main]]
         weight = 8
-        identifier = "disclaimer"
-        pre = ""
+        identifier = "Podcast"
+        pre = "<i class='fa fa-podcast fa-fw' aria-hidden='true'></i>"
         post = ""
-        name = "Disclaimer"
+        name = ""
+        url = "https://www.youtube.com/playlist?list=PLqjVNzdDCzwZXR3lfqaFX_hZI3zB8nsVF"
+        title = "Podcast"
+      [[languages.en.menu.main]]
+        weight = 9
+        identifier = "disclaimer"
+        pre = "<i class='fa-regular fa-file' aria-hidden='true'></i>"
+        post = ""
+        name = ""
         url = "/disclaimer/"
-        title = ""
+        title = "Disclaimer"
     [languages.en.params]
       [languages.en.params.search]
         enable = true

@@ -1,24 +1,24 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>MAC - Tag - vCROCS</title>
-        <link>http://localhost:62043/tags/mac/</link>
+        <link>http://localhost:1313/tags/mac/</link>
         <description>MAC - Tag - vCROCS</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</managingEditor>
-            <webMaster>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 02 Dec 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:62043/tags/mac/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 02 Dec 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/mac/" rel="self" type="application/rss+xml" /><item>
     <title>Productive APPs | 2023</title>
-    <link>http://localhost:62043/productive-apps-2023/</link>
+    <link>http://localhost:1313/productive-apps-2023/</link>
     <pubDate>Sat, 02 Dec 2023 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:62043/productive-apps-2023/</guid>
+    <guid>http://localhost:1313/productive-apps-2023/</guid>
     <description><![CDATA[<p><strong>APPs that I use everyday to be Productive | 2023</strong></p>
 <hr>]]></description>
 </item>
 <item>
     <title>Productive APPs | 2022</title>
-    <link>http://localhost:62043/productive-apps-2022/</link>
+    <link>http://localhost:1313/productive-apps-2022/</link>
     <pubDate>Sat, 26 Nov 2022 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
-    <guid>http://localhost:62043/productive-apps-2022/</guid>
+    <guid>http://localhost:1313/productive-apps-2022/</guid>
     <description><![CDATA[<p><strong>APPs that I use everyday to be Productive | 2022</strong></p>
 <hr>]]></description>
 </item>

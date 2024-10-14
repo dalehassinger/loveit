@@ -162,6 +162,13 @@ If you attended my **VMware Explore Sessions** and want to watch the recordings 
 I hope I get the opportunity to do it all again next year. VMware Explore is always one of my favorite weeks of the year. I appreciate the chance to give back to the vCommunity, which I believe is incredibly strong. I've never encountered another user group where the members are as passionate about a product as the VMware community is.
 
 ---
+{{< admonition type=tip title="vCROCS Deep Dive Podcast" open=true >}}
+I created a Google NotebookLM Podcast based on the content of this blog. While it may not be entirely accurate, is any podcast ever 100% perfect, even when real people are speaking? Take a moment to listen and share your thoughts with me!  
+
+[VMware Explore 2024 - AI Podcast of my Blog](https://youtu.be/cbQKr9r-bVg?si=MpedNxmDUZsijYGd)  
+{{< /admonition >}}
+
+---
 
 * If you found this blog article helpful and it assisted you, consider buying me a coffee to kickstart my day.  
 

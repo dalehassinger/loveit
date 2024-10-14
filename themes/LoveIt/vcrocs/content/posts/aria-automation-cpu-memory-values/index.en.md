@@ -2,7 +2,7 @@
 
 weight: 1
 title: "VMware Aria Automation | Options for CPU|Memory values"
-date: 2024-6-19T00:00:00+00:00
+date: 2024-06-19T00:00:00+00:00
 lastmod: 2024-06-19T00:00:00+00:00
 draft: false
 author: "Dale Hassinger"

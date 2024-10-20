@@ -30,7 +30,7 @@ lightgallery: true
 
 ---
 
-**Note: VCF Automation 8.18.0 was used to create this Blog**  
+<small>**Note: VCF Automation 8.18.0 was used to create this Blog**</small>  
 
 When VCF Automation introduced the Overview Tab in Deployments, I quickly began using it in my lab to streamline communication. Previously, I sent emails with crucial details about new server VM builds to the user initiating the deployment. Now, I’ve shifted to adding this information directly into the Deployment Overview Tab.  
 
@@ -57,7 +57,6 @@ Screen Shot of the Assembler Template:
 
 {{< image src="overview-tab-02.png" caption="Click to see Larger Image of Screen Shot">}}  
 
-
 ---
 
 ###### VCF Automation Design Template
@@ -68,7 +67,7 @@ Example Template Yaml Code:
 * The “outputs:” section in the YAML defines the data displayed in the Overview Tab.  
 * You can incorporate “${input.xxx}” values to display specific data in the Overview Tab.  
 
-<span style="color: red; font-weight: bold;">Click arrow to expand the code:</span>  
+<small><span style="color: red; font-weight: bold;">Click arrow to expand the code:</span></small>  
 ```yaml
 
 formatVersion: 2

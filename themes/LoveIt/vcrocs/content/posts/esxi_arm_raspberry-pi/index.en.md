@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["ESXi", "Raspberry PI", "ARM", "vRealize Operations"]
-categories: ["Raspberry PI"]
+categories: ["VMware vCenter"]
 
 lightgallery: true
 

@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["vRA","InfoBlox","Dan Grove"]
-categories: ["vRealize Automation"]
+categories: ["VCF Automation"]
 
 lightgallery: true
 

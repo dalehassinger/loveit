@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["VMware", "VMware Explore 2023"]
-categories: ["VMware Explore"]
+categories: ["VMware Community"]
 
 lightgallery: true
 

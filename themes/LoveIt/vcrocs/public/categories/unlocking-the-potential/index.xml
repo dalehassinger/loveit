@@ -21,14 +21,6 @@
     <description><![CDATA[<p><strong>How to change “Snapshot Age older than” value in VMware Aria Operations | Automation Central.</strong></p>]]></description>
 </item>
 <item>
-    <title>VMware Aria Operations for Logs (SaaS) | ESXi Host syslog setting</title>
-    <link>http://localhost:1313/unlocking-the-potential-vmware-aria-operations-for-logs-syslog-settings/</link>
-    <pubDate>Sat, 07 Oct 2023 00:00:00 &#43;0000</pubDate>
-    <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/unlocking-the-potential-vmware-aria-operations-for-logs-syslog-settings/</guid>
-    <description><![CDATA[<p><strong>How to Automate the ESXi Host &ldquo;Syslog.global.logHost&rdquo; setting, when using Cloud Proxies.</strong></p>]]></description>
-</item>
-<item>
     <title>Unlocking the Potential | VMware Aria Operations | Automation Central | VM Snaps</title>
     <link>http://localhost:1313/unlocking-the-potential-vmware-aria-operations-snap-cleanup/</link>
     <pubDate>Sat, 13 May 2023 00:00:00 &#43;0000</pubDate>

@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["vExpert 2021", "VMware", "vRealize Automation", "vRealize Operations", "vRealize", "Salt", "SaltStack Config", "PowerShell", "Goals", "Career", "Training"]
-categories: ["Recipe for Success"]
+categories: ["VMware Community"]
 
 lightgallery: true
 

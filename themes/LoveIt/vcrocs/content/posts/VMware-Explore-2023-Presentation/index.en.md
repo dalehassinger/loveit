@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["Salt", "VMware Aria Automation Config", "Windows Server", "PowerShell", "VMware", "VMware Aria", "Configuration Management", "Automation", "VMware Explore 2023"]
-categories: ["VMware Explore","VMware Aria"]
+categories: ["VMware Community"]
 
 lightgallery: true
 

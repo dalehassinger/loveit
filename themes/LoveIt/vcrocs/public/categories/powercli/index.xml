@@ -21,36 +21,12 @@
     <description><![CDATA[<p><strong>Using vRO REST API. - (Updated for vRA 8.4)</strong></p>]]></description>
 </item>
 <item>
-    <title>Open Ports | Zero Trust</title>
-    <link>http://localhost:1313/check-ports/</link>
-    <pubDate>Sat, 24 Apr 2021 00:00:00 &#43;0000</pubDate>
-    <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/check-ports/</guid>
-    <description><![CDATA[<p><strong>How to check if ports are open to a remote server</strong></p>]]></description>
-</item>
-<item>
-    <title>Add disk to a Remote Windows Server | VMware VM</title>
-    <link>http://localhost:1313/add-drives/</link>
-    <pubDate>Sun, 19 Apr 2020 00:00:00 &#43;0000</pubDate>
-    <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/add-drives/</guid>
-    <description><![CDATA[<p><strong>Add disk to a Remote Windows Server | VMware VM</strong></p>]]></description>
-</item>
-<item>
     <title>PowerCLI Getting Started</title>
     <link>http://localhost:1313/powercli-getting-started/</link>
     <pubDate>Sun, 19 Apr 2020 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
     <guid>http://localhost:1313/powercli-getting-started/</guid>
     <description><![CDATA[<p><strong>PowerCLI Basics</strong></p>]]></description>
-</item>
-<item>
-    <title>Powershell code to add custom Registry values</title>
-    <link>http://localhost:1313/add-registry-values/</link>
-    <pubDate>Sun, 19 Apr 2020 00:00:00 &#43;0000</pubDate>
-    <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/add-registry-values/</guid>
-    <description><![CDATA[<p><strong>Add Windows Server Registry Values</strong></p>]]></description>
 </item>
 </channel>
 </rss>

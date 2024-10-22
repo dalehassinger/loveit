@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["VMware", "VMUG", "VMware Aria", "VMware Explore 2023", "vExpert", "vCommunity", "Podcast"]
-categories: ["Podcast"]
+categories: ["VMware Community"]
 
 lightgallery: true
 ---

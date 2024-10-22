@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["VMware", "PowerBlock", "Automation", "vRA", "vRealize Automation"]
-categories: ["PowerBlock"]
+categories: ["VMware Community"]
 
 lightgallery: true
 ---

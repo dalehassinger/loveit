@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["ChatGPT", "PowerShell", "VMware", "VMware Aria", "Automation", "VMware Explore 2023"]
-categories: ["VMware Explore"]
+categories: ["VMware Community"]
 
 lightgallery: true
 

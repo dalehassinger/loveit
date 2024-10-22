@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["SaltStack Config", "VMware Aria Automation", "vRealize Automation", "Salt", "minion", "Windows Server", "Ubuntu Server", "Cloud Template"]
-categories: ["Automation"]
+categories: ["VCF Automation"]
 
 lightgallery: true
 ---

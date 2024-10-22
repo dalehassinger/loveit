@@ -14,7 +14,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["VMware", "VMware Aria Automation", "ollama", "llama", "PowerShell", "AI"]
-categories: ["Automation"]
+categories: ["Technology"]
 
 lightgallery: true
 

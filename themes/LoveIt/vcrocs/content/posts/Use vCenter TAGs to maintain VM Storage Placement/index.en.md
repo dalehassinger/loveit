@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["PowerCLI", "VMware Aria Automation", "vRealize Automation", "PowerShell", "vCenter", "Storage"]
-categories: ["Automation"]
+categories: ["VCF Automation"]
 
 lightgallery: true
 ---

@@ -53,7 +53,7 @@ The steps I used to install FastAPI on Rocky Linux Server 9.4:
 
 * A very simple process to install FastAPI and get started.  
 
-<span style="color: red; font-weight: bold;">Click arrow to expand the code:</span>  
+<small><span style="color: red; font-weight: bold;">Click arrow to expand the code:</span></small>  
 ```Bash
 
 # Update the System:
@@ -99,7 +99,7 @@ http://<your_server_ip>:8000
   * To run a PowerShell script to get Host Tiered Memory settings http://192.168.6.83:8000/tieredHost  
 * I converted the data to json in the PowerShell Script. I wanted FastAPI to just return plaintext. See the Python code on how to do this.  
 
-<span style="color: red; font-weight: bold;">Click arrow to expand the code:</span>  
+<small><span style="color: red; font-weight: bold;">Click arrow to expand the code:</span></small>  
 ```Python
 
 import subprocess
@@ -153,7 +153,7 @@ async def run_powershell_script():
 
 PowerShell script to collect the VM Tiered Memory metrics from the ESXi Hosts:  
 
-<span style="color: red; font-weight: bold;">Click arrow to expand the code:</span>  
+<small><span style="color: red; font-weight: bold;">Click arrow to expand the code:</span></small>  
 ```PowerShell
 
 # The Posh-SSH and VMware PowerCLI modules are required to run this script
@@ -276,7 +276,7 @@ Disconnect-VIServer -Confirm:$false
 
 PowerShell script to collect the Host Tiered Memory Properties:  
 
-<span style="color: red; font-weight: bold;">Click arrow to expand the code:</span>  
+<small><span style="color: red; font-weight: bold;">Click arrow to expand the code:</span></small>  
 ```PowerShell
 
 # Most of this Code from William Lam Blog Post

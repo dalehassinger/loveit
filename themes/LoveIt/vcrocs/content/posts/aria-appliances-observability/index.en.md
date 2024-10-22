@@ -14,7 +14,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["VMware", "Aria Operations", "VCF", "vCenter"]
-categories: ["Observability"]
+categories: ["VCF Operations"]
 
 lightgallery: true
 

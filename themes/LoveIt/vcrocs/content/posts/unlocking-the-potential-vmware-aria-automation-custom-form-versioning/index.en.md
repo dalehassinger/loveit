@@ -14,7 +14,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["VMware", "VMware Aria Automation", "Custom Forms", "Versioning"]
-categories: ["Automation"]
+categories: ["VCF Automation"]
 
 lightgallery: true
 

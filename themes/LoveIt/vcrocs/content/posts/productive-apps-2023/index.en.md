@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["MAC", "Apple", "APPs"]
-categories: ["APPS"]
+categories: ["VMware Community"]
 
 lightgallery: true
 ---

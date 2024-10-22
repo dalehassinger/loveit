@@ -12,14 +12,5 @@
     <guid>http://localhost:1313/how-to-learn-about-vmware-products/</guid>
     <description><![CDATA[<p><strong>How to learn about and use VMware Products in a Home Lab</strong></p>]]></description>
 </item>
-<item>
-    <title>Smart Desk and Homelab.</title>
-    <link>http://localhost:1313/standup-desk/</link>
-    <pubDate>Sat, 11 Jul 2020 00:00:00 &#43;0000</pubDate>
-    <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/standup-desk/</guid>
-    <description><![CDATA[<p><strong>Working from Home | My New Homelab.</strong></p>
-<hr>]]></description>
-</item>
 </channel>
 </rss>

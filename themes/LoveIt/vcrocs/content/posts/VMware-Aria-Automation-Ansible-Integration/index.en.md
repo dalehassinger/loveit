@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["Ansible", "VMware Aria Automation", "vRealize Automation", "Rocky Linux", "Red Hat"]
-categories: ["Automation"]
+categories: ["VCF Automation"]
 
 lightgallery: true
 ---

@@ -2,9 +2,9 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:1313/vcf-operations-for-logs-syslog-api/</loc><lastmod>2024-10-19T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/vcf-automation-deployment-overview-tab/</loc><lastmod>2024-10-14T07:18:33-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/esxi-vm-tiered-memory/</loc><lastmod>2024-10-06T20:56:26-04:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://localhost:1313/vcf-operations-for-logs-syslog-api/</loc><lastmod>2024-10-20T15:41:16-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/vcf-automation-deployment-overview-tab/</loc><lastmod>2024-10-20T15:41:16-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/esxi-vm-tiered-memory/</loc><lastmod>2024-10-06T20:56:26-04:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
             <loc>http://localhost:1313/vmware-explore-2024-insights-session-links/</loc><lastmod>2024-10-14T07:18:33-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://localhost:1313/vmware-by-broadcom-hvc-2024-07-12/</loc><lastmod>2024-07-25T06:23:45-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/vmware-explore-2024-sessions/</loc><lastmod>2024-07-25T06:23:45-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -85,60 +85,55 @@
             <loc>http://localhost:1313/automation-zero-trust/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/powercli-getting-started/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/add-registry-values/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/posts/</loc><lastmod>2024-10-19T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/</loc><lastmod>2024-10-19T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/tags/automation/</loc><lastmod>2024-10-19T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/categories/</loc><lastmod>2024-10-19T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/tags/deployments/</loc><lastmod>2024-10-19T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/tags/operations/</loc><lastmod>2024-10-19T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/tags/powershell/</loc><lastmod>2024-10-19T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/tags/syslog/</loc><lastmod>2024-10-19T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/tags/vcf/</loc><lastmod>2024-10-19T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/categories/vcf-operations/</loc><lastmod>2024-10-19T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/categories/vcf-automation/</loc><lastmod>2024-10-14T07:18:33-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/tags/dashboard/</loc><lastmod>2024-10-06T20:56:26-04:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://localhost:1313/tags/esxi/</loc><lastmod>2024-10-06T20:56:26-04:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://localhost:1313/tags/fastapi/</loc><lastmod>2024-10-06T20:56:26-04:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://localhost:1313/tags/tiered-memory/</loc><lastmod>2024-10-06T20:56:26-04:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://localhost:1313/posts/</loc><lastmod>2024-10-20T15:41:16-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/</loc><lastmod>2024-10-20T15:41:16-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/tags/automation/</loc><lastmod>2024-10-20T15:41:16-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/categories/</loc><lastmod>2024-10-20T15:41:16-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/tags/deployments/</loc><lastmod>2024-10-20T15:41:16-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/tags/operations/</loc><lastmod>2024-10-20T15:41:16-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/tags/powershell/</loc><lastmod>2024-10-20T15:41:16-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/tags/syslog/</loc><lastmod>2024-10-20T15:41:16-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/tags/vcf/</loc><lastmod>2024-10-20T15:41:16-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/categories/vcf-operations/</loc><lastmod>2024-10-20T15:41:16-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/categories/vcf-automation/</loc><lastmod>2024-10-20T15:41:16-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/tags/dashboard/</loc><lastmod>2024-10-06T20:56:26-04:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>http://localhost:1313/tags/esxi/</loc><lastmod>2024-10-06T20:56:26-04:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>http://localhost:1313/tags/fastapi/</loc><lastmod>2024-10-06T20:56:26-04:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>http://localhost:1313/tags/tiered-memory/</loc><lastmod>2024-10-06T20:56:26-04:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
             <loc>http://localhost:1313/tags/vcf-operations/</loc><lastmod>2024-10-14T07:18:33-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://localhost:1313/tags/vcf-operations-management-pack-builder/</loc><lastmod>2024-10-14T07:18:33-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://localhost:1313/tags/vcf-automation/</loc><lastmod>2024-10-14T07:18:33-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://localhost:1313/tags/vmware/</loc><lastmod>2024-10-14T07:18:33-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/categories/vmware-explore/</loc><lastmod>2024-10-14T07:18:33-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/categories/vmware-community/</loc><lastmod>2024-10-14T07:18:33-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://localhost:1313/tags/vmware-explore-2024/</loc><lastmod>2024-10-14T07:18:33-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://localhost:1313/tags/vmware-fusion/</loc><lastmod>2024-10-14T07:18:33-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://localhost:1313/tags/vmware-work-station/</loc><lastmod>2024-10-14T07:18:33-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://localhost:1313/tags/culture/</loc><lastmod>2024-07-25T06:23:45-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/healthcare/</loc><lastmod>2024-07-25T06:23:45-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/hvc/</loc><lastmod>2024-07-25T06:23:45-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/hvc/</loc><lastmod>2024-07-25T06:23:45-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vcommunity/</loc><lastmod>2024-07-25T06:23:45-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vegas/</loc><lastmod>2024-07-25T06:23:45-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vmware-aria-automation/</loc><lastmod>2024-10-14T07:18:33-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://localhost:1313/tags/vmware-aria-operations/</loc><lastmod>2024-07-25T06:23:45-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vmware-aria-operations-for-logs/</loc><lastmod>2024-07-25T06:23:45-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vmware-explore/</loc><lastmod>2024-07-25T06:23:45-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/automation/</loc><lastmod>2024-10-14T07:18:33-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://localhost:1313/tags/templates/</loc><lastmod>2024-10-14T07:18:33-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://localhost:1313/tags/aria-operations/</loc><lastmod>2024-06-07T14:41:22-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/observability/</loc><lastmod>2024-06-07T14:41:22-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vcenter/</loc><lastmod>2024-06-07T14:41:22-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/ai/</loc><lastmod>2024-05-07T12:54:47-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/giving-back/</loc><lastmod>2024-04-28T13:53:13-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/llama/</loc><lastmod>2024-05-07T12:54:47-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/ollama/</loc><lastmod>2024-05-07T12:54:47-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/vmware-vexpert/</loc><lastmod>2024-04-28T13:53:13-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/categories/technology/</loc><lastmod>2024-05-07T12:54:47-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vmware-vexpert-2020---present/</loc><lastmod>2024-04-28T13:53:13-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/alerts/</loc><lastmod>2024-03-18T12:47:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/google-spaces/</loc><lastmod>2024-03-18T12:47:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/messages/</loc><lastmod>2024-03-18T12:47:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/teams-messages/</loc><lastmod>2024-03-18T12:47:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/home-lab/</loc><lastmod>2024-03-17T10:37:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/home-lab/</loc><lastmod>2024-03-17T10:37:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vmware-workstation/</loc><lastmod>2024-03-17T10:37:18-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/text-display-widget/</loc><lastmod>2024-02-23T21:32:41-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vmrc/</loc><lastmod>2024-02-23T21:32:41-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/vmware-aria-operations/</loc><lastmod>2024-02-23T21:32:41-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/rvtools/</loc><lastmod>2024-02-11T09:28:35-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vrealize-orchestrator/</loc><lastmod>2024-02-11T09:28:35-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/custom-groups/</loc><lastmod>2024-02-11T09:28:35-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -151,8 +146,8 @@
             <loc>http://localhost:1313/tags/organizational-units/</loc><lastmod>2024-01-13T18:08:21-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/aria/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/broadcom/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/categories/career/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/end-of-year-review/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/end-of-year-review/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/goals/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vexpert-2023/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vmwware-explore-2023/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -160,7 +155,6 @@
             <loc>http://localhost:1313/tags/servicenow/</loc><lastmod>2024-02-11T09:28:35-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/apple/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/apps/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/apps/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/mac/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/action-constants/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/secrets/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -169,19 +163,15 @@
             <loc>http://localhost:1313/tags/automation-central/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/snaps/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/snapshot-age/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/unlocking-the-potential/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/powercli/</loc><lastmod>2024-05-07T12:54:47-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/saas/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/vmware-aria-operations-for-logs/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/podcast/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/podcast/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vexpert/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vmug/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vmware-aria/</loc><lastmod>2024-01-14T09:20:03-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vmware-explore-2023/</loc><lastmod>2024-01-14T09:20:03-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/configuration-management/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/salt/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/vmware-aria/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/windows-server/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/linux-server/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/versioning/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -191,7 +181,6 @@
             <loc>http://localhost:1313/tags/importexcel/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/dave-kaber/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/rest-api/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/vmug/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/cloud-template/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/minion/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/saltstack-config/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -206,14 +195,11 @@
             <loc>http://localhost:1313/tags/red-hat/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/rocky-linux/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/benefits/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/career/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vmworld/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/powerblock/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/powerblock/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vra/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/python/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/salt-api/</loc><lastmod>2023-11-13T07:33:32-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/saltstack-config/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/grains/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vmware-vexpert-2020---22/</loc><lastmod>2023-01-07T22:37:59-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vmware-vexpert-cloud-management-2021---22/</loc><lastmod>2023-01-07T22:37:59-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -224,16 +210,13 @@
             <loc>http://localhost:1313/tags/vrealize/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vrealize-operations/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/year-in-review/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/year-in-review/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/nsx-t/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/powercli/</loc><lastmod>2024-05-07T12:54:47-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/salt-beacons/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/salt-grains/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/salt-jobs/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/salt-reactors/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/salt-states/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/salt-targets/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/saltconf/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/saltconf-2021/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/saltstack/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/beacons/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -243,7 +226,6 @@
             <loc>http://localhost:1313/tags/performance/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/right-size/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/tip-and-tricks/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/vrealize-operations/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vrops/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vro/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/nsx/</loc><lastmod>2024-05-07T12:54:47-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -252,25 +234,20 @@
             <loc>http://localhost:1313/tags/ping-monitoring/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/top-n-charts/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/abx/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/vrealize-automation/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/career/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/recipe-for-success/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/training/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/chartjs/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/citrix/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/arm/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/raspberry-pi/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/raspberry-pi/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/categories/vmware-vcenter/</loc><lastmod>2024-01-07T13:12:46-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vbrownbag/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/vbrownbag/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/wfh/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/wfh/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/dan-grove/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/infoblox/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/it-reality/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/blog/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/hugo/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/hugo/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/static-site-generator/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/web-site/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/add-disk/</loc><lastmod>2023-10-17T09:08:38-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>

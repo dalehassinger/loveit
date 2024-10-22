@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["VMware Aria Operations", "Snaps", "Snapshot Age", "Automation Central"]
-categories: ["Unlocking the Potential", "VMware Aria Operations"]
+categories: ["VCF Operations"]
 
 lightgallery: true
 ---

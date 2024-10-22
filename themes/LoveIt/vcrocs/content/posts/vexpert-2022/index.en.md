@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["VMware vExpert 2020 - 22", "VMware vExpert Cloud Management 2021 - 22", "vCommunity", "Giving Back", "VMware"]
-categories: ["VMware vExpert"]
+categories: ["VMware Community"]
 
 #lightgallery: true
 ---

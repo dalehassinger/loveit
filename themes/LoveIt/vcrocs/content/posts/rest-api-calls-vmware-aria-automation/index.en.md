@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["Dave Kaber", "VMware", "VMware Aria Automation", "PowerCLI", "PowerShell", "Rest-API"]
-categories: ["Automation"]
+categories: ["VCF Automation"]
 
 lightgallery: true
 ---

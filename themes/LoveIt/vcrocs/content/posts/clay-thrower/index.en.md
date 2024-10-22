@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["Raspberry Pi", "Clay Thrower", "Python", "PHP"]
-categories: ["Raspberry PI"]
+categories: ["Technology"]
 
 lightgallery: true
 

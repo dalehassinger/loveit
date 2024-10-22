@@ -14,7 +14,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["VMware", "VMware Aria Automation", "Active Directory", "Organizational Units", "Actions"]
-categories: ["Automation"]
+categories: ["VCF Automation"]
 
 lightgallery: true
 

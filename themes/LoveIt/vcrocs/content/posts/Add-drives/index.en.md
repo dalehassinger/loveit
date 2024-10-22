@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["PowerShell", "PowerCLI", "Add Disk", "Windows Server"]
-categories: ["PowerCLI"]
+categories: ["VCF Automation"]
 
 lightgallery: true
 

@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["Salt","SaltStack","SaltStack Config","Windows Server","PowerShell","VMware","vRealize","Configuration Management","Automation","vRealize Automation","vRA","SaltConf 2021","Salt Beacons","Salt Grains","Salt Reactors","Salt Targets","Salt Jobs","Salt States"]
-categories: ["SaltConf"]
+categories: ["VMware Community"]
 
 lightgallery: true
 

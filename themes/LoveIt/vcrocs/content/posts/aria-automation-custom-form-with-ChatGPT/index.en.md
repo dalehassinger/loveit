@@ -14,7 +14,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["VMware", "VMware Aria Automation", "Custom Forms", "ChatGPT", "AI"]
-categories: ["Automation"]
+categories: ["VCF Automation"]
 
 lightgallery: true
 

@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["vExpert 2021", "VMworld 2021", "SaltConf21", "VMware", "vRealize Automation", "vRealize Operations", "vRealize", "Salt", "SaltStack Config", "PowerShell", "Year in Review", "Goals"]
-categories: ["Year in Review"]
+categories: ["Career"]
 
 lightgallery: true
 

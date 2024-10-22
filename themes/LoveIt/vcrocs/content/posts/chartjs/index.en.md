@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["ChartJS", "Citrix", "vRealize Operations", "Dashboard", "vROPS", "VMware Aria"]
-categories: ["vRealize Operations"]
+categories: ["VCF Operations"]
 
 lightgallery: true
 

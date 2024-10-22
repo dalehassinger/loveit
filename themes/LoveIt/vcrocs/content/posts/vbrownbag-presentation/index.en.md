@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["vBrownbag", "vRealize Operations", "vROPS", "VMworld", "Podcast", "Dashboard"]
-categories: ["vBrownbag"]
+categories: ["VMware Community"]
 
 lightgallery: true
 

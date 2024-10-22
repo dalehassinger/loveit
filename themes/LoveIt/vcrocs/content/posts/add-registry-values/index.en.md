@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["PowerShell", "PowerCLI", "Registry"]
-categories: ["PowerCLI"]
+categories: ["VCF Automation"]
 
 lightgallery: true
 

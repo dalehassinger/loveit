@@ -14,7 +14,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["VMware", "VMware Aria Automation", "Teams Messages", "Google Spaces", "Alerts", "Messages"]
-categories: ["Automation"]
+categories: ["VCF Automation"]
 
 lightgallery: true
 

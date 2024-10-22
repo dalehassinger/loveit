@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["vRA", "PowerShell", "Podcast", "IT Reality"]
-categories: ["Podcast"]
+categories: ["VMware Community"]
 
 lightgallery: true
 

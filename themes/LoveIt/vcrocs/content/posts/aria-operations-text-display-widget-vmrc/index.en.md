@@ -14,7 +14,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["VMware", "VMware Aria Operations", "VMRC", "PowerShell", "Text Display Widget"]
-categories: ["VMware Aria Operations"]
+categories: ["VCF Operations"]
 
 lightgallery: true
 

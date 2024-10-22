@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["Salt", "SaltStack", "SaltStack Config", "Windows Server", "PowerShell", "VMware", "vRealize", "Configuration Management", "Automation", "vRealize Automation", "vRA", "VMworld 2021"]
-categories: ["SaltStack Config","VMware Aria"]
+categories: ["VMware Community"]
 
 lightgallery: true
 

@@ -158,7 +158,7 @@ Send-ApiEvent -text $text -vmw_vcenter $ConnectVIServerParams.Server -vmw_esxi_v
 # Establish the connection to vCenter
 $vCenterConnect = Connect-VIServer @ConnectVIServerParams
 
-# Log successful connection status to Aria Operations for Logs
+# Log successful connection status to vCenter
 $text = $scriptProcess + " - Connection to vCenter Server: " + $ConnectVIServerParams.Server + " Successful: " + $vCenterConnect.IsConnected
 Send-ApiEvent -text $text -vmw_vcenter $ConnectVIServerParams.Server -vmw_esxi_vm_name $vmName
 
@@ -187,7 +187,7 @@ Disconnect-VIServer -Server $ConnectVIServerParams.Server -Confirm:$false
 * See first screen shot for a visual example
 * appname contains vcf_automation
 * text contains VM Build:
-* vmw_esxi_vm_name conatins vcrocs-w2k22-02
+* vmw_esxi_vm_name contains vcrocs-w2k22-02
 
 ---
 

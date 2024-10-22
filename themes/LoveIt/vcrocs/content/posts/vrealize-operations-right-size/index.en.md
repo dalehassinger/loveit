@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["vROPS", "Monitoring", "vRealize Operations", "Right Size", "Optimize", "Performance", "Dashboard", "Tip and Tricks", "VMware Aria"]
-categories: ["vRealize Operations","VMware Aria"]
+categories: ["VCF Operations"]
 
 lightgallery: true
 ---

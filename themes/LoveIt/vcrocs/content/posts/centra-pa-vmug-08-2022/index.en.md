@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["VMware", "VMware Explore", "VMWorld", "vExpert", "vCommunity"]
-categories: ["VMUG"]
+categories: ["VMware Community"]
 
 lightgallery: true
 ---

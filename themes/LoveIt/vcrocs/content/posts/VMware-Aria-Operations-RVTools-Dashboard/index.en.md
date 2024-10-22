@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["RVTools", "VMware Aria Operations", "Dashboard", "PowerShell", "importExcel"]
-categories: ["Automation"]
+categories: ["VCF Automation"]
 
 lightgallery: true
 ---

@@ -14,7 +14,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["VMware", "VMware Aria Operations", "Management Pack", "Broadcom Services", "Management Pack Builder"]
-categories: ["VMware Aria Operations"]
+categories: ["VCF Operations"]
 
 lightgallery: true
 

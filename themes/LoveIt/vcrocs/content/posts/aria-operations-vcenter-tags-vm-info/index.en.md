@@ -14,7 +14,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["VMware", "VMware Aria Operations", "vCenter TAGs", "Super Metric", "Custom Groups"]
-categories: ["VMware Aria Operations"]
+categories: ["VCF Operations"]
 
 lightgallery: true
 

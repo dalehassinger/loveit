@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["Hugo", "Static Site Generator", "Blog", "Web Site"]
-categories: ["Hugo"]
+categories: ["Technology"]
 
 lightgallery: true
 

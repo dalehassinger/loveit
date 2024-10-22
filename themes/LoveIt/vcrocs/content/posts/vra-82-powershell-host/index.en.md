@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["PowerShell","vRA","ABX","vRealize Automation","VMware Aria"]
-categories: ["vRealize Automation"]
+categories: ["VCF Automation"]
 
 lightgallery: true
 

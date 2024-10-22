@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["VMware vExpert 2020 - Present", "vCommunity", "Giving Back", "VMware"]
-categories: ["VMware vExpert"]
+categories: ["VMware Community"]
 
 #lightgallery: true
 ---

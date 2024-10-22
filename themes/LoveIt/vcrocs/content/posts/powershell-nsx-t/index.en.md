@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["PowerShell", "PowerCLI", "NSX-T", "VMware", "vRealize", "Automation"]
-categories: ["PowerCLI"]
+categories: ["VCF Automation"]
 
 lightgallery: true
 

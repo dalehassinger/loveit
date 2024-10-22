@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["Automation", "Salt", "VMware Aria Automation Config", "Windows Server", "Linux Server", "PowerCLI", "PowerShell", "VMware", "VMware Aria", "Configuration Management"]
-categories: ["Automation"]
+categories: ["VCF Automation"]
 
 lightgallery: true
 

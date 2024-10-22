@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["vROPS", "vRealize Operations", "Donut Charts", "Top-N Charts", "Ping Monitoring", "VMware Aria"]
-categories: ["vRealize Operations","VMware Aria"]
+categories: ["VCF Operations"]
 
 lightgallery: true
 ---

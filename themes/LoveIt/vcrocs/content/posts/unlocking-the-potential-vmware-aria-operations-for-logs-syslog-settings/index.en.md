@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["VMware Aria Operations for Logs", "syslog", "SaaS", "PowerShell", "PowerCLI"]
-categories: ["Unlocking the Potential", "VMware Aria Operations for Logs"]
+categories: ["VCF Operations"]
 
 lightgallery: true
 ---

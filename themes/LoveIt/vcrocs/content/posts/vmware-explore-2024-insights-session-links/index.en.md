@@ -14,7 +14,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["VMware", "VMware Explore 2024", "VCF Automation", "VCF Operations", "VCF Operations Management Pack Builder", "VMware Fusion", "VMware Work Station"]
-categories: ["VMware Explore"]
+categories: ["VMware Community"]
 
 lightgallery: true
 

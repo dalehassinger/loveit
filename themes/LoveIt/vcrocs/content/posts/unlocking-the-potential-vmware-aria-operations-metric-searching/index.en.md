@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["VMware Aria Operations", "Metrics", "Searches", "Trouble Shooting"]
-categories: ["Unlocking the Potential", "VMware Aria Operations"]
+categories: ["VCF Operations"]
 
 lightgallery: true
 ---

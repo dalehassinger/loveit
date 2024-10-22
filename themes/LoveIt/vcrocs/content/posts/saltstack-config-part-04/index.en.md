@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["SaltStack Config", "VMware Aria Automation", "vRealize Automation", "PowerShell", "Windows Server", "Configuration Management", "Grains"]
-categories: ["SaltStack Config","VMware Aria"]
+categories: ["VCF Automation"]
 
 lightgallery: true
 ---

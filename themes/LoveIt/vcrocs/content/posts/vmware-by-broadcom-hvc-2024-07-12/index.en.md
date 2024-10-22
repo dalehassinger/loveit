@@ -14,7 +14,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["VMware", "HVC", "Culture", "vCommunity", "Healthcare"]
-categories: ["HVC"]
+categories: ["VMware Community"]
 
 lightgallery: true
 

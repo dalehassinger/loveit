@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["vRealize Orchestrator", "PowerShell", "Automation", "RVTools"]
-categories: ["Automation"]
+categories: ["VCF Automation"]
 
 lightgallery: true
 ---

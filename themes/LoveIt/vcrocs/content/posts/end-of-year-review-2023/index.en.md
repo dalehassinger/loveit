@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["vExpert 2023", "VMwware Explore 2023", "Broadcom", "VMware", "VMware Aria Automation", "VMware Aria Operations", "Aria", "End of Year Review", "Goals"]
-categories: ["End of Year Review"]
+categories: ["Career"]
 
 lightgallery: true
 

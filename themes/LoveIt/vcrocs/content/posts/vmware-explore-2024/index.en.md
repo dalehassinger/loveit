@@ -14,7 +14,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["VMware", "VMware Explore", "VMware Aria Automation", "VMware Aria Operations", "VMware Aria Operations for Logs", "Vegas"]
-categories: ["VMware Explore"]
+categories: ["VMware Community"]
 
 lightgallery: true
 

@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["SaltStack Config", "VMware Aria Automation", "vRealize Automation", "Python", "salt-api"]
-categories: ["Automation"]
+categories: ["VCF Automation"]
 
 lightgallery: true
 ---

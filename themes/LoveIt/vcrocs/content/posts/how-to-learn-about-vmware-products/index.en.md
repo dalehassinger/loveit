@@ -14,7 +14,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["VMware", "ESXi", "vCenter", "Home Lab", "VMware Workstation"]
-categories: ["Home Lab"]
+categories: ["VMware Community"]
 
 lightgallery: true
 

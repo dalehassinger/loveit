@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["WFH","Home Lab"]
-categories: ["WFH","Home Lab"]
+categories: ["Technology"]
 
 lightgallery: true
 

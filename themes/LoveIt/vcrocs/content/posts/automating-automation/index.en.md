@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["vRO", "vRealize Orchestrator", "vRA", "vRealize Automation", "API", "PowerShell", "Automation"]
-categories: ["PowerCLI"]
+categories: ["VCF Automation"]
 
 lightgallery: true
 

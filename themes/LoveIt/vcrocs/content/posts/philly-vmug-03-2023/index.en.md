@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["VMware", "VMware Aria Automation", "VMware Aria Automation Config","VMware Aria Operations", "vExpert", "vCommunity"]
-categories: ["VMUG"]
+categories: ["VMware Community"]
 
 lightgallery: true
 ---

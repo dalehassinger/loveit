@@ -29,6 +29,22 @@
     <description><![CDATA[]]></description>
 </item>
 <item>
+    <title>Fun</title>
+    <link>http://localhost:1313/tags/fun/</link>
+    <pubDate>Sat, 21 Dec 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/fun/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Holidays</title>
+    <link>http://localhost:1313/tags/holidays/</link>
+    <pubDate>Sat, 21 Dec 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/holidays/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Operations</title>
     <link>http://localhost:1313/tags/operations/</link>
     <pubDate>Sat, 21 Dec 2024 00:00:00 &#43;0000</pubDate>
@@ -42,6 +58,14 @@
     <pubDate>Sat, 21 Dec 2024 00:00:00 &#43;0000</pubDate>
     <author>| Dale Hassinger</author>
     <guid>http://localhost:1313/tags/powershell/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Technology</title>
+    <link>http://localhost:1313/tags/technology/</link>
+    <pubDate>Sat, 21 Dec 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/technology/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
@@ -178,30 +202,6 @@
     <pubDate>Fri, 30 Aug 2024 00:00:00 &#43;0000</pubDate>
     <author>| Dale Hassinger</author>
     <guid>http://localhost:1313/tags/vmware-work-station/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Culture</title>
-    <link>http://localhost:1313/tags/culture/</link>
-    <pubDate>Sat, 13 Jul 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/culture/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Healthcare</title>
-    <link>http://localhost:1313/tags/healthcare/</link>
-    <pubDate>Sat, 13 Jul 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/healthcare/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>HVC</title>
-    <link>http://localhost:1313/tags/hvc/</link>
-    <pubDate>Sat, 13 Jul 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/hvc/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

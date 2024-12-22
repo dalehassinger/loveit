@@ -247,7 +247,7 @@ $attachment.Dispose()
 {{< admonition type=tip title="vCROCS Deep Dive Podcast" open=true >}}
 I created a Google NotebookLM Podcast based on the content of this blog. While it may not be entirely accurate, is any podcast ever 100% perfect, even when real people are speaking? Take a moment to listen and share your thoughts with me!  
 
-[vCROCS Deep Dive Podcast | VCF Operations | Extract Diagnostics Events Script](https://youtu.be/vbnpwtVqjas?si=CxRDxh-btsm3PYNh)  
+[vCROCS Deep Dive Podcast | VCF Operations | Extract Diagnostics Events Script](https://youtu.be/7h_ba-UQsmc)  
 {{< /admonition >}}
 
 ---

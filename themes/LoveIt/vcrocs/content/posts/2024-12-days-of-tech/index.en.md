@@ -14,7 +14,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["Technology", "Holidays", "Fun"]
-categories: ["VCF Operations"]
+categories: ["Career"]
 
 lightgallery: true
 

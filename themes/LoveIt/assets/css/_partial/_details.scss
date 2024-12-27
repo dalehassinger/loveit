@@ -16,7 +16,7 @@
 
   .details-content {
     max-height: 0;
-    overflow-y: hidden;
+    overflow-y: auto;
     @include details-transition-open;
   }
 
@@ -26,8 +26,10 @@
     }
 
     .details-content {
-      max-height: 10000px;
+      max-height: 90000px;
       @include details-transition-close;
     }
   }
 }
+
+//overflow-y: hidden;

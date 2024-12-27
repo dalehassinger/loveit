@@ -5,6 +5,54 @@
         <description>Tags - Tag - vCROCS</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</managingEditor>
             <webMaster>Dale.Hassinger@vCROCS.info (| Dale Hassinger)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>API</title>
+    <link>http://localhost:1313/tags/api/</link>
+    <pubDate>Thu, 26 Dec 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/api/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Automation</title>
+    <link>http://localhost:1313/tags/automation/</link>
+    <pubDate>Thu, 26 Dec 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/automation/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Diagnostics</title>
+    <link>http://localhost:1313/tags/diagnostics/</link>
+    <pubDate>Thu, 26 Dec 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/diagnostics/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Operations</title>
+    <link>http://localhost:1313/tags/operations/</link>
+    <pubDate>Thu, 26 Dec 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/operations/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>PowerShell</title>
+    <link>http://localhost:1313/tags/powershell/</link>
+    <pubDate>Thu, 26 Dec 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/powershell/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VCF</title>
+    <link>http://localhost:1313/tags/vcf/</link>
+    <pubDate>Thu, 26 Dec 2024 00:00:00 &#43;0000</pubDate>
+    <author>| Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/vcf/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>2024</title>
     <link>http://localhost:1313/tags/2024/</link>
     <pubDate>Sun, 22 Dec 2024 00:00:00 &#43;0000</pubDate>
@@ -29,30 +77,6 @@
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>API</title>
-    <link>http://localhost:1313/tags/api/</link>
-    <pubDate>Sat, 21 Dec 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/api/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Automation</title>
-    <link>http://localhost:1313/tags/automation/</link>
-    <pubDate>Sat, 21 Dec 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/automation/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Diagnostics</title>
-    <link>http://localhost:1313/tags/diagnostics/</link>
-    <pubDate>Sat, 21 Dec 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/diagnostics/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
     <title>Fun</title>
     <link>http://localhost:1313/tags/fun/</link>
     <pubDate>Sat, 21 Dec 2024 00:00:00 &#43;0000</pubDate>
@@ -69,35 +93,11 @@
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>Operations</title>
-    <link>http://localhost:1313/tags/operations/</link>
-    <pubDate>Sat, 21 Dec 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/operations/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>PowerShell</title>
-    <link>http://localhost:1313/tags/powershell/</link>
-    <pubDate>Sat, 21 Dec 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/powershell/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
     <title>Technology</title>
     <link>http://localhost:1313/tags/technology/</link>
     <pubDate>Sat, 21 Dec 2024 00:00:00 &#43;0000</pubDate>
     <author>| Dale Hassinger</author>
     <guid>http://localhost:1313/tags/technology/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>VCF</title>
-    <link>http://localhost:1313/tags/vcf/</link>
-    <pubDate>Sat, 21 Dec 2024 00:00:00 &#43;0000</pubDate>
-    <author>| Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/vcf/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>

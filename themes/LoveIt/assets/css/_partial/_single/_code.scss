@@ -17,6 +17,8 @@ pre {
   margin: 0;
   padding: .25rem 0 .25rem .5rem;
   @include tab-size(4);
+  max-height: 90000px;
+  overflow-y: auto;
 
   code {
     padding: 0;
@@ -157,7 +159,7 @@ code, pre, .highlight table, .highlight tr, .highlight td {
 
     .table-wrapper {
       max-height: 0;
-      overflow-y: hidden;
+      overflow-y: auto;
       @include details-transition-open;
     }
 
@@ -171,7 +173,7 @@ code, pre, .highlight table, .highlight tr, .highlight td {
       }
 
       .table-wrapper {
-        max-height: 10000px;
+        max-height: 90000px;
         @include details-transition-close;
       }
 

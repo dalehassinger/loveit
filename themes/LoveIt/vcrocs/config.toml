@@ -600,6 +600,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     guessSyntax = true
     lineNos = true
     lineNumbersInTable = true
+    style = "monokai" # Change style if needed ADDED by DBH
     # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
   # Goldmark is from Hugo 0.60 the default library used for Markdown

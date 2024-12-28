@@ -13,8 +13,8 @@ resources:
 - name: "featured-image"
   src: "featured-image.png"
 
-tags: ["VCF", "Automation", "Diagnostics", "Operations", "API", "PowerShell"]
-categories: ["VCF Operations"]
+tags: ["VCF", "Automation", "Operations", "PowerShell"]
+categories: ["VCF SDDC Manager"]
 
 lightgallery: true
 
@@ -60,6 +60,12 @@ I came across William Lam's Blog about running VCF on a single NUC and decided t
 ##### Outcome:
 After evaluating the available options, I decided to modify some of the example PowerShell scripts and processes to deploy and manage VCF in my Home Lab.  
 
+This blog serves as a guide to automate VMware Cloud Foundation (VCF) deployment in a home lab environment. It is also designed as a learning resource for VCF, which is why some steps are performed manually.  
+
+By combining automation with hands-on tasks, the goal is to help you understand VCF deployment processes while enabling you to streamline repetitive tasks for future setups.  
+
+Whether you're exploring VCF for the first time or looking to optimize your home lab, this approach provides flexibility to learn, experiment, and refine your deployment strategies.  
+
 **This blog post shares the scripts and the steps I followed to make it all work.**  
 
 ---
@@ -100,7 +106,7 @@ After evaluating the available options, I decided to modify some of the example 
 
 ##### PowerShell Scripts:
 
-**Script Overview - Part 1**
+**Script Overview - Step 1**
 
 **Purpose:**
 This script automates the creation of the Nested ESXi Host required by VCF Cloud Builder to deploy and configure the VCF environment.
@@ -126,7 +132,7 @@ $VIUsername = "administrator@vcrocs.local"
 $VIPassword = "VMware1!"
 
 
-# Full Path to both the Nested ESXi & Cloud Builder OVA
+# Full Path to the Nested ESXi
 $NestedESXiApplianceOVA = "/Users/dalehassinger/Downloads/Nested_ESXi8.0u3c_Appliance_Template_v1.ova"
 
 
@@ -144,7 +150,7 @@ $NestedESXiMGMTCapacityvDisk = "500" #GB
 $NestedESXiMGMTBootDisk      = "32" #GB
 
 
-# General Deployment Configuration for Nested ESXi & Cloud Builder VM
+# General Deployment Configuration for Nested ESXi
 # These Values are for existing existing vCenter Install
 #$VMDatacenter = "Datacenter-DB-01"
 $VMCluster    = "VCF_LAB"
@@ -337,7 +343,7 @@ New-LogEvent "Duration: $duration minutes to Deploy Nested ESXi Hosts"
 
 ---
 
-**Script Overview - Part 2**
+**Script Overview - Step 2**
 
 **Purpose:**
 This script automates the setup of VCF Cloud Builder and prepares the configuration required to deploy the VCF Management Domain.
@@ -364,7 +370,7 @@ $VIUsername = "administrator@vcrocs.local"
 $VIPassword = "VMware1!"
 
 
-# Full Path to both the Nested ESXi & Cloud Builder OVA
+# Full Path to Cloud Builder OVA
 #$CloudBuilderOVA = "/Users/dalehassinger/Downloads/VMware-Cloud-Builder-5.2.0.0-24108943_OVF10.ova"
 $CloudBuilderOVA = "/Users/dalehassinger/Downloads/VMware-Cloud-Builder-5.2.1.0-24307856_OVF10.ova"
 
@@ -1041,13 +1047,13 @@ New-LogEvent "Duration: $duration minutes to Deploy CloudBuilder"
 
 ---
 
-<small>Screen Shot of the VCF Cloud Builder:</small>  
+<small>Screen Shot of the VCF Cloud Builder - All validation is successful:</small>  
 
 {{< image src="vcf-deploy-03.png" caption="Click to see Larger Image of Screen Shot">}}  
 
 ---
 
-<small>Screen Shot of the VCF Cloud Builder:</small>  
+<small>Screen Shot of the VCF Cloud Builder - A successful VCF deployment!</small>  
 
 {{< image src="vcf-deploy-04.png" caption="Click to see Larger Image of Screen Shot">}}  
 
@@ -1059,13 +1065,13 @@ New-LogEvent "Duration: $duration minutes to Deploy CloudBuilder"
 
 ---
 
-<small>Screen Shot of the VCF SDDC Manager:</small>  
+<small>Screen Shot of the VCF SDDC Manager - By installing version 5.2.1, I also have the opportunity to upgrade to 5.2.1.1 and learn the upgrade process:</small>  
 
 {{< image src="vcf-deploy-06.png" caption="Click to see Larger Image of Screen Shot">}}  
 
 ---
 
-<small>Screen Shot of the VCF SDDC Manager:</small>  
+<small>Screen Shot of the VCF SDDC Manager - You can see that the performance is good for a Home Lab environment:</small>  
 
 {{< image src="vcf-deploy-07.png" caption="Click to see Larger Image of Screen Shot">}}  
 
@@ -1096,6 +1102,30 @@ New-LogEvent "Duration: $duration minutes to Deploy CloudBuilder"
 - Check out [Brock Peterson](https://www.brockpeterson.com) blogs for example VCF Operations Dashboards to monitor your VCF environments. Best VCF Operations Blog site available!  
 - I also have the example code saved in my [GitHub Repository](https://github.com/dalehassinger/unlocking-the-potential/tree/main/)  
 
+---
+
+#### Downloading the Nested ESXi Virtual Appliances from VMware Fling Site  
+
+For those looking to deploy a Nested ESXi Virtual Appliance, VMware provides pre-configured templates available on their Fling site.  
+
+➡️ [Click here to access the downloads](https://community.broadcom.com/flings/home)  
+
+##### Important Note for macOS Users  
+
+The Nested ESXi Virtual Appliance downloads are packaged as ZIP files. However, do not double-click to unpack them on macOS, as it may lead to issues with the extracted contents.  
+
+Instead, use the command line to properly extract the ZIP file:  
+
+```bash
+unzip Nested_ESXi8_0u3c_Appliance_Template_v1_ova-dl.zip
+```  
+
+---
+
+**Links to Help with Nested ESXi and VCF on NUC:**  
+- [Refresher on Nested ESXi Networking Requirements](https://williamlam.com/2023/05/refresher-on-nested-esxi-networking-requirements.html)  
+- [VMware Cloud Foundation 5.0 running on Intel NUC](https://williamlam.com/2023/06/vmware-cloud-foundation-5-0-running-on-intel-nuc.html)  
+- [VMware Cloud Foundation on Intel NUC?](https://williamlam.com/2023/02/vmware-cloud-foundation-on-intel-nuc.html)  
 
 ---
 

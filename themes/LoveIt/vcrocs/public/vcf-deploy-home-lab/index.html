@@ -12,12 +12,10 @@
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2024-12-26T00:00:00+00:00">
-    <meta property="article:modified_time" content="2024-12-26T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-12-27T14:14:40-05:00">
     <meta property="article:tag" content="VCF">
     <meta property="article:tag" content="Automation">
-    <meta property="article:tag" content="Diagnostics">
     <meta property="article:tag" content="Operations">
-    <meta property="article:tag" content="API">
     <meta property="article:tag" content="PowerShell">
     <meta property="og:image" content="http://localhost:1313/vcf-deploy-home-lab/featured-image.png">
 
@@ -43,8 +41,8 @@
                             "url": "http:\/\/localhost:1313\/vcf-deploy-home-lab\/featured-image.png",
                             "width":  1420 ,
                             "height":  708 
-                        }],"genre": "posts","keywords": "VCF, Automation, Diagnostics, Operations, API, PowerShell","wordcount":  5446 ,
-        "url": "http:\/\/localhost:1313\/vcf-deploy-home-lab\/","datePublished": "2024-12-26T00:00:00+00:00","dateModified": "2024-12-26T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+                        }],"genre": "posts","keywords": "VCF, Automation, Operations, PowerShell","wordcount":  5679 ,
+        "url": "http:\/\/localhost:1313\/vcf-deploy-home-lab\/","datePublished": "2024-12-26T00:00:00+00:00","dateModified": "2024-12-27T14:14:40-05:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
                     "@type": "ImageObject",
@@ -123,9 +121,9 @@
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">VCF Deploy | Scripted Install | Home Lab</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="https://twitter.com/dalehassinger" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Dale Hassinger</a></span>&nbsp;<span class="post-category">included in <a href="/categories/vcf-operations/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>VCF Operations</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-12-26">2024-12-26</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;5446 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;26 minutes&nbsp;</div>
+            <div class="post-meta-line"><span class="post-author"><a href="https://twitter.com/dalehassinger" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Dale Hassinger</a></span>&nbsp;<span class="post-category">included in <a href="/categories/vcf-sddc-manager/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>VCF SDDC Manager</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-12-26">2024-12-26</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;5679 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;27 minutes&nbsp;</div>
         </div><div class="featured-image"><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -154,6 +152,11 @@
                 <li><a href="#powershell-scripts">PowerShell Scripts:</a></li>
                 <li><a href="#screen-shots">Screen Shots:</a></li>
                 <li><a href="#lessons-learned">Lessons Learned:</a></li>
+              </ul>
+            </li>
+            <li><a href="#downloading-the-nested-esxi-virtual-appliances-from-vmware-fling-site">Downloading the Nested ESXi Virtual Appliances from VMware Fling Site</a>
+              <ul>
+                <li><a href="#important-note-for-macos-users">Important Note for macOS Users</a></li>
               </ul>
             </li>
           </ul>
@@ -198,6 +201,9 @@
 <p>I came across William Lam&rsquo;s Blog about running VCF on a single NUC and decided to adapt that idea for my lab. William also provides a PowerShell script that automates the entire VCF installation in a single run. William&rsquo;s script does require more than one ESXi Host.</p>
 <h5 id="outcome">Outcome:</h5>
 <p>After evaluating the available options, I decided to modify some of the example PowerShell scripts and processes to deploy and manage VCF in my Home Lab.</p>
+<p>This blog serves as a guide to automate VMware Cloud Foundation (VCF) deployment in a home lab environment. It is also designed as a learning resource for VCF, which is why some steps are performed manually.</p>
+<p>By combining automation with hands-on tasks, the goal is to help you understand VCF deployment processes while enabling you to streamline repetitive tasks for future setups.</p>
+<p>Whether you&rsquo;re exploring VCF for the first time or looking to optimize your home lab, this approach provides flexibility to learn, experiment, and refine your deployment strategies.</p>
 <p><strong>This blog post shares the scripts and the steps I followed to make it all work.</strong></p>
 <hr>
 <h5 id="home-lab-hardware">Home Lab Hardware</h5>
@@ -249,7 +255,7 @@
 </ul>
 <hr>
 <h5 id="powershell-scripts">PowerShell Scripts:</h5>
-<p><strong>Script Overview - Part 1</strong></p>
+<p><strong>Script Overview - Step 1</strong></p>
 <p><strong>Purpose:</strong>
 This script automates the creation of the Nested ESXi Host required by VCF Cloud Builder to deploy and configure the VCF environment.</p>
 <p><strong>Steps Performed:</strong></p>
@@ -495,7 +501,7 @@ This script automates the creation of the Nested ESXi Host required by VCF Cloud
 </span></span><span class="line"><span class="cl"><span class="nv">$VIPassword</span> <span class="p">=</span> <span class="s2">&#34;VMware1!&#34;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c"># Full Path to both the Nested ESXi &amp; Cloud Builder OVA</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Full Path to the Nested ESXi</span>
 </span></span><span class="line"><span class="cl"><span class="nv">$NestedESXiApplianceOVA</span> <span class="p">=</span> <span class="s2">&#34;/Users/dalehassinger/Downloads/Nested_ESXi8.0u3c_Appliance_Template_v1.ova&#34;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">
@@ -513,7 +519,7 @@ This script automates the creation of the Nested ESXi Host required by VCF Cloud
 </span></span><span class="line"><span class="cl"><span class="nv">$NestedESXiMGMTBootDisk</span>      <span class="p">=</span> <span class="s2">&#34;32&#34;</span> <span class="c">#GB</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c"># General Deployment Configuration for Nested ESXi &amp; Cloud Builder VM</span>
+</span></span><span class="line"><span class="cl"><span class="c"># General Deployment Configuration for Nested ESXi</span>
 </span></span><span class="line"><span class="cl"><span class="c"># These Values are for existing existing vCenter Install</span>
 </span></span><span class="line"><span class="cl"><span class="c">#$VMDatacenter = &#34;Datacenter-DB-01&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="nv">$VMCluster</span>    <span class="p">=</span> <span class="s2">&#34;VCF_LAB&#34;</span>
@@ -703,7 +709,7 @@ This script automates the creation of the Nested ESXi Host required by VCF Cloud
 </span></span></code></pre></td></tr></table>
 </div>
 </div><hr>
-<p><strong>Script Overview - Part 2</strong></p>
+<p><strong>Script Overview - Step 2</strong></p>
 <p><strong>Purpose:</strong>
 This script automates the setup of VCF Cloud Builder and prepares the configuration required to deploy the VCF Management Domain.</p>
 <p><strong>Steps Performed:</strong></p>
@@ -1402,7 +1408,7 @@ This script automates the setup of VCF Cloud Builder and prepares the configurat
 </span></span><span class="line"><span class="cl"><span class="nv">$VIPassword</span> <span class="p">=</span> <span class="s2">&#34;VMware1!&#34;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c"># Full Path to both the Nested ESXi &amp; Cloud Builder OVA</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Full Path to Cloud Builder OVA</span>
 </span></span><span class="line"><span class="cl"><span class="c">#$CloudBuilderOVA = &#34;/Users/dalehassinger/Downloads/VMware-Cloud-Builder-5.2.0.0-24108943_OVF10.ova&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="nv">$CloudBuilderOVA</span> <span class="p">=</span> <span class="s2">&#34;/Users/dalehassinger/Downloads/VMware-Cloud-Builder-5.2.1.0-24307856_OVF10.ova&#34;</span>
 </span></span><span class="line"><span class="cl">
@@ -2088,7 +2094,7 @@ This script automates the setup of VCF Cloud Builder and prepares the configurat
     </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
     </figure>
 <hr>
-<p><small>Screen Shot of the VCF Cloud Builder:</small></p>
+<p><small>Screen Shot of the VCF Cloud Builder - All validation is successful:</small></p>
 <figure><a class="lightgallery" href="/vcf-deploy-home-lab/vcf-deploy-03.png" title="/vcf-deploy-home-lab/vcf-deploy-03.png" data-thumbnail="/vcf-deploy-home-lab/vcf-deploy-03.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
         <img
             class="lazyload"
@@ -2100,7 +2106,7 @@ This script automates the setup of VCF Cloud Builder and prepares the configurat
     </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
     </figure>
 <hr>
-<p><small>Screen Shot of the VCF Cloud Builder:</small></p>
+<p><small>Screen Shot of the VCF Cloud Builder - A successful VCF deployment!</small></p>
 <figure><a class="lightgallery" href="/vcf-deploy-home-lab/vcf-deploy-04.png" title="/vcf-deploy-home-lab/vcf-deploy-04.png" data-thumbnail="/vcf-deploy-home-lab/vcf-deploy-04.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
         <img
             class="lazyload"
@@ -2124,7 +2130,7 @@ This script automates the setup of VCF Cloud Builder and prepares the configurat
     </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
     </figure>
 <hr>
-<p><small>Screen Shot of the VCF SDDC Manager:</small></p>
+<p><small>Screen Shot of the VCF SDDC Manager - By installing version 5.2.1, I also have the opportunity to upgrade to 5.2.1.1 and learn the upgrade process:</small></p>
 <figure><a class="lightgallery" href="/vcf-deploy-home-lab/vcf-deploy-06.png" title="/vcf-deploy-home-lab/vcf-deploy-06.png" data-thumbnail="/vcf-deploy-home-lab/vcf-deploy-06.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
         <img
             class="lazyload"
@@ -2136,7 +2142,7 @@ This script automates the setup of VCF Cloud Builder and prepares the configurat
     </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
     </figure>
 <hr>
-<p><small>Screen Shot of the VCF SDDC Manager:</small></p>
+<p><small>Screen Shot of the VCF SDDC Manager - You can see that the performance is good for a Home Lab environment:</small></p>
 <figure><a class="lightgallery" href="/vcf-deploy-home-lab/vcf-deploy-07.png" title="/vcf-deploy-home-lab/vcf-deploy-07.png" data-thumbnail="/vcf-deploy-home-lab/vcf-deploy-07.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
         <img
             class="lazyload"
@@ -2192,6 +2198,28 @@ This script automates the setup of VCF Cloud Builder and prepares the configurat
 <li>I also have the example code saved in my <a href="https://github.com/dalehassinger/unlocking-the-potential/tree/main/" target="_blank" rel="noopener noreffer ">GitHub Repository</a></li>
 </ul>
 <hr>
+<h4 id="downloading-the-nested-esxi-virtual-appliances-from-vmware-fling-site">Downloading the Nested ESXi Virtual Appliances from VMware Fling Site</h4>
+<p>For those looking to deploy a Nested ESXi Virtual Appliance, VMware provides pre-configured templates available on their Fling site.</p>
+<p>➡️ <a href="https://community.broadcom.com/flings/home" target="_blank" rel="noopener noreffer ">Click here to access the downloads</a></p>
+<h5 id="important-note-for-macos-users">Important Note for macOS Users</h5>
+<p>The Nested ESXi Virtual Appliance downloads are packaged as ZIP files. However, do not double-click to unpack them on macOS, as it may lead to issues with the extracted contents.</p>
+<p>Instead, use the command line to properly extract the ZIP file:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">unzip Nested_ESXi8_0u3c_Appliance_Template_v1_ova-dl.zip
+</span></span></code></pre></td></tr></table>
+</div>
+</div><hr>
+<p><strong>Links to Help with Nested ESXi and VCF on NUC:</strong></p>
+<ul>
+<li><a href="https://williamlam.com/2023/05/refresher-on-nested-esxi-networking-requirements.html" target="_blank" rel="noopener noreffer ">Refresher on Nested ESXi Networking Requirements</a></li>
+<li><a href="https://williamlam.com/2023/06/vmware-cloud-foundation-5-0-running-on-intel-nuc.html" target="_blank" rel="noopener noreffer ">VMware Cloud Foundation 5.0 running on Intel NUC</a></li>
+<li><a href="https://williamlam.com/2023/02/vmware-cloud-foundation-on-intel-nuc.html" target="_blank" rel="noopener noreffer ">VMware Cloud Foundation on Intel NUC?</a></li>
+</ul>
+<hr>
 <div class="details admonition info open">
         <div class="details-summary admonition-title">
             <i class="icon fas fa-info-circle fa-fw" aria-hidden="true"></i>Info<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
@@ -2225,18 +2253,18 @@ This script automates the setup of VCF Cloud Builder and prepares the configurat
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2024-12-26</span>
+                <span>Updated on 2024-12-27</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://localhost:1313/vcf-deploy-home-lab/" data-title="VCF Deploy | Scripted Install | Home Lab" data-via="dalehassinger" data-hashtags="VCF,Automation,Diagnostics,Operations,API,PowerShell"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://localhost:1313/vcf-deploy-home-lab/" data-hashtag="VCF"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="http://localhost:1313/vcf-deploy-home-lab/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://localhost:1313/vcf-deploy-home-lab/" data-title="VCF Deploy | Scripted Install | Home Lab" data-via="dalehassinger" data-hashtags="VCF,Automation,Operations,PowerShell"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://localhost:1313/vcf-deploy-home-lab/" data-hashtag="VCF"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="http://localhost:1313/vcf-deploy-home-lab/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/vcf/">VCF</a>,&nbsp;<a href="/tags/automation/">Automation</a>,&nbsp;<a href="/tags/diagnostics/">Diagnostics</a>,&nbsp;<a href="/tags/operations/">Operations</a>,&nbsp;<a href="/tags/api/">API</a>,&nbsp;<a href="/tags/powershell/">PowerShell</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/vcf/">VCF</a>,&nbsp;<a href="/tags/automation/">Automation</a>,&nbsp;<a href="/tags/operations/">Operations</a>,&nbsp;<a href="/tags/powershell/">PowerShell</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>

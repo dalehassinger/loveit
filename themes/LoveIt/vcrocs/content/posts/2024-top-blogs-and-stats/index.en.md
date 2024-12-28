@@ -36,10 +36,10 @@ lightgallery: true
 **✨ 68,000+ Views**  
 
 ###### **LinkedIn:**  
-**🔥 86,000+ Impressions**  
+**🔥 87,000+ Impressions**  
 
 ###### **X (Twitter):**  
-**⚡ 31,000+ Impressions**  
+**⚡ 32,000+ Impressions**  
 
 ---
 

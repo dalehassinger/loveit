@@ -1035,21 +1035,80 @@ New-LogEvent "Duration: $duration minutes to Deploy CloudBuilder"
 
 ##### Screen Shots:  
 
-<small>Screen Shot of the VCF Cloud Builder:</small>  
+<small>Screen Shot of the Physical Host (MS-01), Capacity and Usage, before any installs:
+- See the total memory (~478 GB) using Tiered Memory</small>  
 
-{{< image src="vcf-deploy-01.png" caption="Click to see Larger Image of Screen Shot">}}  
+{{< image src="vcf-deploy-09.png" caption="Click to see Larger Image of Screen Shot">}}  
 
 ---
 
-<small>Screen Shot of the VCF Cloud Builder:</small>  
+<small>Screen Shot of the Nested ESXi install PowerShell output:
+- Total Time is less than one minute</small>  
 
-{{< image src="vcf-deploy-02.png" caption="Click to see Larger Image of Screen Shot">}}  
+{{< image src="vcf-deploy-10.png" caption="Click to see Larger Image of Screen Shot">}}  
+
+---
+
+<small>Screen Shot of the Physical Host (MS-01), Capacity and Usage, after the Nested ESXi install:
+- Very little CPU/Memory Usage</small>  
+
+{{< image src="vcf-deploy-11.png" caption="Click to see Larger Image of Screen Shot">}}  
+
+---
+
+<small>Screen Shot of the VCF Cloud Builder VM install PowerShell output:</small>  
+
+{{< image src="vcf-deploy-12.png" caption="Click to see Larger Image of Screen Shot">}}  
+
+---
+
+<small>Screen Shot of the Physical Host (MS-01), Capacity and Usage, after the Nested ESXi and VCF Cloud Builder install:
+- Still very little CPU/Memory Usage
+- Both VMs moved to a vAPP by the Script</small>  
+
+{{< image src="vcf-deploy-13.png" caption="Click to see Larger Image of Screen Shot">}}  
+
+---
+
+<small>Screen Shot of VCF Cloud Builder Deploy wizard, step 1:</small>  
+
+{{< image src="vcf-deploy-14.png" caption="Click to see Larger Image of Screen Shot">}}  
+
+---
+
+<small>Screen Shot of VCF Cloud Builder Deploy wizard, step 2:</small>  
+
+{{< image src="vcf-deploy-15.png" caption="Click to see Larger Image of Screen Shot">}}  
+
+---
+
+<small>Screen Shot of VCF Cloud Builder Deploy wizard, step 3:</small>  
+
+{{< image src="vcf-deploy-16.png" caption="Click to see Larger Image of Screen Shot">}}  
+
+---
+
+<small>Screen Shot of VCF Cloud Builder Deploy wizard, step 4:</small>  
+
+{{< image src="vcf-deploy-17.png" caption="Click to see Larger Image of Screen Shot">}}  
+
+---
+
+<small>Screen Shot of VCF Cloud Builder Deploy wizard, step 5:</small>  
+
+{{< image src="vcf-deploy-18.png" caption="Click to see Larger Image of Screen Shot">}}  
 
 ---
 
 <small>Screen Shot of the VCF Cloud Builder - All validation is successful:</small>  
 
 {{< image src="vcf-deploy-03.png" caption="Click to see Larger Image of Screen Shot">}}  
+
+---
+
+<small>Screen Shot of VCF Cloud Builder Deploy wizard, step 6, start the VCF SDDC Deploy:</small>  
+
+{{< image src="vcf-deploy-19.png" caption="Click to see Larger Image of Screen Shot">}}  
 
 ---
 

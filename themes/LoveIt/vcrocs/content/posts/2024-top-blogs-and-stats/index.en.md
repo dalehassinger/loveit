@@ -30,16 +30,16 @@ lightgallery: true
 
 ---
 
-# **2024 Stats Recap** 📊  
+#### **2024 Stats Recap** 📊  
 
-###### **Blog Site:**  
-**✨ 68,000+ Views**  
+##### **Blog Site:**  
+**✨ 69,000+ Views**  
 
-###### **LinkedIn:**  
-**🔥 87,000+ Impressions**  
+##### **LinkedIn:**  
+**🔥 89,000+ Impressions**  
 
-###### **X (Twitter):**  
-**⚡ 32,000+ Impressions**  
+##### **X (Twitter):**  
+**⚡ 33,000+ Impressions**  
 
 ---
 
@@ -48,7 +48,7 @@ Stay tuned for more insights, tips, and content in 2025!
 
 ---
 
-# **Surprising Insights from Blogging**  
+#### **Surprising Insights from Blogging**  
 
 I'm always surprised by which blog posts resonate the most with readers. Some of my top-performing posts started as simple notes to myself—a personal Wiki to document processes I didn’t want to forget.  
 
@@ -58,7 +58,7 @@ So, if you're ever wondering what to write about, start with what you need to re
 
 ---
 
-**2024 | Top 20 Blog Posts:**
+#### **2024 | Top 20 Blog Posts:**  
 
 1. **VMware Aria Automation and Ansible Integration**  
    [Read More](https://www.vcrocs.info/vmware-aria-automation-ansible-integration/)  

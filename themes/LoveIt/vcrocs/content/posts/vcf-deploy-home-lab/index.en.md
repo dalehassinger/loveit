@@ -81,6 +81,9 @@ Whether you're exploring VCF for the first time or looking to optimize your home
     - VMs with light use, I specify the Efficient Cores.
   - Storage Configuration:  
     - 1 TB NVMe for Tiered Memory @ 400% (SAMSUNG 990 PRO SSD NVMe)  
+      - To specify the amount of tiered memory you want to use, you need to set a percentage. This percentage determines how much tiered memory is allocated relative to the physical memory. For example, in my lab, I have 96 GB of physical memory.
+      - Using a 400% tiered memory configuration:  
+  ￼     - (96 GB * 400%) + 96 GB physical = 480 GB Total Memory.  
     - 4 TB NVMe for Storage (SAMSUNG 990 PRO SSD NVMe)  
     - 1 NVMe slot open for future expansion  
   - (1) MS-01 runs everything in my lab but the VCF environment
@@ -1036,14 +1039,14 @@ New-LogEvent "Duration: $duration minutes to Deploy CloudBuilder"
 ##### Screen Shots:  
 
 <small>Screen Shot of the Physical Host (MS-01), Capacity and Usage, before any installs:
-- See the total memory (~478 GB) using Tiered Memory</small>  
+- The server is equipped with 96 GB of physical memory. Using ESXi Tiered Memory, the total available memory is approximately 478 GB.</small>  
 
 {{< image src="vcf-deploy-09.png" caption="Click to see Larger Image of Screen Shot">}}  
 
 ---
 
-<small>Screen Shot of the Nested ESXi install PowerShell output:
-- Total Time is less than one minute</small>  
+<small>Screen Shot of the Nested ESXi install PowerShell Script output:
+- Total Script Run Time is less than one minute</small>  
 
 {{< image src="vcf-deploy-10.png" caption="Click to see Larger Image of Screen Shot">}}  
 
@@ -1056,7 +1059,8 @@ New-LogEvent "Duration: $duration minutes to Deploy CloudBuilder"
 
 ---
 
-<small>Screen Shot of the VCF Cloud Builder VM install PowerShell output:</small>  
+<small>Screen Shot of the VCF Cloud Builder VM install PowerShell Script output:
+- Total Script Run Time is ~6.5 minutes</small>  
 
 {{< image src="vcf-deploy-12.png" caption="Click to see Larger Image of Screen Shot">}}  
 
@@ -1114,11 +1118,17 @@ New-LogEvent "Duration: $duration minutes to Deploy CloudBuilder"
 
 <small>Screen Shot of the VCF Cloud Builder - A successful VCF deployment!</small>  
 
-{{< image src="vcf-deploy-04.png" caption="Click to see Larger Image of Screen Shot">}}  
+{{< image src="vcf-deploy-20.png" caption="Click to see Larger Image of Screen Shot">}}  
 
 ---
 
-<small>Screen Shot of the VCF SDDC Manager:</small>  
+<small>Screen Shot of the VCF Cloud Builder - Press button to launch SDDC Manager.</small>  
+
+{{< image src="vcf-deploy-21.png" caption="Click to see Larger Image of Screen Shot">}}  
+
+---
+
+<small>Screen Shot of the VCF SDDC Manager.</small>  
 
 {{< image src="vcf-deploy-05.png" caption="Click to see Larger Image of Screen Shot">}}  
 
@@ -1133,6 +1143,13 @@ New-LogEvent "Duration: $duration minutes to Deploy CloudBuilder"
 <small>Screen Shot of the VCF SDDC Manager - You can see that the performance is good for a Home Lab environment:</small>  
 
 {{< image src="vcf-deploy-07.png" caption="Click to see Larger Image of Screen Shot">}}  
+
+---
+
+<small>Screen Shot of the Physical Host (MS-01), Capacity and Usage, after the installs are complete:
+- CPU/Memory/Storage all look OK</small>  
+
+{{< image src="vcf-deploy-22.png" caption="Click to see Larger Image of Screen Shot">}}  
 
 ---
 
@@ -1160,6 +1177,9 @@ New-LogEvent "Duration: $duration minutes to Deploy CloudBuilder"
   - `systemctl restart vcf-bringup.service`
 - Check out [Brock Peterson](https://www.brockpeterson.com) blogs for example VCF Operations Dashboards to monitor your VCF environments. Best VCF Operations Blog site available!  
 - I also have the example code saved in my [GitHub Repository](https://github.com/dalehassinger/unlocking-the-potential/tree/main/)  
+- In this blog, I used a single Nested ESXi host to keep things simple, and the performance has been fine for a home lab setup.  
+  - If you want to expand your environment, you can add additional Nested ESXi Hosts. You can either modify the deployment script or manually add more ESXi hosts to the SDDC Manager after the installation to better understand the process.  
+- After the VCF SDDC Manager is installed and running, you can safely delete the Cloud Builder from vCenter to free up space and resources.  
 
 ---
 

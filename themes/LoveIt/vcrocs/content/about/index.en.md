@@ -8,9 +8,20 @@ description: ""
 lightgallery: true
 ---
 
-<center>{{< image src="author-02.gif" caption="">}}</center>  
+<center>{{< image src="header.png" caption="">}}</center>  
 
-<center>{{< image src="vcrocs.gif" caption="">}}</center>  
+{{< admonition type=info title="Info" open=true >}}
+The views and opinions expressed on this blog are strictly my own and do not reflect the views and opinions of my employer. I blog about subjects and products that I find interesting, and aim to help someone get started on their VCF, VCF Automation, VCF Operations, and Automation Scripts journey by providing some tips, tricks, processes, and code needed.  
+{{< /admonition >}}  
+
+**My Information:**  
+- **VMware by Broadcom | Staff VCF Core SE**  
+- **VMware vExpert 2020 - Present**  
+  - **VMware vExpert Cloud Management 2021 - Present**  
+  - **VMware vExpert vSphere 2024 - Present**  
+- **If you can script it, You can Automate it!**  
+
+><center><b>"9 - 5 pays the bills, 5 - 10 advances your career" - Author Unknown</b></center>  
 
 <!--  
 #### vCF Specialist SE | VMware Aria Suite  
@@ -19,20 +30,23 @@ lightgallery: true
 ###### If you can script it, You can Automate it!  
 -->
 
-<center>{{< image src="vexpert-24.gif" caption="">}}</center>  
+---
 
-{{< admonition type=info title="Info" open=true >}}
-The views and opinions expressed on this blog are strictly my own and do not reflect the views and opinions of my employer. I blog about subjects and products that I find interesting, and aim to help someone get started on their automation, monitoring, and logging journey by providing some tips, tricks, processes, and code needed.  
-{{< /admonition >}}
+**My personal focus is helping the vCommunity with VCF, VCF Automation, VCF Operations and PowerCLI <small>(PowerShell)</small>.**  
+
+- There’s no better feeling at the end of the day than when someone reaches out to thank you for sharing a blog you took the time to create. Knowing that your work has helped others is incredibly rewarding.  
 
 ---
 
-* My focus is on Automation, Monitoring, and Logging. When I was a VMware customer, I created an IaC (Infrastructure as Code) environment. I used VMware vRealize Automation and SaltStack Config to complete server builds, software installs, schedule VM snapshots, Microsoft 365 automation, Citrix management, automate data center flips, server decommissions, and many other Day 2 processes… For monitoring, I used vRealize Operations for the “Single Pane of Glass” experience. I also used vRealize Log Insight for logging and LCM (Life Cycle Manager) for installing all the vRealize products.  
-
-* The code I write to complete the automation that I create is mostly done with PowerShell because, to automate with VMware products, VMware has a PowerShell module named PowerCLI. There hasn't been anything that I wanted to automate that I haven't been able to do with PowerShell.  
-
-* I have also done Automation with Azure. I am using PowerShell to create VMs and SaltStack Config to complete configuration management, install software, and maintain state.  
-
+**When I was a VMware customer:**  
+- I created an IaC (Infrastructure as Code) environment.  
+- I used VCF Automation and Operations <small>(VMware vRealize Automation, vRealize Operations and SaltStack Config)</small>  
+- I used VCF Automation to complete server builds, software installs, schedule VM snapshots, Microsoft 365 automation, Citrix management, automate data center flips, server decommissions, and many other Day 2 processes…  
+- For observability, I used  VCF Operations for the “Single Pane of Glass” experience.  
+- I also used VCF Operations for Logs  
+- I used LCM (Life Cycle Manager) for installing the VCF Automation and Operations Products.  
+- The code I create to complete automation is mostly done with PowerShell, because to automate VMware products, VMware has a PowerShell module named PowerCLI. There hasn't been anything that I wanted to automate that I haven't been able to do with PowerShell.    
+  
 >  
 ><center><b>"Your thought process is the most powerful automation tool you’ll ever have!" - Cody De Arkland</b></center>  
 >  
@@ -46,16 +60,21 @@ The views and opinions expressed on this blog are strictly my own and do not ref
 
 ><center><b>“It doesn’t make sense to hire smart people and then tell them what to do, We hire smart people so they can tell us what to do.” - Steve Jobs</b></center>  
 
-{{< admonition type=success title="Thanks!" open=true >}}
-* The **VCF Specialist Architects** team I am currently a part of is highly rated and renowned for its innovation and expertise. Over the past few years, several members of this team have become role models for me. I anticipate gaining significant knowledge from their expertise and, in turn, give back to the team.  
+{{< admonition type=success title="Thanks!" open=true >}}  
+  
+* I am currently a **Staff VMware Core SE** covering Strategic Accounts  
 
-* I have worked with a great group of people at VMware, past and present. I would like to thank the following people for all their support in no particular order: Steve Leiberson, Brock Peterson, Cosmin Trif, Christopher Kusek, Marshall Cline, Marjorie Abdelkrime, Eric Murray, Ariel Sanchez, Karl Hauck, Daniel Thomas, Marcus Roberts, Ken Jordan, Eric Pennente, Corey Blaz, Wes Milliron, Iwan 'e1' Rahabok, Franky Barragan and others.  
-
-* **Special Thanks** to David Kruse for getting me started with vRA.  
-
-* **Special Thanks** to Vincent Riccio for allowing me to do SaltStack Config Presentations with you at VMworld 21 and SaltConf 21.  
+* The **VCF Automation and Operations Specialist Architects** team I was a member of was highly rated and renowned for its innovation and expertise. Over the past few years, several members of this team have become role models for me.  
+  
+* I have worked with a great group of people at VMware, past and present. I would like to thank the following people for all their support in no particular order: Steve Leiberson, Brock Peterson, Cosmin Trif, Christopher Kusek, Marshall Cline, Marjorie Abdelkrime, Ariel Sanchez, Karl Hauck, Daniel Thomas, Marcus Roberts, Ken Jordan, Corey Blaz, Wes Milliron, Iwan 'e1' Rahabok, Franky Barragan and others.  
+  
+* **Special Thanks** to David Kruse for getting me started with VCF Automation <small>(vRA)</small>.  
+  
+* **Special Thanks** to Vincent Riccio for allowing me to do SaltStack Config Presentations with you at VMworld 21 and SaltConf 21  
 
 * **Special Thanks** to my first manager at VMware: Alex Musicante. You believed in me and my passion/skills/knowledge of the VMware Products. You gave me a career opportunity that no one else did.  
+
+* **Special Thanks** to my first SE manager at VMware: Eric Murray. You helped me take my passion/skills/knowledge of the VMware Products to the next level. You gave me great career advice and helped mentor me in the SE role.  
 
 * **Special Thanks** to some past and present co-workers, SEs, TAMs, HVC Members that I learned a lot from: Robert Mitchell, Dan Grove, Steve Holmes, Steve Pittenger, Anton Wesztergom (Opened my eyes to vRA Day 2), Megan Koss, Josh Demcher.  
 
@@ -64,6 +83,8 @@ The views and opinions expressed on this blog are strictly my own and do not ref
 * **Special Thanks** to my VMware Explore 2024 Hackathon Team: Don Horrox, Amos Clerizier, Brian Haskell, and Adrian Ayran.  
 
 * **Special Thanks** to the person that gave me my first Job in IT and an early role model in my career: David Cornelius  
+
+* **Special Thanks** to my current Team at VMware by Broadcom. We continue to keep the VMware Culture that I experienced when I joined VMware. Helping each other to be successful in our roles and helping and doing what is best for our customers.  
 
 * **List of Bloggers** that I follow and have learned a lot by them “Giving Back”: Cody De Arkland, Luc Dekens, Kyle Ruddy, William Lam, Alan Renouf.  
 
@@ -89,7 +110,7 @@ The views and opinions expressed on this blog are strictly my own and do not ref
 
 {{< /admonition >}}
 
-><center><b>"9 - 5 pays the bills, 5 - 10 advances your career" - Author Unknown</b></center>  
+><center><b>"If you have an apple and I have an apple and we exchange these apples, then you and I will still each have one apple. But if you have an idea and I have an idea and we exchange these ideas, then each of us will have two ideas." — George Bernard Shaw</b></center>  
 
 {{< admonition type=success title="vCommunity Activities" open=true >}}
 * **VMware vExpert** | 2020 - Present | [Link to vExpert Profile](https://vexpert.vmware.com/directory/5721)  

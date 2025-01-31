@@ -19,6 +19,7 @@ The views and opinions expressed on this blog are strictly my own and do not ref
 - **VMware vExpert 2020 - Present**  
   - **VMware vExpert Cloud Management 2021 - Present**  
   - **VMware vExpert vSphere 2024 - Present**  
+- **VMware {code} Coach 2025 - Present**    
 - **If you can script it, You can Automate it!**  
 
 ><center><b>"9 - 5 pays the bills, 5 - 10 advances your career" - Author Unknown</b></center>  
@@ -66,7 +67,7 @@ The views and opinions expressed on this blog are strictly my own and do not ref
 
 * The **VCF Automation and Operations Specialist Architects** team I was a member of was highly rated and renowned for its innovation and expertise. Over the past few years, several members of this team have become role models for me.  
   
-* I have worked with a great group of people at VMware, past and present. I would like to thank the following people for all their support in no particular order: Steve Leiberson, Brock Peterson, Cosmin Trif, Christopher Kusek, Marshall Cline, Marjorie Abdelkrime, Ariel Sanchez, Karl Hauck, Daniel Thomas, Marcus Roberts, Ken Jordan, Corey Blaz, Wes Milliron, Iwan 'e1' Rahabok, Franky Barragan and others.  
+* I have worked with a great group of people at VMware, past and present. I would like to thank the following people for all their support in no particular order: Steve Leiberson, Brock Peterson, Franky Barragan, Cosmin Trif, Christopher Kusek, Marshall Cline, Marjorie Abdelkrime, Ariel Sanchez, Karl Hauck, Daniel Thomas, Marcus Roberts, Ken Jordan, Corey Blaz, Wes Milliron, Iwan 'e1' Rahabok, and others.  
   
 * **Special Thanks** to David Kruse for getting me started with VCF Automation <small>(vRA)</small>.  
   
@@ -116,6 +117,7 @@ The views and opinions expressed on this blog are strictly my own and do not ref
 * **VMware vExpert** | 2020 - Present | [Link to vExpert Profile](https://vexpert.vmware.com/directory/5721)  
 * **VMware vExpert - Cloud Management** | 2021 - Present  
 * **VMware vExpert - vSphere** | 2024 - Present  
+* **VMware {code} Coach** | 2025 - Present  
 * **VMware Explore 2024 Activites:**
   * **Presentations:**  
     * Streamlining Healthcare with Automation: How VMware Can Help [INDB1917LV]  

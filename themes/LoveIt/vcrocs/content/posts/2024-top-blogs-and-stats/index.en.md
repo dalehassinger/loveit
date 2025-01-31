@@ -3,7 +3,7 @@
 weight: 1
 title: "Top Blog Highlights of 2024"
 date: 2024-12-22T00:00:00+00:00
-lastmod: 2024-12-21200:00:00+00:00
+lastmod: 2024-12-22T00:00:00+00:00
 draft: false
 author: "Dale Hassinger"
 authorLink: "https://twitter.com/dalehassinger"

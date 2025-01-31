@@ -22,6 +22,5 @@ lightgallery: true
 {{< image src="pic10.jpg" caption="Belle">}}
 {{< image src="pic12.jpg" caption="Belle and I">}}
 {{< image src="pic15.jpg" caption="Heaven">}}
-{{< image src="my_current_ride.jpg" caption="Current Ride">}}
 
 ---

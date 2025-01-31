@@ -18,7 +18,9 @@ languageName = "English"
 hasCJKLanguage = false
 
 # default amount of posts in each pages
-paginate = 10
+#paginate = 10
+[pagination]
+    pagerSize = 10
 # google analytics code [UA-XXXXXXXX-X]
 #googleAnalytics = "307687227"
 googleAnalytics = "G-KSLC6FHF36"
@@ -120,6 +122,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   description = "Enterprise Automation, Monitoring and Logging. Plus more..."
   # website images for Open Graph and Twitter Cards
   images = ["/logo.png"]
+  #Author = "Dale Hassinger"
+  [params.author]
+    name = "Dale Hassinger"
+    link = "https://www.vcrocs.info"
 
   # Header config
   [params.header]
@@ -660,7 +666,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   page = ["HTML"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
-  taxonomyTerm = ["HTML"]
+  #taxonomy = ["HTML"]
+
+#taxonomyTerm = ["HTML"]
 
 # Multilingual
 [languages]

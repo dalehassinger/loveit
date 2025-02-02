@@ -296,6 +296,14 @@ function handler($context, $inputs) {
 
 ---
 
+{{< admonition type=tip title="vCROCS Deep Dive Podcast" open=true >}}
+I created a Google NotebookLM Podcast based on the content of this blog. While it may not be entirely accurate, is any podcast ever 100% perfect, even when real people are speaking? Take a moment to listen and share your thoughts with me!  
+
+[vCROCS Deep Dive Podcast | VCF Automation | Input Arrays](https://youtu.be/8jPQHbtK1s8)  
+{{< /admonition >}}
+
+---
+
 {{< admonition type=info title="Info" open=true >}}
 In my blogs, I often emphasize that there are multiple methods to achieve the same objective. This article presents just one of the many ways you can tackle this task. I've shared what I believe to be an effective approach for this particular use case, but keep in mind that every organization and environment varies. There's no definitive right or wrong way to accomplish the tasks discussed in this article.
 {{< /admonition >}}
@@ -318,3 +326,4 @@ If you found this blog article helpful and it assisted you, consider buying me a
 
 ---
 
+{{< cusdis >}}

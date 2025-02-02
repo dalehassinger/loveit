@@ -422,7 +422,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       enable = true
       # Disqus comment config (https://disqus.com/)
       [params.page.comment.disqus]
-        enable = true
+        enable = false
         # Disqus shortname to use Disqus in posts
         shortname = "vcrocs"
       # Gitalk comment config (https://github.com/gitalk/gitalk)

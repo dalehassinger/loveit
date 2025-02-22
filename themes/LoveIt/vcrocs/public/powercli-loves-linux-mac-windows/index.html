@@ -43,7 +43,7 @@
                             "url": "http:\/\/localhost:1313\/powercli-loves-linux-mac-windows\/featured-image.png",
                             "width":  1420 ,
                             "height":  708 
-                        }],"genre": "posts","keywords": "VCF, Automation, PowerShell, PowerCLI, VMware Code Coach, VMware vExpert","wordcount":  1803 ,
+                        }],"genre": "posts","keywords": "VCF, Automation, PowerShell, PowerCLI, VMware Code Coach, VMware vExpert","wordcount":  1896 ,
         "url": "http:\/\/localhost:1313\/powercli-loves-linux-mac-windows\/","datePublished": "2025-02-21T00:00:00+00:00","dateModified": "2025-02-21T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
@@ -124,7 +124,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">PowerCLI on Mac, Linux, and Windows</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://twitter.com/dalehassinger" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Dale Hassinger</a></span>&nbsp;<span class="post-category">included in <a href="/categories/vcf-automation/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>VCF Automation</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-02-21">2025-02-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1803 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-02-21">2025-02-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1896 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;9 minutes&nbsp;</div>
         </div><div class="featured-image"><img
         class="lazyload"
@@ -148,6 +148,9 @@
               <ul>
                 <li>
                   <ul>
+                    <li><a href="#lets-get-started">Let&rsquo;s get Started:</a></li>
+                    <li><a href="#code-examples">Code Examples:</a></li>
+                    <li><a href="#screenshots">Screenshots:</a></li>
                     <li><a href="#lessons-learned">Lessons learned:</a></li>
                   </ul>
                 </li>
@@ -162,9 +165,10 @@
             </div><div class="content" id="content"><p><strong>Home Lab Automation!</strong></p>
 <hr>
 <blockquote>
-<p>The real power of innovation comes not from the tools we use, but from the mindset we bring. Think outside the box, and any computer can become the key to endless possibilities.</p>
+<p>The real power of innovation comes not from the tools we use, but from the mindset we bring. Think outside the box, and any type of computer can become the key to endless possibilities.</p>
 </blockquote>
 <hr>
+<h6 id="lets-get-started">Let&rsquo;s get Started:</h6>
 <p><strong>Ready to dive into automation? Excellent choice!</strong></p>
 <p><strong>Planning to automate on a Mac, Linux, or Windows? Fantastic!</strong></p>
 <p>I love that <strong>VMware PowerCLI</strong> is built as a PowerShell module, making automation seamless across Mac, Linux, and Windows. Since VMware is my primary focus for automation, PowerShell is my go-to tool—thanks to PowerCLI. So far in my Automation journey, there hasn’t been a process I couldn’t automate with PowerShell.</p>
@@ -173,8 +177,9 @@
 <hr>
 <p>In my home lab, I needed a quick and easy way to power on and off my VMs. Some VMs I want to shut down every evening and start up again each morning—not just to save electricity, but also to give my MS-01s a bit of a break. In this blog, I’ll share the scripts I created to automate this process.</p>
 <hr>
-<p>I have a VCF environment running in my lab on a nested ESXi host. My goal is to log into the ESXi host, gracefully shut down all VCF VMs, then log into vCenter to shut down the nested ESXi host. To ensure a clean shutdown, I’ve added logic to verify that all VMs are powered off before proceeding to the next steps. In this blog, I’ll share the code I use to automate this process.</p>
+<p>I have a VCF environment running in my lab on a nested ESXi host, <small><a href="https://www.vcrocs.info/vcf-deploy-home-lab/" target="_blank" rel="noopener noreffer ">(See my Blog to create an VCF in your lab with a script)</a></small>. My goal is to log into the ESXi host, gracefully shut down all VCF VMs, then log into vCenter to shut down the nested ESXi host. To ensure a clean shutdown, I’ve added logic to verify that all VMs are powered off before proceeding to the next steps. In this blog, I’ll share the code I use to automate this process.</p>
 <p>&ndash;</p>
+<h6 id="code-examples">Code Examples:</h6>
 <p>Script to Shutdown my VCF VMs:</p>
 <p><small><span style="color: red; font-weight: bold;">Click arrow to expand the PowerShell code:</span></small></p>
 <div class="highlight"><div class="chroma">
@@ -654,10 +659,37 @@
 <p>To automate tasks in my lab, I use a <strong>Rocky Linux</strong> VM with <strong>PowerShell</strong> installed. I’ve set up cron jobs to execute my PowerShell scripts on a schedule. Here are some details on how I configured these cron jobs to streamline automation.</p>
 <p>A great resource for setting up cron jobs properly? <strong>ChatGPT!</strong> It’s a handy tool for troubleshooting and getting the syntax just right.</p>
 <hr>
+<h6 id="screenshots">Screenshots:</h6>
+<p><small>A screenshot of the nested ESXi host within vCenter to illustrate what the script will power on and off:</small></p>
+<figure><a class="lightgallery" href="/powercli-loves-linux-mac-windows/vcf-lab-01.png" title="/powercli-loves-linux-mac-windows/vcf-lab-01.png" data-thumbnail="/powercli-loves-linux-mac-windows/vcf-lab-01.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/powercli-loves-linux-mac-windows/vcf-lab-01.png"
+            data-srcset="/powercli-loves-linux-mac-windows/vcf-lab-01.png, /powercli-loves-linux-mac-windows/vcf-lab-01.png 1.5x, /powercli-loves-linux-mac-windows/vcf-lab-01.png 2x"
+            data-sizes="auto"
+            alt="/powercli-loves-linux-mac-windows/vcf-lab-01.png" width="3408" height="1856" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
+<p><small>A screenshot of the nested ESXi host VCF VMs to illustrate what the script will power on and off:</small></p>
+<figure><a class="lightgallery" href="/powercli-loves-linux-mac-windows/vcf-lab-02.png" title="/powercli-loves-linux-mac-windows/vcf-lab-02.png" data-thumbnail="/powercli-loves-linux-mac-windows/vcf-lab-02.png" data-sub-html="<h2>Click to see Larger Image of Screen Shot</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/powercli-loves-linux-mac-windows/vcf-lab-02.png"
+            data-srcset="/powercli-loves-linux-mac-windows/vcf-lab-02.png, /powercli-loves-linux-mac-windows/vcf-lab-02.png 1.5x, /powercli-loves-linux-mac-windows/vcf-lab-02.png 2x"
+            data-sizes="auto"
+            alt="/powercli-loves-linux-mac-windows/vcf-lab-02.png" width="3404" height="1696" />
+    </a><figcaption class="image-caption">Click to see Larger Image of Screen Shot</figcaption>
+    </figure>
+<hr>
 <h6 id="lessons-learned">Lessons learned:</h6>
 <ul>
-<li>Using Array Inputs are a great way to use multiple values for processes needed to build new VMs.</li>
-<li>After you take the YAML array string and turn it into a PowerShell array, you can use the values to automate anything you can script.</li>
+<li>Automating VM power on and off helps ensure consistency in your workflows.</li>
+<li>All the scripts in this blog were created and tested on a Mac using PowerShell.</li>
+<li>In the lab, the scripts are scheduled and executed on a Rocky Linux VM with PowerShell installed.</li>
+<li>Don’t dismiss PowerShell just because it was created by Microsoft. Embrace it to enhance your automation journey!</li>
 </ul>
 <hr>
 <div class="details admonition tip open">

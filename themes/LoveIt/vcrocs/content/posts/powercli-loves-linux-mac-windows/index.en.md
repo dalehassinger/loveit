@@ -26,9 +26,10 @@ lightgallery: true
 
 ---
 
->The real power of innovation comes not from the tools we use, but from the mindset we bring. Think outside the box, and any computer can become the key to endless possibilities.
+>The real power of innovation comes not from the tools we use, but from the mindset we bring. Think outside the box, and any type of computer can become the key to endless possibilities.
 
 ---
+###### Let's get Started:
 
 **Ready to dive into automation? Excellent choice!**  
 
@@ -46,9 +47,10 @@ In my home lab, I needed a quick and easy way to power on and off my VMs. Some V
 
 ---
 
-I have a VCF environment running in my lab on a nested ESXi host. My goal is to log into the ESXi host, gracefully shut down all VCF VMs, then log into vCenter to shut down the nested ESXi host. To ensure a clean shutdown, I’ve added logic to verify that all VMs are powered off before proceeding to the next steps. In this blog, I’ll share the code I use to automate this process.
+I have a VCF environment running in my lab on a nested ESXi host, <small>[(See my Blog to create an VCF in your lab with a script)](https://www.vcrocs.info/vcf-deploy-home-lab/)</small>. My goal is to log into the ESXi host, gracefully shut down all VCF VMs, then log into vCenter to shut down the nested ESXi host. To ensure a clean shutdown, I’ve added logic to verify that all VMs are powered off before proceeding to the next steps. In this blog, I’ll share the code I use to automate this process.
 
 --
+###### Code Examples:  
 
 Script to Shutdown my VCF VMs:  
 
@@ -303,11 +305,26 @@ To automate tasks in my lab, I use a **Rocky Linux** VM with **PowerShell** inst
 A great resource for setting up cron jobs properly? **ChatGPT!** It’s a handy tool for troubleshooting and getting the syntax just right.
 
 ---
+###### Screenshots:
+
+<small>A screenshot of the nested ESXi host within vCenter to illustrate what the script will power on and off:</small>  
+
+{{< image src="vcf-lab-01.png" caption="Click to see Larger Image of Screen Shot">}}  
+
+---
+
+<small>A screenshot of the nested ESXi host VCF VMs to illustrate what the script will power on and off:</small>  
+
+{{< image src="vcf-lab-02.png" caption="Click to see Larger Image of Screen Shot">}}  
+
+---
 
 ###### Lessons learned:
 
-* Using Array Inputs are a great way to use multiple values for processes needed to build new VMs.  
-* After you take the YAML array string and turn it into a PowerShell array, you can use the values to automate anything you can script.  
+* Automating VM power on and off helps ensure consistency in your workflows.  
+* All the scripts in this blog were created and tested on a Mac using PowerShell.
+* In the lab, the scripts are scheduled and executed on a Rocky Linux VM with PowerShell installed.
+* Don’t dismiss PowerShell just because it was created by Microsoft. Embrace it to enhance your automation journey!
 
 ---
 

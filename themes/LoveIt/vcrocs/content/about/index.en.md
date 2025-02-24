@@ -15,7 +15,7 @@ The views and opinions expressed on this blog are strictly my own and do not ref
 {{< /admonition >}}  
 
 **My Information:**  
-- **VMware by Broadcom | Staff VCF Core SE**  
+- **VMware by Broadcom | Staff VCF Architect**  
 - **VMware vExpert 2020 - Present**  
   - **VMware vExpert Cloud Management 2021 - Present**  
   - **VMware vExpert vSphere 2024 - Present**  
@@ -63,7 +63,7 @@ The views and opinions expressed on this blog are strictly my own and do not ref
 
 {{< admonition type=success title="Thanks!" open=true >}}  
   
-* I am currently a **Staff VMware Core SE** covering Strategic Accounts  
+* I am currently a **Staff VMware VCF Architect** covering Strategic Accounts  
 
 * The **VCF Automation and Operations Specialist Architects** team I was a member of was highly rated and renowned for its innovation and expertise. Over the past few years, several members of this team have become role models for me.  
   

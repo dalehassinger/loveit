@@ -300,11 +300,6 @@ Write-Log "Script execution completed."
 
 ---
 
-To automate tasks in my lab, I use a **Rocky Linux** VM with **PowerShell** installed. I’ve set up cron jobs to execute my PowerShell scripts on a schedule. Here are some details on how I configured these cron jobs to streamline automation.
-
-A great resource for setting up cron jobs properly? **ChatGPT!** It’s a handy tool for troubleshooting and getting the syntax just right.
-
----
 ###### Screenshots:
 
 <small>A screenshot of the nested ESXi host within vCenter to illustrate what the script will power on and off:</small>  
@@ -316,6 +311,60 @@ A great resource for setting up cron jobs properly? **ChatGPT!** It’s a handy 
 <small>A screenshot of the nested ESXi host VCF VMs to illustrate what the script will power on and off:</small>  
 
 {{< image src="vcf-lab-02.png" caption="Click to see Larger Image of Screen Shot">}}  
+
+---
+
+To automate tasks in my lab, I use a **Rocky Linux** VM with **PowerShell** installed. I’ve set up cron jobs to execute my PowerShell scripts on a schedule. Here are some details on how I configured these cron jobs to streamline automation.
+
+A great resource for setting up cron jobs properly? **ChatGPT!** It’s a handy tool for troubleshooting and getting the syntax just right.
+
+Proper format to run PowerShell Scripts with a cron job.
+
+<small><span style="color: red; font-weight: bold;">Click arrow to expand the cron job code:</span></small>  
+
+```Bash
+# Power On VCF Lab @ 5:00 am everyday
+0 5 * * * /usr/bin/pwsh /home/administrator/power-on.ps1 >> /home/administrator/power-on.log 2>&1
+
+# Power Off VCF Lab @ 11:59 pm everyday
+59 11 * * * /usr/bin/pwsh /home/administrator/power-off.ps1 >> /home/administrator/power-off.log 2>&1
+
+# cron format for day/time
+* * * * * command_to_run
+│ │ │ │ │
+│ │ │ │ └── Day of the week (0-7, Sunday = 0 or 7)
+│ │ │ └──── Month (1-12)
+│ │ └────── Day of the month (1-31)
+│ └──────── Hour (0-23)
+└────────── Minute (0-59)
+  
+```  
+
+<small><span style="color: red; font-weight: bold;">Click arrow to expand the cron commands:</span></small>  
+
+```Bash
+# edit cron jobs
+crontab -e
+
+# List cron jobs
+crontab -l
+
+# restart cron service
+sudo systemctl restart crond
+  
+```  
+
+###### Examples of Cron Expressions
+
+| Cron Expression | Meaning |
+|----------------|---------|
+| `0 0 * * *` | Runs at midnight every day |
+| `0 12 * * 1-5` | Runs at noon (12:00 PM) Monday to Friday |
+| `*/15 * * * *` | Runs every 15 minutes |
+| `30 9 1 * *` | Runs at 9:30 AM on the 1st day of every month |
+| `0 18 * * 5` | Runs at 6:00 PM every Friday |
+| `0 3 * * 1,3,5` | Runs at 3:00 AM on Monday, Wednesday, and Friday |  
+
 
 ---
 
@@ -331,7 +380,7 @@ A great resource for setting up cron jobs properly? **ChatGPT!** It’s a handy 
 {{< admonition type=tip title="vCROCS Deep Dive Podcast" open=true >}}
 I created a Google NotebookLM Podcast based on the content of this blog. While it may not be entirely accurate, is any podcast ever 100% perfect, even when real people are speaking? Take a moment to listen and share your thoughts with me!  
 
-[vCROCS Deep Dive Podcast | VCF Automation | Input Arrays](https://youtu.be/8jPQHbtK1s8)  
+[vCROCS Deep Dive Podcast | PowerCLI on Mac, Linux and Windows](https://youtu.be/QChe8ogU_sY)  
 {{< /admonition >}}
 
 ---

@@ -67,7 +67,7 @@ NH:
   VIUsername: administrator@vcrocs.local
   VIPassword: VMware1!
   NestedESXiApplianceOVA: /Users/dalehassinger/Downloads/Nested_ESXi8.0u3c_Appliance_Template_v1.ova
-  verboseLogFile: VCF-Nested-Step-1-Host-Only-YAML.log
+  verboseLogFile: /Users/dalehassinger/Documents/GitHub/PS-TAM-Lab/VCF-Nested-Step-1-Host-Only-YAML.log
   NestedESXiMGMTvCPU: 12
   NestedESXiMGMTvMEM: 88
   NestedESXiMGMTCachingvDisk: 4
@@ -139,7 +139,7 @@ foreach ($module in $requiredModules) {
 }
 
 # Read YAML configuration
-$cfgFile = "Home-Lab-Config.yaml"
+$cfgFile = "/Users/dalehassinger/Documents/GitHub/PS-TAM-Lab/Home-Lab-Config.yaml"
 $cfg = Get-Content -Path $cfgFile -Raw | ConvertFrom-Yaml
 
 # Function to display configuration details
@@ -260,6 +260,10 @@ New-LogEvent "Duration: $duration minutes to deploy Nested ESXi Hosts"
 
 ---
 
+{{< image src="powercli-yaml-01.gif" caption="Click to see Larger Image of Screen Shot">}}  
+
+---
+
 **Sample Script to connect to vCenter using variables from a YAML file:**  
 
 <small><span style="color: red; font-weight: bold;">Click arrow to expand the PowerShell code:</span></small>  
@@ -275,7 +279,7 @@ foreach ($module in $requiredModules) {
 }
 
 # Read YAML configuration
-$cfgFile = "Home-Lab-Config.yaml"
+$cfgFile = "/Users/dalehassinger/Documents/GitHub/PS-TAM-Lab/Home-Lab-Config.yaml"
 $cfg = Get-Content -Path $cfgFile -Raw | ConvertFrom-Yaml
 
 # Connect to vCenter
@@ -305,7 +309,7 @@ foreach ($module in $requiredModules) {
 }
 
 # Read YAML configuration
-$cfgFile = "Home-Lab-Config.yaml"
+$cfgFile = "/Users/dalehassinger/Documents/GitHub/PS-TAM-Lab/Home-Lab-Config.yaml"
 $cfg = Get-Content -Path $cfgFile -Raw | ConvertFrom-Yaml
 
 # Connect to a ESXi Host
@@ -335,7 +339,7 @@ foreach ($module in $requiredModules) {
 }
 
 # Define YAML configuration file path
-$cfgFile = "Home-Lab-Config.yaml"
+$cfgFile = "/Users/dalehassinger/Documents/GitHub/PS-TAM-Lab/Home-Lab-Config.yaml"
 
 # Read YAML configuration into PowerShell object
 $cfg = Get-Content -Path $cfgFile -Raw | ConvertFrom-Yaml
@@ -402,7 +406,7 @@ $data.resourceKey.name
 {{< admonition type=tip title="vCROCS Deep Dive Podcast" open=true >}}
 I created a Google NotebookLM Podcast based on the content of this blog. While it may not be entirely accurate, is any podcast ever 100% perfect, even when real people are speaking? Take a moment to listen and share your thoughts with me!  
 
-[vCROCS Deep Dive Podcast | PowerCLI on Mac, Linux and Windows](https://youtu.be/QChe8ogU_sY)  
+[vCROCS Deep Dive Podcast | PowerCLI and YAML](https://youtu.be/0qF9ONBxcwA)  
 {{< /admonition >}}
 
 ---

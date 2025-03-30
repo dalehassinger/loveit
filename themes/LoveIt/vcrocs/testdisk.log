@@ -1,0 +1,66 @@
+
+
+Fri Mar 21 19:54:39 2025
+Command line: TestDisk
+
+TestDisk 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Darwin, kernel 24.3.0 (Darwin Kernel Version 24.3.0: Thu Jan  2 20:24:23 PST 2025; root:xnu-11215.81.4~3/RELEASE_ARM64_T8122) arm64
+Compiler: GCC 4.2
+ext2fs lib: none, ntfs lib: none, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.0
+Hard disk list
+Disk /dev/disk0 - 1000 GB / 931 GiB - 244276265 sectors (RO), sector size=4096
+Disk /dev/disk2 - 5368 MB / 5119 MiB - 1310709 sectors (RO), sector size=4096
+Disk /dev/disk4 - 960 GB / 894 GiB - 1875378177 sectors, sector size=512
+Disk /dev/disk6 - 1000 GB / 931 GiB - 1953497089 sectors, sector size=512
+Disk /dev/disk8 - 4000 GB / 3726 GiB - 7814037168 sectors (RO), sector size=512
+Disk /dev/disk9 - 2147 MB / 2048 MiB - 524288 sectors, sector size=4096
+Disk /dev/disk11 - 4000 GB / 3726 GiB - 7814037168 sectors, sector size=512
+Disk /dev/disk13 - 1006 MB / 959 MiB - 1965353 sectors, sector size=512
+Disk /dev/rdisk0 - 1000 GB / 931 GiB - 244276265 sectors (RO), sector size=4096
+Disk /dev/rdisk1 - 524 MB / 500 MiB - 128000 sectors (RO), sector size=4096
+Disk /dev/rdisk2 - 5368 MB / 5119 MiB - 1310709 sectors (RO), sector size=4096
+Disk /dev/rdisk3 - 994 GB / 926 GiB - 242837545 sectors (RO), sector size=4096
+Disk /dev/rdisk4 - 960 GB / 894 GiB - 1875378177 sectors, sector size=512
+Disk /dev/rdisk6 - 1000 GB / 931 GiB - 1953497089 sectors, sector size=512
+Disk /dev/rdisk8 - 4000 GB / 3726 GiB - 7814037168 sectors (RO), sector size=512
+Disk /dev/rdisk9 - 2147 MB / 2048 MiB - 524288 sectors, sector size=4096
+Disk /dev/rdisk10 - 3996 GB / 3722 GiB - 975705600 sectors, sector size=4096
+Disk /dev/rdisk11 - 4000 GB / 3726 GiB - 7814037168 sectors, sector size=512
+Disk /dev/rdisk13 - 1006 MB / 959 MiB - 1965353 sectors, sector size=512
+
+Partition table type defaults to EFI GPT
+Disk /dev/rdisk13 - 1006 MB / 959 MiB
+Partition table type: Intel
+
+Analyse Disk /dev/rdisk13 - 1006 MB / 959 MiB - 1965353 sectors
+Current partition structure:
+
+Partition sector doesn't have the endmark 0xAA55
+
+search_part()
+Disk /dev/rdisk13 - 1006 MB / 959 MiB - 1965353 sectors
+
+Results
+
+interface_write()
+ 
+No partition found or selected for recovery
+
+search_part()
+Disk /dev/rdisk13 - 1006 MB / 959 MiB - 1965353 sectors
+
+Results
+
+interface_write()
+ 
+No partition found or selected for recovery
+simulate write!
+
+write_mbr_i386: starting...
+Store new MBR code
+write_all_log_i386: starting...
+No extended partition
+
+TestDisk exited normally.

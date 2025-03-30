@@ -1,0 +1,432 @@
+---
+
+weight: 1
+title: "VCF Automation | CustomProperties"
+date: 2025-03-30T00:00:00+00:00
+lastmod: 2025-03-30T00:00:00+00:00
+draft: false
+author: "Dale Hassinger"
+authorLink: "https://twitter.com/dalehassinger"
+description: ""
+images: []
+resources:
+- name: "featured-image"
+  src: "featured-image.png"
+
+tags: ["VCF", "Automation", "PowerShell", "PowerCLI", "VMware Code Coach", "VMware vExpert", "CMDB", "CustomProperties"]
+categories: ["VCF Automation"]
+
+lightgallery: true
+
+---
+
+**Add CustomProperties to a VM Deployment after the Virtual Machine is created.**
+
+<!--more-->
+
+---
+
+>Use CustomProperties in VMware VCF Automation to drive CMDB integration—keeping users and process logic out of vCenter where they don’t belong.
+
+---
+
+<small>**Note: VCF Automation 8.18.1 was used to create this Blog**</small>  
+
+I recently received a great question about using CustomProperties in VMware VCF Automation to keep the CMDB up to date—without relying on direct access to vCenter. I’m a big fan of this approach. Many organizations aim to limit who and what can access vCenter to maintain a secure and streamlined environment. The fewer hands in vCenter, the better—keep it lean and mean.
+
+As part of the conversation, I was also asked how to capture a VM property that isn’t available out of the box in VCF Automation: the “bios id”. While you can retrieve it with PowerCLI by connecting to vCenter, the goal was to avoid pulling data from vCenter continuously just to populate the CMDB.
+
+Fortunately, I found a [Broadcom TechDoc](https://techdocs.broadcom.com/us/en/vmware-cis/aria/aria-automation/8-17/aria-automation-api-programming-guide-on-prem-8-17/automation-assembler-api-tutorials/deploying-and-managing-resources/update-custom-properties-of-a-machine.html) that explains how to add CustomProperties to an existing VM deployment. I’m all about real-world examples, so below is how I added the “bios id” as a custom property to a deployed VM—no direct vCenter calls required to keep CMDB accurate and current.
+
+---
+
+###### Steps:
+
+**Steps to add a customProperty to a VM deployment:**  
+*	Start with a Design Template that includes the customProperties you want to associate with the VM during the build process.  
+*	Set up a Subscription that triggers an ABX Action to run Post-Provisioning.  
+*	The ABX Action connects to vCenter, retrieves the VM’s “bios id”, and writes it back as a customProperty on the deployment.  
+  *	This action only needs to run once—the "bios id" is static.  
+
+---
+
+###### Design Template:
+
+* Sample Design Template YAML code  
+* YAML code shows some examples that can be used with any VM build  
+
+<small><span style="color: red; font-weight: bold;">Click arrow to expand the yaml code:</span></small>  
+
+```yaml
+
+formatVersion: 2
+name: Rocky-Basic
+outputs:
+  __deploymentOverview:
+    value: |
+      **The following vSphere Virtual Machine has been provisioned with VMware VCF Automation.**  
+
+      **Original Build Specs Used:**  
+      IP: ${input.IP}  
+      Memory(MB): ${input.totalMemoryMB}  
+      CPU (Count): ${input.cpuCount}  
+      Core (Count): ${input.coreCount}  
+
+      **Connect to Server using Cockpit:**  
+      http://${input.IP}:9090  
+
+      **Check out these Blogs for Updates/Tips/Tricks on the VMware VCF Operations/Automation Products:**  
+      **Brock Peterson:** https://www.BrockPeterson.com  
+      **Dale Hassinger:** https://www.vCROCS.info  
+      **Cosmin Trif:** https://www.cosmin.gq  
+
+      **Link to vCROCS VCF Operations:**  
+      https://vao.vcrocs.local  
+
+      **Link to vCROCS VCF Operations for Logs:**  
+      https://vaol.vcrocs.local  
+#cloud-config
+inputs:
+  CustomizationSpec:
+    type: string
+    description: Customization Specification
+    default: LINUX
+    title: CustomizationSpec
+  VMName:
+    type: string
+    title: VM Name
+    minLength: 1
+    maxLength: 15
+    default: DB-ROCKY-204
+  IP:
+    type: string
+    default: 192.168.5.204
+  totalMemoryMB:
+    type: integer
+    title: Memory(MB)
+    default: 1024
+  cpuCount:
+    type: integer
+    title: CPU (count)
+    default: 1
+  coreCount:
+    type: integer
+    title: Core (count)
+    default: 1
+  folderName:
+    type: string
+    title: vCenter Folder
+    default: Rocky-Linux
+    enum:
+      - Rocky-Linux
+      - ESXi-01-VMs
+      - ESXi-02-VMs
+  VolumeGB:
+    type: string
+    title: 'Volume Size GB:'
+    default: '30'
+resources:
+  Network_VMs:
+    type: Cloud.vSphere.Network
+    properties:
+      name: PG-VMs
+      networkType: existing
+      constraints:
+        - tag: Network:VM
+  vCenter_Rocky:
+    type: Cloud.vSphere.Machine
+    properties:
+      image: ROCKY9
+      name: ${input.VMName}
+      totalMemoryMB: ${input.totalMemoryMB}
+      cpuCount: ${input.cpuCount}
+      coreCount: ${input.coreCount}
+      biosName: ${input.VMName}
+      fqdn: ${input.VMName}.vcrocs.local
+      folderName: Rocky-Linux
+      storage:
+        bootDiskCapacityInGB: ${input.VolumeGB}
+      remoteAccess:
+        authentication: usernamePassword
+        username: root
+        password: ${secret.administrator}
+      customizationSpec: ${input.CustomizationSpec}
+      constraints:
+        - tag: VPZ:VM
+      networks:
+        - network: ${resource.Network_VMs.id}
+          assignment: static
+          address: ${input.IP}
+```
+
+---
+
+###### Subscription:
+
+* Screen shot of the Subscription used to execute the ABX Action  
+
+{{< image src="customproperties-01.png" caption="Click to see Larger Image of Screen Shot">}}  
+
+
+---
+
+###### ABX Action:
+
+* Screen shot of ABX Action  
+
+{{< image src="customproperties-02.png" caption="Click to see Larger Image of Screen Shot">}}  
+
+---
+
+* Screen shot of ABX Action code and inputs
+* I created a Blog that goes into detail about [ABX Action Constants and Secrets](https://www.vcrocs.info/unlocking-the-potential-vmware-aria-automation-abx-secrets-action-constants/). Take a look for more information.  
+
+
+{{< image src="customproperties-04.png" caption="Click to see Larger Image of Screen Shot">}}  
+
+---
+
+* ABX Action Function PowerShell Code  
+
+<small><span style="color: red; font-weight: bold;">Click arrow to expand the PowerShell code:</span></small>  
+
+```PowerShell
+function handler($context, $inputs) {
+
+    # Extract input values from ABX context and inputs
+    $vmName                = $inputs.customProperties.biosName
+    $VCFAutomationServer   = $inputs.VCFAutomationServer
+    $VCFAutomationUsername = $inputs.VCFAutomationUsername
+    $vCenterServer         = $inputs.vCenterServer
+    $vCenterUsername       = $inputs.vCenterUsername
+    $vCenterPassword       = $context.getSecret($inputs.vCenterPassword)
+    $VCFAutomationPassword = $context.getSecret($inputs.VCFAutomationPassword)
+
+    # Output variable values for debugging (avoid writing sensitive secrets)
+    Write-Host "---PS Variables:"
+    Write-Host "--vCenterServer: " $vCenterServer
+    Write-Host "vCenterUsername: " $vCenterUsername
+    #Write-Host "vCenterPassword: " $vCenterPassword
+
+    Write-Host "--VCF Automation Server: " $VCFAutomationServer
+    Write-Host "VCF Automation Username: " $VCFAutomationUsername
+    #Write-Host "VCF Automation Password: " $VCFAutomationPassword
+
+    Write-Host "VM Name:" $vmName
+
+    # Connect to vCenter and retrieve VM information
+    Write-Host "Connecting to vCenter..."
+    $viConnection = Connect-VIServer -Server $vCenterServer -User $vCenterUsername -Password $vCenterPassword -WarningAction SilentlyContinue -Protocol https -Force
+
+    # Get BIOS UUID of the specified VM
+    $results = Get-VM -Name $vmName
+    $biosID = $results.ExtensionData.Config.Uuid
+    Write-Host "BIOS ID:" $biosID
+
+    # Disconnect from vCenter to clean up session
+    Write-Host "Disconnecting from vCenter..."
+    Disconnect-VIServer -Server * -Confirm:$false
+
+    # --- VCF Automation API Integration ---
+
+    # Assign base server name to variable for reuse
+    $vas = $VCFAutomationServer
+
+    # Step 1: Authenticate to VCF Automation API
+    $uri = "https://$vas/csp/gateway/am/api/login"
+    Write-Host "uri:" $uri
+
+    # Build the request body for login
+    $body = @{
+        username = $VCFAutomationUsername
+        password = $VCFAutomationPassword
+        domain   = "System Domain"
+    } | ConvertTo-Json
+
+    # Define base headers for all API calls
+    $header = @{
+        'accept'       = '*/*'
+        'Content-Type' = 'application/json'
+    }
+
+    # Request an access token
+    Write-Host "Making VCF Automation API Call to get token..."
+    $response = Invoke-RestMethod -Uri $uri -Method Post -Headers $header -Body $body -SkipCertificateCheck
+
+    # Add access token to headers for subsequent API calls
+    $accessToken = "Bearer " + $response.cspAuthToken
+    $header.Add("Authorization", $accessToken)
+
+    # Step 2: Get machine ID based on VM name
+    $uri = "https://$vas/iaas/api/machines/"
+    Write-Host "uri:" $uri
+
+    Write-Host "Making VCF Automation API Call to get Machine ID..."
+    $results = Invoke-RestMethod -Uri $uri -Method GET -Headers $header -SkipCertificateCheck
+    $machineID = ($results.content | Select-Object id, name | Where-Object { $_.Name -like "*$vmName*" }).id
+    Write-Host "machine id:" $machineID
+
+    # Step 3: Patch the machine with BIOS ID
+    $uri = "https://$vas/iaas/api/machines/$machineID"
+    Write-Host "uri:" $uri
+
+    # Build the PATCH payload
+    $bodyObj = @{
+        customProperties = @{
+            biosID = $biosID
+        }
+    }
+    $body = $bodyObj | ConvertTo-Json
+    Write-Host "Body:" $body
+
+    # Send the PATCH request to update the BIOS ID
+    Write-Host "Making VCF Automation API Call to set BIOS ID..."
+    $response = Invoke-RestMethod -Uri $uri -Method Patch -Headers $header -Body $body -SkipCertificateCheck
+    Write-Host "biosID Response:" $response.customProperties.biosID
+
+    # Step 4: Verification – Confirm that the BIOS ID was updated
+    $uri = "https://$vas/iaas/api/machines/"
+    Write-Host "uri:" $uri
+
+    $results = Invoke-RestMethod -Uri $uri -Method GET -Headers $header -SkipCertificateCheck
+    $biosID = ($results.content | Select-Object * | Where-Object { $_.Name -like "*$vmName*" }).customProperties.biosID
+    Write-Host "Verify BIOS ID:" $biosID
+
+    # Return original inputs
+    return $inputs
+}
+
+```
+
+---
+
+###### Code to get customProperties from a deployment:
+
+* PowerShell Code to make an API Call to VCF Automation to get a deployment CustomProperty values
+
+<small><span style="color: red; font-weight: bold;">Click arrow to expand the PowerShell code:</span></small>  
+
+```PowerShell
+
+# ------------- Code to Get VCF Automation Deployment customProperty Values --------------
+# Code works in DDC Lab
+# Date: 2025.03.28
+
+# Script uses the powershell-yaml module. Make sure the Module is Installed.
+if (-not (Get-Module -ListAvailable -Name powershell-yaml)) {
+    Write-Host "PowerShell-YAML module is not installed. Please install it using 'Install-Module powershell-yaml'."
+    exit
+}
+
+# Script uses the VMware PowerCLI module. Make sure the Module is Installed.
+if (-not (Get-Module -ListAvailable -Name VMware.PowerCLI)) {
+    Write-Host "VMware PowerCLI module is not installed. Please install it using 'Install-Module VMware.PowerCLI'."
+    exit
+}
+
+# Read YAML configuration
+$cfgFile = "VCF-Nested-Step-1-Host-Only-YAML.yaml"
+$cfg = Get-Content -Path $cfgFile -Raw | ConvertFrom-Yaml
+
+$vmName = "DB-ROCKY-207"
+
+$vraServer = $cfg.Automation.autoURL
+
+$uri = "https://$vraServer/csp/gateway/am/api/login"
+
+$body = @{
+    username = $cfg.Automation.autoUsername
+    password = $cfg.Automation.autoPassword
+    domain   = $cfg.Automation.autoDomain
+} | ConvertTo-Json
+#$body
+
+$header = @{
+    'accept'       = '*/*'
+    'Content-Type' = 'application/json'
+}
+
+$response = Invoke-RestMethod -Uri $uri -Method Post -Headers $header -Body $body -SkipCertificateCheck
+
+$accessToken = "Bearer " + $response.cspAuthToken
+
+$header.Add("Authorization",$accessToken)
+
+$uri = "https://$vraServer/iaas/api/machines/"
+
+$results = Invoke-RestMethod -uri $uri -Method GET -Headers $header -SkipCertificateCheck
+$customProperties = ($results.content | Select-Object * |  Where-Object { $_.Name -like "*$vmName*" }).customProperties
+#$biosID = ($results.content | Select-Object * |  Where-Object { $_.Name -like "*$vmName*" }).customProperties.biosID
+
+$customProperties
+
+```
+
+---
+
+* YAML file contents to use with the PowerShell Script to get customProperties  
+
+<small><span style="color: red; font-weight: bold;">Click arrow to expand the yaml code:</span></small>  
+
+```yaml
+# vCenter Connection
+vCenter:
+  server: vcsa8x.vcrocs.local
+  username: administrator@vcrocs.local
+  password: VMware1!
+  ignoreCertErrors: true
+
+# A Single ESXi Host Connection
+Host101:
+  server: 192.168.6.101
+  username: root
+  password: VMware1!
+
+# VCF Operations
+OPS:
+  opsURL: https://vao.vcrocs.local
+  opsUsername: admin
+  opsPassword: VMware1!
+  authSource:  local
+
+# VCF Automation
+Automation:
+  autoURL: vaa.vcrocs.local
+  autoUsername: configadmin
+  autoPassword: VMware1!
+  autoDomain:  System Domain
+
+```
+
+---
+
+###### Lessons learned:
+
+* Using customProperties with VCF Automation is a great way to keep 3rd party processes out of VMware vCenter.  
+* customProperty values can be added Post Provision of a new VM deployment in VCF Automation.  
+
+---
+
+{{< admonition type=info title="Info" open=true >}}
+In my blogs, I often emphasize that there are multiple methods to achieve the same objective. This article presents just one of the many ways you can tackle this task. I've shared what I believe to be an effective approach for this particular use case, but keep in mind that every organization and environment varies. There's no definitive right or wrong way to accomplish the tasks discussed in this article.
+{{< /admonition >}}
+
+---
+
+{{< admonition type=warning title="Lab" open=true >}}
+Always test new setups and processes, like those discussed in this blog, in a lab environment before implementing them in a production environment.
+{{< /admonition >}}
+
+---
+
+{{< admonition type=tip title="Tips and Tricks" open=true >}}
+If you found this blog article helpful and it assisted you, consider buying me a coffee to kickstart my day.
+{{< /admonition >}}
+
+<center>
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="dalehassinger" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+</center>
+
+---
+
+{{< cusdis >}}

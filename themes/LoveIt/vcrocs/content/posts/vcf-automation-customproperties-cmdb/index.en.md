@@ -43,10 +43,14 @@ Fortunately, I found a [Broadcom TechDoc](https://techdocs.broadcom.com/us/en/vm
 ###### Steps:
 
 **Steps to add a customProperty to a VM deployment:**  
-*	Start with a Design Template that includes the customProperties you want to associate with the VM during the build process.  
-*	Set up a Subscription that triggers an ABX Action to run Post-Provisioning.  
-*	The ABX Action connects to vCenter, retrieves the VM’s “bios id”, and writes it back as a customProperty on the deployment.  
-  *	This action only needs to run once—the "bios id" is static.  
+
+---
+
+- Start with a Design Template that includes the customProperties you want to associate with the VM during the build process.
+- Set up a Subscription that triggers an ABX Action to run Post-Provisioning.
+  - When the new VM deployment starts, you will not see the customProperty “bios id” until after the ABX Action runs.
+- The ABX Action connects to vCenter, retrieves the VM’s “bios id”, and writes it back as a customProperty on the deployment.
+  - This action only needs to run once—the "bios id" is static.
 
 ---
 
@@ -163,10 +167,12 @@ resources:
 
 ###### Subscription:
 
-* Screen shot of the Subscription used to execute the ABX Action  
+* Screenshot of the Subscription configured to trigger the ABX Action  
+  * Utilizes the Post Provision Event Topic  
+  * Includes a filter to run only for a specific Blueprint  
+  * Defines the ABX Action to be executed  
 
 {{< image src="customproperties-01.png" caption="Click to see Larger Image of Screen Shot">}}  
-
 
 ---
 
@@ -180,13 +186,17 @@ resources:
 
 * Screen shot of ABX Action code and inputs
 * I created a Blog that goes into detail about [ABX Action Constants and Secrets](https://www.vcrocs.info/unlocking-the-potential-vmware-aria-automation-abx-secrets-action-constants/). Take a look for more information.  
-
+* Using ABX Action Constants and Secrets is a recommended best practice for enhancing security and simplifying updates to values shared across multiple ABX Actions.  
 
 {{< image src="customproperties-04.png" caption="Click to see Larger Image of Screen Shot">}}  
 
 ---
 
 * ABX Action Function PowerShell Code  
+  * Connects to vCenter to retrieve the "bios id" value  
+  * Connects to VCF Automation to obtain an access token  
+  * Adds a new customProperty to the VM deployment  
+  * Confirms that the customProperty value has been successfully set  
 
 <small><span style="color: red; font-weight: bold;">Click arrow to expand the PowerShell code:</span></small>  
 
@@ -258,12 +268,13 @@ function handler($context, $inputs) {
     $header.Add("Authorization", $accessToken)
 
     # Step 2: Get machine ID based on VM name
-    $uri = "https://$vas/iaas/api/machines/"
+    $filter = [System.Net.WebUtility]::UrlEncode("name eq '$vmName'")
+    $uri = "https://$vas/iaas/api/machines?`$filter=$filter"
     Write-Host "uri:" $uri
 
     Write-Host "Making VCF Automation API Call to get Machine ID..."
     $results = Invoke-RestMethod -Uri $uri -Method GET -Headers $header -SkipCertificateCheck
-    $machineID = ($results.content | Select-Object id, name | Where-Object { $_.Name -like "*$vmName*" }).id
+    $machineID = $results.content.id
     Write-Host "machine id:" $machineID
 
     # Step 3: Patch the machine with BIOS ID
@@ -285,11 +296,12 @@ function handler($context, $inputs) {
     Write-Host "biosID Response:" $response.customProperties.biosID
 
     # Step 4: Verification – Confirm that the BIOS ID was updated
-    $uri = "https://$vas/iaas/api/machines/"
+    $filter = [System.Net.WebUtility]::UrlEncode("name eq '$vmName'")
+    $uri = "https://$vas/iaas/api/machines?`$filter=$filter"
     Write-Host "uri:" $uri
 
     $results = Invoke-RestMethod -Uri $uri -Method GET -Headers $header -SkipCertificateCheck
-    $biosID = ($results.content | Select-Object * | Where-Object { $_.Name -like "*$vmName*" }).customProperties.biosID
+    $biosID = $results.content.customProperties.biosID
     Write-Host "Verify BIOS ID:" $biosID
 
     # Return original inputs
@@ -303,68 +315,80 @@ function handler($context, $inputs) {
 ###### Code to get customProperties from a deployment:
 
 * PowerShell Code to make an API Call to VCF Automation to get a deployment CustomProperty values
+* This sample code demonstrates how any process can retrieve customProperty values from VCF Automation. It uses an API call, so the logic remains consistent across use cases.
 
 <small><span style="color: red; font-weight: bold;">Click arrow to expand the PowerShell code:</span></small>  
 
 ```PowerShell
 
+
 # ------------- Code to Get VCF Automation Deployment customProperty Values --------------
 # Code works in DDC Lab
 # Date: 2025.03.28
 
-# Script uses the powershell-yaml module. Make sure the Module is Installed.
+# Check if the powershell-yaml module is installed
 if (-not (Get-Module -ListAvailable -Name powershell-yaml)) {
     Write-Host "PowerShell-YAML module is not installed. Please install it using 'Install-Module powershell-yaml'."
     exit
 }
 
-# Script uses the VMware PowerCLI module. Make sure the Module is Installed.
+# Check if the VMware PowerCLI module is installed
 if (-not (Get-Module -ListAvailable -Name VMware.PowerCLI)) {
     Write-Host "VMware PowerCLI module is not installed. Please install it using 'Install-Module VMware.PowerCLI'."
     exit
 }
 
-# Read YAML configuration
+# Load YAML configuration file
 $cfgFile = "VCF-Nested-Step-1-Host-Only-YAML.yaml"
 $cfg = Get-Content -Path $cfgFile -Raw | ConvertFrom-Yaml
 
-$vmName = "DB-ROCKY-207"
+# Set the VM name to retrieve customProperties for
+$vmName = "DB-ROCKY-208"
 
+# Get the VCF Automation server from the YAML config
 $vraServer = $cfg.Automation.autoURL
 
+# Prepare login URI
 $uri = "https://$vraServer/csp/gateway/am/api/login"
 
+# Prepare login request body
 $body = @{
     username = $cfg.Automation.autoUsername
     password = $cfg.Automation.autoPassword
     domain   = $cfg.Automation.autoDomain
 } | ConvertTo-Json
-#$body
+#$body # Optional output for debugging
 
+# Set standard request headers
 $header = @{
     'accept'       = '*/*'
     'Content-Type' = 'application/json'
 }
 
+# Authenticate and get access token
 $response = Invoke-RestMethod -Uri $uri -Method Post -Headers $header -Body $body -SkipCertificateCheck
-
 $accessToken = "Bearer " + $response.cspAuthToken
 
+# Add Authorization header for subsequent API calls
 $header.Add("Authorization",$accessToken)
 
-$uri = "https://$vraServer/iaas/api/machines/"
+# Define URI to fetch deployed machines
+$filter = [System.Net.WebUtility]::UrlEncode("name eq '$vmName'")
+$uri = "https://$vraServer/iaas/api/machines?`$filter=$filter"
+#$uri
 
+# Get list of VMs and extract customProperties for the matching VM name
 $results = Invoke-RestMethod -uri $uri -Method GET -Headers $header -SkipCertificateCheck
-$customProperties = ($results.content | Select-Object * |  Where-Object { $_.Name -like "*$vmName*" }).customProperties
-#$biosID = ($results.content | Select-Object * |  Where-Object { $_.Name -like "*$vmName*" }).customProperties.biosID
 
-$customProperties
+# Output the customProperties
+$results.content.customProperties
 
 ```
 
 ---
 
 * YAML file contents to use with the PowerShell Script to get customProperties  
+* I've been using a YAML file with all my current scripts to store values for connecting to vCenter, VCF Operations, VCF Automation, and more. If anything changes, I just update the YAML file, and all the scripts continue to work without any issues.
 
 <small><span style="color: red; font-weight: bold;">Click arrow to expand the yaml code:</span></small>  
 
@@ -404,6 +428,8 @@ Automation:
 
 * Using customProperties with VCF Automation is a great way to keep 3rd party processes out of VMware vCenter.  
 * customProperty values can be added Post Provision of a new VM deployment in VCF Automation.  
+* Think of other customProperties you would want to add to a VCF Automation VM Deployment. This technique can be done for a lot use cases.  
+* The primary purpose of this blog post is to inform VCF Automation users that it's possible to add or modify customProperties for VM deployments even after the VM has been created.
 
 ---
 

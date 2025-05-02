@@ -3,12 +3,100 @@
         <title>Tags - Tag - vCROCS</title>
         <link>http://localhost:1313/tags/</link>
         <description>Tags - Tag - vCROCS</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 30 Mar 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 20 Apr 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Management Pack</title>
+    <link>http://localhost:1313/tags/management-pack/</link>
+    <pubDate>Sun, 20 Apr 2025 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/management-pack/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>MP</title>
+    <link>http://localhost:1313/tags/mp/</link>
+    <pubDate>Sun, 20 Apr 2025 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/mp/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Operations</title>
+    <link>http://localhost:1313/tags/operations/</link>
+    <pubDate>Sun, 20 Apr 2025 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/operations/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VCF</title>
+    <link>http://localhost:1313/tags/vcf/</link>
+    <pubDate>Sun, 20 Apr 2025 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/vcf/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VMware Code Coach</title>
+    <link>http://localhost:1313/tags/vmware-code-coach/</link>
+    <pubDate>Sun, 20 Apr 2025 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/vmware-code-coach/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VMware VExpert</title>
+    <link>http://localhost:1313/tags/vmware-vexpert/</link>
+    <pubDate>Sun, 20 Apr 2025 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/vmware-vexpert/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Zoom</title>
+    <link>http://localhost:1313/tags/zoom/</link>
+    <pubDate>Sun, 20 Apr 2025 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/zoom/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Automation</title>
     <link>http://localhost:1313/tags/automation/</link>
-    <pubDate>Sun, 30 Mar 2025 00:00:00 &#43;0000</pubDate>
+    <pubDate>Wed, 09 Apr 2025 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
     <guid>http://localhost:1313/tags/automation/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>PowerCLI</title>
+    <link>http://localhost:1313/tags/powercli/</link>
+    <pubDate>Wed, 09 Apr 2025 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/powercli/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>PowerShell</title>
+    <link>http://localhost:1313/tags/powershell/</link>
+    <pubDate>Wed, 09 Apr 2025 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/powershell/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Restful API</title>
+    <link>http://localhost:1313/tags/restful-api/</link>
+    <pubDate>Wed, 09 Apr 2025 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/restful-api/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Web Server</title>
+    <link>http://localhost:1313/tags/web-server/</link>
+    <pubDate>Wed, 09 Apr 2025 00:00:00 &#43;0000</pubDate>
+    <author>Dale Hassinger</author>
+    <guid>http://localhost:1313/tags/web-server/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
@@ -28,46 +116,6 @@
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>PowerCLI</title>
-    <link>http://localhost:1313/tags/powercli/</link>
-    <pubDate>Sun, 30 Mar 2025 00:00:00 &#43;0000</pubDate>
-    <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/powercli/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>PowerShell</title>
-    <link>http://localhost:1313/tags/powershell/</link>
-    <pubDate>Sun, 30 Mar 2025 00:00:00 &#43;0000</pubDate>
-    <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/powershell/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>VCF</title>
-    <link>http://localhost:1313/tags/vcf/</link>
-    <pubDate>Sun, 30 Mar 2025 00:00:00 &#43;0000</pubDate>
-    <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/vcf/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>VMware Code Coach</title>
-    <link>http://localhost:1313/tags/vmware-code-coach/</link>
-    <pubDate>Sun, 30 Mar 2025 00:00:00 &#43;0000</pubDate>
-    <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/vmware-code-coach/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>VMware VExpert</title>
-    <link>http://localhost:1313/tags/vmware-vexpert/</link>
-    <pubDate>Sun, 30 Mar 2025 00:00:00 &#43;0000</pubDate>
-    <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/vmware-vexpert/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
     <title>Linux</title>
     <link>http://localhost:1313/tags/linux/</link>
     <pubDate>Sat, 15 Mar 2025 00:00:00 &#43;0000</pubDate>
@@ -81,14 +129,6 @@
     <pubDate>Sat, 08 Mar 2025 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
     <guid>http://localhost:1313/tags/yaml/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Operations</title>
-    <link>http://localhost:1313/tags/operations/</link>
-    <pubDate>Thu, 26 Dec 2024 00:00:00 &#43;0000</pubDate>
-    <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/operations/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
@@ -161,46 +201,6 @@
     <pubDate>Tue, 29 Oct 2024 00:00:00 &#43;0000</pubDate>
     <author>Dale Hassinger</author>
     <guid>http://localhost:1313/tags/dashboards/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Ideas</title>
-    <link>http://localhost:1313/tags/ideas/</link>
-    <pubDate>Tue, 29 Oct 2024 00:00:00 &#43;0000</pubDate>
-    <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/ideas/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Samples</title>
-    <link>http://localhost:1313/tags/samples/</link>
-    <pubDate>Tue, 29 Oct 2024 00:00:00 &#43;0000</pubDate>
-    <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/samples/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Deployments</title>
-    <link>http://localhost:1313/tags/deployments/</link>
-    <pubDate>Mon, 21 Oct 2024 00:00:00 &#43;0000</pubDate>
-    <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/deployments/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Syslog</title>
-    <link>http://localhost:1313/tags/syslog/</link>
-    <pubDate>Mon, 21 Oct 2024 00:00:00 &#43;0000</pubDate>
-    <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/syslog/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Dashboard</title>
-    <link>http://localhost:1313/tags/dashboard/</link>
-    <pubDate>Sat, 05 Oct 2024 00:00:00 &#43;0000</pubDate>
-    <author>Dale Hassinger</author>
-    <guid>http://localhost:1313/tags/dashboard/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

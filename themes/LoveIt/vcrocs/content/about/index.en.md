@@ -11,7 +11,7 @@ lightgallery: true
 <center>{{< image src="header.png" caption="">}}</center>  
 
 {{< admonition type=info title="Info" open=true >}}
-The views and opinions expressed on this blog are strictly my own and do not reflect the views and opinions of my employer. I blog about subjects and products that I find interesting, and aim to help someone get started on their VCF, VCF Automation, VCF Operations, and Automation Scripts journey by providing some tips, tricks, processes, and code needed.  
+This blog reflects my personal views and opinions, not those of my employer. I write about topics and products that interest me, sharing tips, processes, and code to help readers begin their journey with VCF, VCF Automation, VCF Operations, and Automation Scripts.  
 {{< /admonition >}}  
 
 **My Information:**  
@@ -145,6 +145,9 @@ The views and opinions expressed on this blog are strictly my own and do not ref
 * **VMware PowerBlock - 2020** | vRealize Operations, your monitoring “Single Pane of Glass  
 * **vBrownbag session for VMworld - 2020** | vRealize Operations, your monitoring “Single Pane of Glass  
 {{< /admonition >}}
+
+><center><b>"Your stuff is consistently one of the most practical, well-presented, thoughtful, useful content sources" - Corey Blaz</b></center>  
+
 
 {{< admonition type=info title="Info" open=true >}}
 * I like to wear Crocs and I like VMware Products. So what better name than www.vCROCS.info for my Blog  

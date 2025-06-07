@@ -42,6 +42,10 @@ CPU|Overcommit isn’t inherently a bad thing—in fact, it’s one of the main 
 
 That’s why I included the VM Details widget in the dashboard—to help you monitor important metrics like CPU|Ready (ms). Different workloads and use cases will tolerate different levels of overcommit, so keep an eye on performance indicators and adjust accordingly.  
 
+By default, the CPU|Ready (ms) metric is not enabled in VMware Aria Operations. To activate it, navigate to Operations > Configuration > Policy Definition. Select your Default Policy, then click Edit Policy. Under Metrics and Properties, use the filter to search for "cpu|ready". Select Virtual Machine, expand Metrics, then CPU. You’ll find Ready (ms) listed as Deactivated—switch it to Activated and save your changes.  
+
+Allow for a few collection cycles (typically 10–15 minutes), and the CPU Ready (ms) metric will become available for monitoring VM performance.  
+
 ---
 
 ###### Dashboard Example:  
@@ -75,6 +79,7 @@ That’s why I included the VM Details widget in the dashboard—to help you mon
   - 7 Custom Views  
   - 1 Super Metric  
   - 1 Dashboard  
+* Be sure to activate the CPU|Ready (ms) metric, as it’s required for displaying data in the VM Details widget.  
 
 ---
 

@@ -8,6 +8,8 @@ description: ""
 lightgallery: true
 ---
 
+<center>{{< image src="vCROCS-Logo.png" caption="">}}</center>  
+
 <center>{{< image src="header.png" caption="">}}</center>  
 
 {{< admonition type=info title="Info" open=true >}}

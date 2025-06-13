@@ -46,7 +46,7 @@ Being recognized again as a **VMware vExpert** highlights a continued commitment
 ⸻
 
 **Selected 2024 vCommunity Contributions:**  
-•	Presented at VMware Explore 2024 (4 sessions)  
+•	Presented at VMware Explore 2024 (5 sessions)  
 •	Hackathon Team Captain – 2nd Place, VMware Explore 2024  
 •	Blogging – Published more articles in 2024 than any previous year  
 

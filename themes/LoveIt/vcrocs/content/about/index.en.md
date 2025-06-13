@@ -17,11 +17,13 @@ This blog reflects my personal views and opinions, not those of my employer. I w
 {{< /admonition >}}  
 
 **My Information:**  
-- **VMware by Broadcom | Staff VCF Architect**  
-- **VMware vExpert 2020 - Present**  
-  - **VMware vExpert Cloud Management 2021 - Present**  
-  - **VMware vExpert vSphere 2024 - Present**  
-- **VMware {code} Coach 2025 - Present**    
+- **Broadcom | Staff VCF Architect**  
+- **VMware vExpert** | 2020 - Present  
+- **vExpert Sub-Programs:**  
+  - **VMware vExpert VCF** | 2025 - Present  
+  - VMware vExpert Cloud Management 2021 - 2024 - <small>(Subprogram discontinued)</small>  
+  - VMware vExpert vSphere 2024 - <small>(Subprogram discontinued)</small>  
+- **VMware {code} Coach** | 2025 - Present    
 - **If you can script it, You can Automate it!**  
 
 ><center><b>"9 - 5 pays the bills, 5 - 10 advances your career" - Author Unknown</b></center>  
@@ -117,8 +119,9 @@ This blog reflects my personal views and opinions, not those of my employer. I w
 
 {{< admonition type=success title="vCommunity Activities" open=true >}}
 * **VMware vExpert** | 2020 - Present | [Link to vExpert Profile](https://vexpert.vmware.com/directory/5721)  
-* **VMware vExpert - Cloud Management** | 2021 - Present  
-* **VMware vExpert - vSphere** | 2024 - Present  
+* **VMware vExpert - VCF** | 2025 - Present  
+* **VMware vExpert - Cloud Management** | 2021 - 2024 - <small>(Subprogram discontinued)</small>  
+* **VMware vExpert - vSphere** | 2024  - <small>(Subprogram discontinued)</small>  
 * **VMware {code} Coach** | 2025 - Present  
 * **VMware Explore 2024 Activites:**
   * **Presentations:**  

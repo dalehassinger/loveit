@@ -123,23 +123,34 @@ This blog reflects my personal views and opinions, not those of my employer. I w
 * **VMware vExpert - Cloud Management** | 2021 - 2024 - <small>(Subprogram discontinued)</small>  
 * **VMware vExpert - vSphere** | 2024  - <small>(Subprogram discontinued)</small>  
 * **VMware {code} Coach** | 2025 - Present  
+* **VMware Explore 2025 Activites:**
+  * **Presentations:**  
+    * Enhancing VMware Cloud Foundation Operation Management Packs with PowerShell **[CODEQT1121LV]** - Presenter  
+    * VMware Cloud Foundation 9.0 - Operations: Monitoring Network and Storage Operations In the Private Cloud **[ELW-HOL-2601-09]** - Co-Presenter  
+    * VMware Cloud Foundation 9.0 - Operations: VCF Health and Diagnostics **[ELW-HOL-2601-11]** - Co-Presenter  
+    * VMware Cloud Foundation 9.0 - Operations: Monitoring Applications and Services In the Private Cloud **[ELW-HOL-2601-13]** - Co-Presenter  
+    * VMware Cloud Foundation 9.0 - Operations: Monitoring Platform Security and Compliance in the Private Cloud **[ELW-HOL-2601-15]** - Main Presenter
+    * VMware Cloud Foundation 9.0 - Operations: Capacity Optimization, Planning and Green Score **[ELW-HOL-2601-18]** - Co-Presenter  
+    * VMware Cloud Foundation 9.0 - Operations: Cost and Optimization, Showback, and Chargeback **[ELW-HOL-2601-19]** - Main Presenter  
+  * **Hackathon Team Captain**  
+    * Created a MCP Server to connect to VMware Products | Use Claude to prompt against vCenter, VCF Operations, Etc...
 * **VMware Explore 2024 Activites:**
   * **Presentations:**  
-    * Streamlining Healthcare with Automation: How VMware Can Help [INDB1917LV]  
-    * Transform VCF Automation Inputs to ABX and Orchestrator Workflow Variables [CODE1164LV]  
-    * Maximizing VMware Workstation/Fusion for Business, Education, and Home Labs [CODE1162LV]  
-    * Integrate status.broadcom.com Alerts into VCF via Tailored Management Pack [CODE1161LV]  
-    * {code} Lab: Advanced Lab Using ChatGPT To Write Powershell Automation [CODE2554LV] 
+    * Streamlining Healthcare with Automation: How VMware Can Help **[INDB1917LV]**  
+    * Transform VCF Automation Inputs to ABX and Orchestrator Workflow Variables **[CODE1164LV]**  
+    * Maximizing VMware Workstation/Fusion for Business, Education, and Home Labs **[CODE1162LV]**  
+    * Integrate status.broadcom.com Alerts into VCF via Tailored Management Pack **[CODE1161LV]**  
+    * {code} Lab: Advanced Lab Using ChatGPT To Write Powershell Automation **[CODE2554LV]** 
   * **Hackathon Team Captain**  
     * ollama and RVTools | (Finished in 2nd Place)  
 * **VMware Explore 2023 Activites:**
   * **Presentation:**  
-    * Use VMware Aria to Create/Manage/Monitor Windows Servers (on-prem/cloud) [CODE2501LV]  
+    * Use VMware Aria to Create/Manage/Monitor Windows Servers (on-prem/cloud) **[CODE2501LV]**  
   * **Hackathon Team Captain**  
     * ChatGPT and Aria Automation | (Finished in 2nd Place)  
 * **VMware World 2021 Activites:**
   * **Presentation:**  
-    * Manage Windows Workloads Through vRealize Automation SaltStack Config [MCL1895]  
+    * Manage Windows Workloads Through vRealize Automation SaltStack Config **[MCL1895]**  
 * **SaltConf Session - 2021** | Managing Windows with SaltStack Config  
 * **Joined 'Two and a Half Geeks, with Doug Finke** | Where the intersection of AI and IT unfolds in real-time. In this session, Dale Hassinger, with his deep expertise in automation and latest work with AI, teams up with Doug Finke, an AI Tinkerer.
 * **Central PA VMUG - 2024** | VCF Aria Operations Presentation  

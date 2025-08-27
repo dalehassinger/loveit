@@ -3,7 +3,7 @@
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
             <loc>http://localhost:1313/vmware-explore-2025-sessions/</loc><lastmod>2024-07-24T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/camping-2025-july/</loc><lastmod>2025-07-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>http://localhost:1313/camping-2025-july/</loc><lastmod>2025-07-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>http://localhost:1313/vexpert-2025/</loc><lastmod>2025-06-08T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/vcf-operations-cpu-overcommit/</loc><lastmod>2025-06-04T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/vcf-operations-zoom-mp/</loc><lastmod>2025-04-20T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -102,22 +102,22 @@
             <loc>http://localhost:1313/automation-zero-trust/</loc><lastmod>2020-04-19T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/powercli-getting-started/</loc><lastmod>2020-04-19T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/add-registry-values/</loc><lastmod>2020-04-19T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/posts/</loc><lastmod>2099-04-01T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>385.4</priority></url><url>
-            <loc>http://localhost:1313/</loc><lastmod>2099-04-01T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>385.4</priority></url><url>
-            <loc>http://localhost:1313/categories/</loc><lastmod>2025-07-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>http://localhost:1313/posts/</loc><lastmod>2099-04-01T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>385.1</priority></url><url>
+            <loc>http://localhost:1313/</loc><lastmod>2099-04-01T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>385.1</priority></url><url>
+            <loc>http://localhost:1313/categories/</loc><lastmod>2025-07-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>http://localhost:1313/tags/hol/</loc><lastmod>2024-07-24T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/mp-builder/</loc><lastmod>2024-07-24T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/tags/</loc><lastmod>2025-07-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>http://localhost:1313/tags/</loc><lastmod>2025-07-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>http://localhost:1313/tags/vegas/</loc><lastmod>2024-07-24T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vmware/</loc><lastmod>2024-08-30T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vmware-aria-operations/</loc><lastmod>2024-07-24T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/categories/vmware-community/</loc><lastmod>2025-06-08T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vmware-explore/</loc><lastmod>2024-07-24T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/tags/beach/</loc><lastmod>2025-07-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>http://localhost:1313/tags/camping/</loc><lastmod>2025-07-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>http://localhost:1313/categories/camping/</loc><lastmod>2025-07-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>http://localhost:1313/tags/delaware/</loc><lastmod>2025-07-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>http://localhost:1313/tags/e-bike/</loc><lastmod>2025-07-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>http://localhost:1313/tags/beach/</loc><lastmod>2025-07-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>http://localhost:1313/tags/camping/</loc><lastmod>2025-07-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>http://localhost:1313/categories/camping/</loc><lastmod>2025-07-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>http://localhost:1313/tags/delaware/</loc><lastmod>2025-07-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>http://localhost:1313/tags/e-bike/</loc><lastmod>2025-07-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>http://localhost:1313/tags/code-coach/</loc><lastmod>2025-06-08T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/giving-back/</loc><lastmod>2025-06-08T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/vcommunity/</loc><lastmod>2025-06-08T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>

@@ -133,7 +133,7 @@ This blog reflects my personal views and opinions, not those of my employer. I w
     * VMware Cloud Foundation 9.0 - Operations: Capacity Optimization, Planning and Green Score **[ELW-HOL-2601-18]** - Co-Presenter  
     * VMware Cloud Foundation 9.0 - Operations: Cost and Optimization, Showback, and Chargeback **[ELW-HOL-2601-19]** - Main Presenter  
   * **Hackathon Team Captain**  
-    * Created a MCP Server to connect to VMware Products | Use Claude to prompt against vCenter, VCF Operations, Etc...
+    * Created a PowerShell MCP Server to connect to VMware Products | Use Claude to prompt against vCenter, VCF Operations, Etc... | My Team won 1st Place 🥇  
 * **VMware Explore 2024 Activites:**
   * **Presentations:**  
     * Streamlining Healthcare with Automation: How VMware Can Help **[INDB1917LV]**  
